@@ -13,7 +13,7 @@
 # specific for Connecticut 
 #
 # Written by Pedro Mendes <pmendes@uchc.edu>
-# Copyright by the University of Connecticut
+# Copyright 2020 Pedro Mendes and University of Connecticut
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy 
 # of this software and associated documentation files (the "Software"), to deal
@@ -47,4 +47,4 @@ curl -s https://covidtracking.com/api/states/daily.csv?state=CT | \
  awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$7,$8,$9}; NR > 1 {print $1,$3,$4,$5,$6,$7,$8,$9 | "sort"}' \
  > covidtracking.csv
 
-# we're done, is unix cute?
+# we're done, isn't unix cute?

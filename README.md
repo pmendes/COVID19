@@ -7,7 +7,8 @@ forecasts using the data with models of various kinds.
 ## Data sources
 1. The Johns Hopkins University [CSSE COVID-19 data set](https://github.com/CSSEGISandData/COVID-19.git). 
 The scripts access a local clone of their GitHub repository, in a folder called COVID-19
-2.  The [COVID Tracking Project](https://covidtracking.com), which contains data on tests. The scripts use their API directly.    
+2. The [COVID Tracking Project](https://covidtracking.com), which contains data on tests. The scripts use their API directly.
+3. The [Census](https://www.census.gov/data/datasets.html) for demographic data stratified by age, sex, and counties.
 
 ## Models
 1. An SEIR model with three stages of infection (based on a [model by Alison Hill](https://alhill.shinyapps.io/COVID19seir/)). 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-23T20:37:56Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-23T21:50:58Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -127,15 +127,18 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_2" name="S" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_0">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:21:05Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_0">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:21:05Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_3" name="I2" simulationType="reactions" compartment="Compartment_0" addNoise="false">
@@ -179,69 +182,93 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_6" name="R" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_6">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:24:20Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_6">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:24:20Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_0" name="beta1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_0" name="beta1" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelValue_0">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:34:03Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_0">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:34:03Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N],Reference=InitialValue>
+        </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_1" name="beta2" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1" name="beta2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelValue_1">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:34:05Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_1">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:34:05Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N],Reference=InitialValue>
+        </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_2" name="beta3" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2" name="beta3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelValue_2">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:34:07Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_2">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:34:07Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N],Reference=InitialValue>
+        </Expression>
       </ModelValue>
       <ModelValue key="ModelValue_3" name="alpha" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelValue_3">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:34:09Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_3">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:34:09Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_4" name="gamma1" simulationType="fixed" addNoise="false">
@@ -285,15 +312,18 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_7" name="p1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelValue_7">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:34:45Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_7">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:34:45Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_8" name="p2" simulationType="fixed" addNoise="false">
@@ -311,20 +341,25 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_9" name="miu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelValue_9">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-22T18:35:04Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_9">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T18:35:04Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_10" name="N" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_10">
     <dcterms:created>
       <rdf:Description>
@@ -333,25 +368,10 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <InitialExpression>
           &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
-        </InitialExpression>
-      </ModelValue>
-      <ModelValue key="ModelValue_11" name="N (moles)" simulationType="fixed" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_11">
-    <dcterms:created>
-      <rdf:Description>
-        <dcterms:W3CDTF>2020-03-22T18:35:48Z</dcterms:W3CDTF>
-      </rdf:Description>
-    </dcterms:created>
-  </rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
-        <InitialExpression>
-          (&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>)/&lt;CN=Root,Model=COVID-19 SEIR CT,Reference=Quantity Conversion Factor>
         </InitialExpression>
       </ModelValue>
       <ModelValue key="ModelValue_12" name="Itot" simulationType="assignment" addNoise="false">
@@ -386,6 +406,54 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber>
         </Expression>
       </ModelValue>
+      <ModelValue key="ModelValue_14" name="beta1_base" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_14">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-23T21:38:36Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+      </ModelValue>
+      <ModelValue key="ModelValue_15" name="beta2_base" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_15">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-23T21:38:41Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+      </ModelValue>
+      <ModelValue key="ModelValue_16" name="beta3_base" simulationType="fixed" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_16">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-23T21:38:44Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+      </ModelValue>
     </ListOfModelValues>
     <ListOfReactions>
       <Reaction key="Reaction_0" name="Infection1" reversible="false" fast="false" addNoise="false">
@@ -409,7 +477,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5001" name="k1" value="0.00033"/>
+          <Constant key="Parameter_5001" name="k1" value="9.42857e-08"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
           <ListOfCallParameters>
@@ -727,7 +795,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T20:37:00Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-23T21:28:36Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -742,16 +810,16 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1]" value="1" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S]" value="999" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3500000" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1]" value="0.00033" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1]" value="9.4285687346946473e-08" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[alpha]" value="0.20000000000000001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma1]" value="0.13300000000000001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma2]" value="0.188" type="ModelValue" simulationType="fixed"/>
@@ -759,22 +827,20 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p1]" value="0.033000000000000002" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p2]" value="0.062" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[miu]" value="0.040000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N]" value="1000" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N]" value="3500001" type="ModelValue" simulationType="fixed">
             <InitialExpression>
               &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
             </InitialExpression>
           </ModelParameter>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N (moles)]" value="1000" type="ModelValue" simulationType="fixed">
-            <InitialExpression>
-              (&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>)/&lt;CN=Root,Model=COVID-19 SEIR CT,Reference=Quantity Conversion Factor>
-            </InitialExpression>
-          </ModelParameter>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Itot]" value="1" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Hosp]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1_base]" value="0.33000000000000002" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2_base]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3_base]" value="0" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1],ParameterGroup=Parameters,Parameter=k1" value="0.00033" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1],ParameterGroup=Parameters,Parameter=k1" value="9.4285687346946473e-08" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1],Reference=InitialValue>
               </InitialExpression>
@@ -977,12 +1043,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="Metabolite_6"/>
       <StateTemplateVariable objectReference="Metabolite_5"/>
       <StateTemplateVariable objectReference="Metabolite_2"/>
-      <StateTemplateVariable objectReference="ModelValue_12"/>
-      <StateTemplateVariable objectReference="ModelValue_13"/>
-      <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="ModelValue_0"/>
       <StateTemplateVariable objectReference="ModelValue_1"/>
       <StateTemplateVariable objectReference="ModelValue_2"/>
+      <StateTemplateVariable objectReference="ModelValue_12"/>
+      <StateTemplateVariable objectReference="ModelValue_13"/>
+      <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="ModelValue_3"/>
       <StateTemplateVariable objectReference="ModelValue_4"/>
       <StateTemplateVariable objectReference="ModelValue_5"/>
@@ -991,10 +1057,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_8"/>
       <StateTemplateVariable objectReference="ModelValue_9"/>
       <StateTemplateVariable objectReference="ModelValue_10"/>
-      <StateTemplateVariable objectReference="ModelValue_11"/>
+      <StateTemplateVariable objectReference="ModelValue_14"/>
+      <StateTemplateVariable objectReference="ModelValue_15"/>
+      <StateTemplateVariable objectReference="ModelValue_16"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 0 1 0 0 999 1 0 1 0.00033 0 0 0.20000000000000001 0.13300000000000001 0.188 0.059999999999999998 0.033000000000000002 0.062 0.040000000000000001 1000 1000 
+      0 0 0 0 1 0 0 3500000 9.4285687346946473e-08 0 0 1 0 1 0.20000000000000001 0.13300000000000001 0.188 0.059999999999999998 0.033000000000000002 0.062 0.040000000000000001 3500001 0.33000000000000002 0 0 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1021,9 +1089,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Report reference="Report_11" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="1"/>
-        <Parameter name="StepNumber" type="unsignedInteger" value="300"/>
-        <Parameter name="StepSize" type="float" value="1"/>
-        <Parameter name="Duration" type="float" value="300"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="50"/>
+        <Parameter name="StepSize" type="float" value="1.2"/>
+        <Parameter name="Duration" type="float" value="60"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -1031,10 +1099,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Use Values" type="bool" value="0"/>
         <Parameter name="Values" type="string" value=""/>
       </Problem>
-      <Method name="Stochastic (Direct method)" type="Stochastic">
-        <Parameter name="Max Internal Steps" type="integer" value="1000000"/>
-        <Parameter name="Use Random Seed" type="bool" value="0"/>
-        <Parameter name="Random Seed" type="unsignedInteger" value="1"/>
+      <Method name="Deterministic (LSODA)" type="Deterministic(LSODA)">
+        <Parameter name="Integrate Reduced Model" type="bool" value="0"/>
+        <Parameter name="Relative Tolerance" type="unsignedFloat" value="9.9999999999999995e-07"/>
+        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="9.9999999999999998e-13"/>
+        <Parameter name="Max Internal Steps" type="unsignedInteger" value="100000"/>
+        <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
     <Task key="Task_17" name="Scan" type="scan" scheduled="false" updateModel="false">
@@ -1516,7 +1586,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         </PlotItem>
       </ListOfPlotItems>
     </PlotSpecification>
-    <PlotSpecification name="Histograms" type="Plot2D" active="1" taskTypes="">
+    <PlotSpecification name="Histograms" type="Plot2D" active="0" taskTypes="">
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
       <ListOfPlotItems>
@@ -2165,7 +2235,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T20:36:59Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2183,7 +2253,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T20:36:59Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2201,7 +2271,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T20:36:59Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2219,7 +2289,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T20:36:59Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2237,7 +2307,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_68">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T20:36:59Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>

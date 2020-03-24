@@ -4,10 +4,11 @@
 # various sources and assembles them in a single data file.
 #
 # Data sources:
-#  - JHU CSSE COVID-19 data set, from local clone of their GitHub repository
-#    https://github.com/CSSEGISandData/COVID-19.git
 #  - The COVID Tracking Project (testing data) using their API
 #    https://covidtracking.com
+#  (- JHU CSSE COVID-19 data set, from local clone of their GitHub repository
+#    https://github.com/CSSEGISandData/COVID-19.git
+#    no longer being used as format keeps changing)
 #    
 # This script can be adapted for other regions by changing the commands
 # specific for Connecticut 
@@ -37,14 +38,14 @@
 TARGET=CT-COVID19.csv
 
 # location of the local JHU data folder
-JHUDIR=COVID-19/csse_covid_19_data/csse_covid_19_daily_reports
+#JHUDIR=COVID-19/csse_covid_19_data/csse_covid_19_daily_reports
 
 # filter Connecticut data from JHU data files, removing duplicate lines
-grep -h Connecticut $JHUDIR/*.csv | awk -F, 'OFS="," {print $3,$4,$5,$6}' | uniq > jhudata.csv
+#grep -h Connecticut $JHUDIR/*.csv | awk -F, 'OFS="," {print $3,$4,$5,$6}' | uniq > jhudata.csv
 
 # get data from covidtracking.org just for Connecticut
 curl -s https://covidtracking.com/api/states/daily.csv?state=CT | \
  awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$7,$8,$9}; NR > 1 {print $1,$3,$4,$5,$6,$7,$8,$9 | "sort"}' \
- > covidtracking.csv
+ > $TARGET
 
 # we're done, isn't unix cute?

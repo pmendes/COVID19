@@ -15,7 +15,7 @@ SIR-type models are encoded with the [COPASI simulator](http://copasi.org) and c
 
 1. A basic SEIR model with three stages of infection (based on a [model by Alison Hill](https://alhill.shinyapps.io/COVID19seir/)). 
 
-2. The SIDARTHE model of the Italian epidemic. This was described in a [preprint](https://arxiv.org/abs/2003.09861) by Giordano et al. (with the COVID19 IRCCS San Matteo Pavia Task Force).
+2. The SIDARTHE model of the Italian epidemic. This was described in a [preprint](https://arxiv.org/abs/2003.09861) by Giordano et al. (with the COVID19 IRCCS San Matteo Pavia Task Force). This model allows distinction between detected and undetected cases and is calibrated for the Italian epidemic. The current implemtentation does not completely replicate the paper, though qualitatively all results are similar.
 
 
 ## Licenses

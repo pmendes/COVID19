@@ -11,8 +11,9 @@ forecasts using the data with models of various kinds.
 (At earlier stages we used the Johns Hopkins University [CSSE COVID-19 data set](https://github.com/CSSEGISandData/COVID-19.git) but this keeps changing format and the same data is included in source 1 above so we no longer use it)
 
 ## Models
+SIR-type models are encoded with the [COPASI simulator](http://copasi.org) and can be run both as ODE models or as stochastic models using Gillespie's stochastic simulation algorithm.
+
 1. A basic SEIR model with three stages of infection (based on a [model by Alison Hill](https://alhill.shinyapps.io/COVID19seir/)). 
-This model is implemented in [COPASI](http://copasi.org) and run as a stochastic model with Gillespie's direct method ssa.
 
 ## Licenses
 All code is released under an MIT license. Models come under a variety of licenses depending on their origin, but whenever possible they will be made available as CC0.

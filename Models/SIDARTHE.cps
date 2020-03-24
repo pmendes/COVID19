@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-24T19:57:39Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-24T20:56:54Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -449,6 +449,44 @@ Reaction scheme where the products are created from the reactants and the change
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
+        </Expression>
+      </ModelValue>
+      <ModelValue key="ModelValue_18" name="Recovered" simulationType="ode" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_18">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-24T20:39:15Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=SIDARTHE,Vector=Values[rho],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[xi],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[sigma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
+        </Expression>
+      </ModelValue>
+      <ModelValue key="ModelValue_17" name="Diagn cumul infected" simulationType="assignment" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_17">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-24T20:50:53Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=SIDARTHE,Vector=Values[DRT],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[Recovered],Reference=Value>
         </Expression>
       </ModelValue>
     </ListOfModelValues>
@@ -1095,6 +1133,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[DRT]" value="3.6666666666666296e-07" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[IDARTHE]" value="3.7166666666666631e-06" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[IDART]" value="3.7166666666666631e-06" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[Diagn cumul infected]" value="3.6666666666666296e-07" type="ModelValue" simulationType="assignment"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE,Vector=Reactions[contagion_I]" type="Reaction">
@@ -1214,6 +1254,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </ListOfModelParameterSets>
     <StateTemplate>
       <StateTemplateVariable objectReference="Model_0"/>
+      <StateTemplateVariable objectReference="ModelValue_18"/>
       <StateTemplateVariable objectReference="Metabolite_8"/>
       <StateTemplateVariable objectReference="Metabolite_15"/>
       <StateTemplateVariable objectReference="Metabolite_12"/>
@@ -1225,6 +1266,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_35"/>
       <StateTemplateVariable objectReference="ModelValue_36"/>
       <StateTemplateVariable objectReference="ModelValue_37"/>
+      <StateTemplateVariable objectReference="ModelValue_17"/>
       <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="ModelValue_19"/>
       <StateTemplateVariable objectReference="ModelValue_20"/>
@@ -1244,7 +1286,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_34"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 3.3333333333333299e-06 0 3.3333333333329999e-08 0 1.6666666666669999e-08 3.3333333333333298e-07 0.99999628333333324 0 3.6666666666666296e-07 3.7166666666666631e-06 3.7166666666666631e-06 1 0.56999999999999995 0.010999999999999999 0.45600000000000002 0.010999999999999999 0.17100000000000001 0.125 0.125 0.371 0.017000000000000001 0.034000000000000002 0.012 0.027 0.017000000000000001 0.034000000000000002 0.017000000000000001 0.0030000000000000001 
+      0 0 3.3333333333333299e-06 0 3.3333333333329999e-08 0 1.6666666666669999e-08 3.3333333333333298e-07 0.99999628333333324 0 3.6666666666666296e-07 3.7166666666666631e-06 3.7166666666666631e-06 3.6666666666666296e-07 1 0.56999999999999995 0.010999999999999999 0.45600000000000002 0.010999999999999999 0.17100000000000001 0.125 0.125 0.371 0.017000000000000001 0.034000000000000002 0.012 0.027 0.017000000000000001 0.034000000000000002 0.017000000000000001 0.0030000000000000001 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1676,6 +1718,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[DRT],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
+        <PlotItem name="Diagn cumul infected" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[Diagn cumul infected],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
         <PlotItem name="E" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
@@ -1717,7 +1771,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
@@ -1729,7 +1783,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Color" type="string" value="#0000FF"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
@@ -1741,11 +1795,23 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Recovered" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#00E600"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[Recovered],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="S" type="Curve2D">

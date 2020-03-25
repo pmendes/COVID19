@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-25 14:44 with libSBML version 5.18.0. -->
+<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-25 19:56 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="SIDARTHE" name="SIDARTHE">
     <notes>
@@ -10,33 +10,15 @@
       </body>
     </notes>
     <annotation>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#COPASI0">
-          <dc:creator>
-            <rdf:Bag>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Mendes</vCard:Family>
-                  <vCard:Given>Pedro</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>pmendes@uchc.edu</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>University of Connecticut</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-            </rdf:Bag>
-          </dc:creator>
-          <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
-          </dcterms:created>
-          <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
-          </dcterms:modified>
-        </rdf:Description>
-      </rdf:RDF>
       <COPASI xmlns="http://www.copasi.org/static/sbml">
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
           <rdf:Description rdf:about="#COPASI0">
+            <dcterms:bibliographicCitation>
+              <rdf:Description>
+                <dcterms:description>Giordano et al 2020 A SIDARTHE Model of COVID-19 Epidemic in Italy</dcterms:description>
+                <CopasiMT:isDescribedBy rdf:resource="urn:miriam:arxiv:2003.09861v1"/>
+              </rdf:Description>
+            </dcterms:bibliographicCitation>
             <dcterms:created>
               <rdf:Description>
                 <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
@@ -61,6 +43,35 @@
           </rdf:Description>
         </rdf:RDF>
       </COPASI>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Mendes</vCard:Family>
+                  <vCard:Given>Pedro</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>pmendes@uchc.edu</vCard:EMAIL>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>University of Connecticut</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/arxiv/2003.09861v1"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
       <unitDefinition id="time" name="time">
@@ -634,17 +645,17 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_3" name="Initial for A" value="1.666666666667e-08">
+      <parameter id="Metabolite_3_0" name="Initial for A" value="1.666666666667e-08">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="A"/>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_0" name="Initial for I" value="3.33333333333333e-06">
+      <parameter id="Metabolite_0_0" name="Initial for I" value="3.33333333333333e-06">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="I"/>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_1" name="Initial for S" value="0.999996283333333">
+      <parameter id="Metabolite_1_0" name="Initial for S" value="0.999996283333333">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="S"/>
         </annotation>
@@ -680,17 +691,17 @@
           </apply>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_3">
+      <initialAssignment symbol="Metabolite_3_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> A </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_0">
+      <initialAssignment symbol="Metabolite_0_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> I </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_1">
+      <initialAssignment symbol="Metabolite_1_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> S </ci>
         </math>
@@ -830,8 +841,8 @@
                     <minus/>
                     <apply>
                       <plus/>
-                      <ci> Metabolite_0 </ci>
-                      <ci> Metabolite_1 </ci>
+                      <ci> Metabolite_0_0 </ci>
+                      <ci> Metabolite_1_0 </ci>
                     </apply>
                     <ci> I </ci>
                   </apply>
@@ -851,7 +862,7 @@
                 </apply>
                 <apply>
                   <minus/>
-                  <ci> Metabolite_3 </ci>
+                  <ci> Metabolite_3_0 </ci>
                   <ci> A </ci>
                 </apply>
               </apply>
@@ -866,7 +877,7 @@
             <ci> E </ci>
             <apply>
               <minus/>
-              <ci> Metabolite_1 </ci>
+              <ci> Metabolite_1_0 </ci>
               <ci> S </ci>
             </apply>
           </apply>

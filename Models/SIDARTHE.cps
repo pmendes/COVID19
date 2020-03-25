@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-25T18:43:49Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-25T23:55:38Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -31,10 +31,17 @@ Reaction scheme where the products are created from the reactants and the change
   <Model key="Model_1" name="SIDARTHE" simulationType="time" timeUnit="d" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="1" type="deterministic" avogadroConstant="6.0221408570000002e+23">
     <MiriamAnnotation>
 <rdf:RDF
+   xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <rdf:Description rdf:about="#Model_1">
+    <dcterms:bibliographicCitation>
+      <rdf:Description>
+        <dcterms:description>Giordano et al 2020 A SIDARTHE Model of COVID-19 Epidemic in Italy</dcterms:description>
+        <CopasiMT:isDescribedBy rdf:resource="urn:miriam:arxiv:2003.09861v1"/>
+      </rdf:Description>
+    </dcterms:bibliographicCitation>
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
@@ -1962,14 +1969,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   </GUI>
   <SBMLReference file="SIDARTHE.xml">
     <SBMLMap SBMLid="A" COPASIkey="Metabolite_3"/>
+    <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_27"/>
     <SBMLMap SBMLid="D" COPASIkey="Metabolite_2"/>
     <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_16"/>
+    <SBMLMap SBMLid="Day_12_screening" COPASIkey="Event_1"/>
+    <SBMLMap SBMLid="Day_4_measures" COPASIkey="Event_0"/>
     <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_20"/>
     <SBMLMap SBMLid="E" COPASIkey="Metabolite_6"/>
     <SBMLMap SBMLid="H" COPASIkey="Metabolite_7"/>
     <SBMLMap SBMLid="I" COPASIkey="Metabolite_0"/>
     <SBMLMap SBMLid="IDART" COPASIkey="ModelValue_18"/>
     <SBMLMap SBMLid="IDARTHE" COPASIkey="ModelValue_17"/>
+    <SBMLMap SBMLid="Perceived_CFR" COPASIkey="ModelValue_26"/>
     <SBMLMap SBMLid="R" COPASIkey="Metabolite_4"/>
     <SBMLMap SBMLid="Recovered" COPASIkey="ModelValue_19"/>
     <SBMLMap SBMLid="S" COPASIkey="Metabolite_1"/>
@@ -1999,6 +2010,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="lambda" COPASIkey="ModelValue_9"/>
     <SBMLMap SBMLid="mu" COPASIkey="ModelValue_10"/>
     <SBMLMap SBMLid="nu" COPASIkey="ModelValue_11"/>
+    <SBMLMap SBMLid="r1" COPASIkey="ModelValue_21"/>
+    <SBMLMap SBMLid="r2" COPASIkey="ModelValue_22"/>
+    <SBMLMap SBMLid="r3" COPASIkey="ModelValue_23"/>
+    <SBMLMap SBMLid="r4" COPASIkey="ModelValue_24"/>
+    <SBMLMap SBMLid="r5" COPASIkey="ModelValue_25"/>
     <SBMLMap SBMLid="rho" COPASIkey="ModelValue_13"/>
     <SBMLMap SBMLid="sigma" COPASIkey="ModelValue_14"/>
     <SBMLMap SBMLid="symptoms_D" COPASIkey="Reaction_6"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-26T15:33:29Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-26T15:41:19Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -83,6 +83,20 @@ Reaction scheme where the products are created from the reactants and the change
  <li>Day 8 - March 16, policy of max 50 people gatherings, closed gyms and theaters; restaurants and bars takeout only.</li>
  <li>Day 15 - Shelter-in-place policy declared (March 23). We adapt parameters as in the Italy model for their day 4 (ie alpha = 0.422, gamma = 0.285 and beta = delta = 0.0057).</li> 
 </ul>
+
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    CC0 license
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="http://www.comp-sys-bio.org">
+    <span property="dct:title">Pedro Mendes</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">SIDARTHE-CT.cps</span>.
+</p>
 </body>
     </Comment>
     <ListOfCompartments>

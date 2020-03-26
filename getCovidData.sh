@@ -35,7 +35,7 @@
 # SOFTWARE.
 
 # filename for CT data
-TARGET=CT-COVID19.csv
+TARGET=CT-COVID19.tsv
 
 # location of the local JHU data folder
 #JHUDIR=COVID-19/csse_covid_19_data/csse_covid_19_daily_reports
@@ -45,7 +45,8 @@ TARGET=CT-COVID19.csv
 
 # get data from covidtracking.org just for Connecticut
 curl -s https://covidtracking.com/api/states/daily.csv?state=CT | \
- awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$7,$8,$9}; NR > 1 {print $1,$3,$4,$5,$6,$7,$8,$9 | "sort"}' \
+ awk -F, 'BEGIN {OFS="\t"} NR == 1 {print $3,$4,$5,$6,$7,$8,$1}; NR > 1 {print $3,$4,$5,$6,$7,$8,$1 | "sort"}' |\
+ awk -F, 'BEGIN {OFS="\t"} NR == 1 {print "day",$0}; NR > 1 {print NR-3,$0}' \
  > $TARGET
 
 # we're done, isn't unix cute?

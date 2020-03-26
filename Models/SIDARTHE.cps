@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-26T00:15:16Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-26T13:48:29Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -28,7 +28,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_1" name="SIDARTHE" simulationType="time" timeUnit="d" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="1" type="deterministic" avogadroConstant="6.0221408570000002e+23">
+  <Model key="Model_1" name="SIDARTHE" simulationType="time" timeUnit="d" volumeUnit="1" areaUnit="1" lengthUnit="1" quantityUnit="1" type="deterministic" avogadroConstant="6.0221408570000002e+23">
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
@@ -489,9 +489,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_21" name="r1" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_21">
     <dcterms:created>
       <rdf:Description>
@@ -500,7 +498,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[lambda],Reference=Value>
@@ -508,9 +505,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_22" name="r2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_22">
     <dcterms:created>
       <rdf:Description>
@@ -519,7 +514,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[eta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[rho],Reference=Value>
@@ -527,9 +521,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_23" name="r3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_23">
     <dcterms:created>
       <rdf:Description>
@@ -538,7 +530,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[mu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[kappa],Reference=Value>
@@ -546,9 +537,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_24" name="r4" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_24">
     <dcterms:created>
       <rdf:Description>
@@ -557,7 +546,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[nu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[xi],Reference=Value>
@@ -565,9 +553,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_25" name="r5" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_25">
     <dcterms:created>
       <rdf:Description>
@@ -576,7 +562,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[sigma],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[tau],Reference=Value>
@@ -616,9 +601,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_28" name="R0" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_28">
     <dcterms:created>
       <rdf:Description>
@@ -627,7 +610,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[alpha],Reference=Value>/&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r2],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r3],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[eta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r2],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r4],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[theta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r3],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r4],Reference=Value>)
@@ -1231,7 +1213,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-25T18:26:12Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-26T12:50:18Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1471,9 +1453,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <Task key="Task_16" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="1"/>
-        <Parameter name="StepNumber" type="unsignedInteger" value="20674"/>
-        <Parameter name="StepSize" type="float" value="0.0145116819"/>
-        <Parameter name="Duration" type="float" value="300"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="20675"/>
+        <Parameter name="StepSize" type="float" value="0.0010641385309999999"/>
+        <Parameter name="Duration" type="float" value="22"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -2044,8 +2026,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_27"/>
     <SBMLMap SBMLid="D" COPASIkey="Metabolite_2"/>
     <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_16"/>
-    <SBMLMap SBMLid="Day_12_screening" COPASIkey="Event_1"/>
-    <SBMLMap SBMLid="Day_4_measures" COPASIkey="Event_0"/>
     <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_20"/>
     <SBMLMap SBMLid="E" COPASIkey="Metabolite_6"/>
     <SBMLMap SBMLid="H" COPASIkey="Metabolite_7"/>
@@ -2097,24 +2077,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="zeta" COPASIkey="ModelValue_5"/>
   </SBMLReference>
   <ListOfUnitDefinitions>
-    <UnitDefinition key="Unit_1" name="meter" symbol="m">
-      <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_0">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-25T18:26:11Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
-      </MiriamAnnotation>
-      <Expression>
-        m
-      </Expression>
-    </UnitDefinition>
     <UnitDefinition key="Unit_5" name="second" symbol="s">
       <MiriamAnnotation>
 <rdf:RDF
@@ -2123,7 +2085,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-25T18:26:11Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-26T12:50:17Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2141,7 +2103,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_14">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-25T18:26:11Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-26T12:50:17Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2149,24 +2111,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </MiriamAnnotation>
       <Expression>
         1
-      </Expression>
-    </UnitDefinition>
-    <UnitDefinition key="Unit_35" name="liter" symbol="l">
-      <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Unit_34">
-<dcterms:created>
-<rdf:Description>
-<dcterms:W3CDTF>2020-03-25T18:26:11Z</dcterms:W3CDTF>
-</rdf:Description>
-</dcterms:created>
-</rdf:Description>
-</rdf:RDF>
-      </MiriamAnnotation>
-      <Expression>
-        0.001*m^3
       </Expression>
     </UnitDefinition>
     <UnitDefinition key="Unit_69" name="day" symbol="d">
@@ -2177,7 +2121,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_68">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-25T18:26:11Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-26T12:50:17Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>

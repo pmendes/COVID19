@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-25T23:55:38Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-26T00:15:16Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -489,7 +489,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_21" name="r1" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_21">
     <dcterms:created>
       <rdf:Description>
@@ -498,14 +500,17 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[delta],Reference=Value>
+          &lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[lambda],Reference=Value>
         </Expression>
       </ModelValue>
       <ModelValue key="ModelValue_22" name="r2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_22">
     <dcterms:created>
       <rdf:Description>
@@ -514,6 +519,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[eta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[rho],Reference=Value>
@@ -521,7 +527,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_23" name="r3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_23">
     <dcterms:created>
       <rdf:Description>
@@ -530,6 +538,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[mu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[kappa],Reference=Value>
@@ -537,7 +546,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_24" name="r4" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_24">
     <dcterms:created>
       <rdf:Description>
@@ -546,6 +557,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[nu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[xi],Reference=Value>
@@ -553,7 +565,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_25" name="r5" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_25">
     <dcterms:created>
       <rdf:Description>
@@ -562,6 +576,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Values[sigma],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[tau],Reference=Value>
@@ -597,6 +612,25 @@ Reaction scheme where the products are created from the reactants and the change
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>/(&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=Concentration>)
+        </Expression>
+      </ModelValue>
+      <ModelValue key="ModelValue_28" name="R0" simulationType="assignment" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_28">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-26T00:00:24Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=SIDARTHE,Vector=Values[alpha],Reference=Value>/&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>+&lt;CN=Root,Model=SIDARTHE,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r2],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r3],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[eta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r2],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r4],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[zeta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[theta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r3],Reference=Value>*&lt;CN=Root,Model=SIDARTHE,Vector=Values[r4],Reference=Value>)
         </Expression>
       </ModelValue>
     </ListOfModelValues>
@@ -1245,13 +1279,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[IDART]" value="3.7166666666666631e-06" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[Diagn cumul infected]" value="3.6666666666666296e-07" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[r1]" value="0.30700000000000005" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[r1]" value="0.33000000000000007" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[r2]" value="0.159" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[r3]" value="0.40000000000000002" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[r4]" value="0.043999999999999997" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[r5]" value="0.02" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE,Vector=Values[R0]" value="2.3846153158947967" type="ModelValue" simulationType="assignment"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE,Vector=Reactions[contagion_I]" type="Reaction">
@@ -1391,6 +1426,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_25"/>
       <StateTemplateVariable objectReference="ModelValue_26"/>
       <StateTemplateVariable objectReference="ModelValue_27"/>
+      <StateTemplateVariable objectReference="ModelValue_28"/>
       <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="ModelValue_0"/>
       <StateTemplateVariable objectReference="ModelValue_1"/>
@@ -1410,7 +1446,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_15"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 3.3333333333333299e-06 0 3.3333333333329999e-08 0 1.6666666666669999e-08 3.3333333333333298e-07 0.99999628333333324 0 3.6666666666666296e-07 3.7166666666666631e-06 3.7166666666666631e-06 3.6666666666666296e-07 0.30700000000000005 0.159 0.40000000000000002 0.043999999999999997 0.02 NaN NaN 1 0.56999999999999995 0.010999999999999999 0.45600000000000002 0.010999999999999999 0.17100000000000001 0.125 0.125 0.371 0.017000000000000001 0.034000000000000002 0.012 0.027 0.017000000000000001 0.034000000000000002 0.017000000000000001 0.0030000000000000001 
+      0 0 3.3333333333333299e-06 0 3.3333333333329999e-08 0 1.6666666666669999e-08 3.3333333333333298e-07 0.99999628333333324 0 3.6666666666666296e-07 3.7166666666666631e-06 3.7166666666666631e-06 3.6666666666666296e-07 0.33000000000000007 0.159 0.40000000000000002 0.043999999999999997 0.02 NaN NaN 2.3846153158947967 1 0.56999999999999995 0.010999999999999999 0.45600000000000002 0.010999999999999999 0.17100000000000001 0.125 0.125 0.371 0.017000000000000001 0.034000000000000002 0.012 0.027 0.017000000000000001 0.034000000000000002 0.017000000000000001 0.0030000000000000001 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1435,9 +1471,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <Task key="Task_16" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="1"/>
-        <Parameter name="StepNumber" type="unsignedInteger" value="1515"/>
-        <Parameter name="StepSize" type="float" value="0.014531043590000001"/>
-        <Parameter name="Duration" type="float" value="22"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="20674"/>
+        <Parameter name="StepSize" type="float" value="0.0145116819"/>
+        <Parameter name="Duration" type="float" value="300"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -1818,6 +1854,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
+        <PlotItem name="CFR" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[CFR],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
         <PlotItem name="D" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
@@ -1914,6 +1962,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[IDARTHE],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
+        <PlotItem name="Perceived CFR" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[Perceived CFR],Reference=Value"/>
+          </ListOfChannels>
+        </PlotItem>
         <PlotItem name="R" type="Curve2D">
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
@@ -1924,6 +1984,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="R0" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=SIDARTHE,Vector=Values[R0],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Recovered" type="Curve2D">

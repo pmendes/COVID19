@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-25 20:16 with libSBML version 5.18.0. -->
+<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-26 09:48 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="SIDARTHE" name="SIDARTHE">
     <notes>
@@ -10,6 +10,35 @@
       </body>
     </notes>
     <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Mendes</vCard:Family>
+                  <vCard:Given>Pedro</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>pmendes@uchc.edu</vCard:EMAIL>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>University of Connecticut</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/arxiv/2003.09861v1"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
       <COPASI xmlns="http://www.copasi.org/static/sbml">
         <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
           <rdf:Description rdf:about="#COPASI0">
@@ -43,37 +72,13 @@
           </rdf:Description>
         </rdf:RDF>
       </COPASI>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#COPASI0">
-          <dc:creator>
-            <rdf:Bag>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Mendes</vCard:Family>
-                  <vCard:Given>Pedro</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>pmendes@uchc.edu</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>University of Connecticut</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-            </rdf:Bag>
-          </dc:creator>
-          <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
-          </dcterms:created>
-          <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
-          </dcterms:modified>
-          <bqbiol:isDescribedBy>
-            <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/arxiv/2003.09861v1"/>
-            </rdf:Bag>
-          </bqbiol:isDescribedBy>
-        </rdf:Description>
-      </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
+      <unitDefinition id="volume" name="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="time" name="time">
         <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="86400"/>
@@ -645,11 +650,11 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI56" id="R0" name="R0" value="2.3846153158948" constant="false">
+      <parameter metaid="COPASI38" id="R0" name="R0" value="2.3846153158948" constant="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI56">
+              <rdf:Description rdf:about="#COPASI38">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-26T00:00:24Z</dcterms:W3CDTF>
@@ -807,74 +812,6 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="R0">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <apply>
-              <divide/>
-              <ci> alpha </ci>
-              <ci> r1 </ci>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> beta </ci>
-                <ci> epsilon </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r2 </ci>
-              </apply>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> gamma </ci>
-                <ci> zeta </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r3 </ci>
-              </apply>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> delta </ci>
-                <ci> eta </ci>
-                <ci> epsilon </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r2 </ci>
-                <ci> r4 </ci>
-              </apply>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> delta </ci>
-                <ci> zeta </ci>
-                <ci> theta </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r3 </ci>
-                <ci> r4 </ci>
-              </apply>
-            </apply>
-          </apply>
-        </math>
-      </assignmentRule>
       <assignmentRule variable="r5">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -966,6 +903,74 @@
           </apply>
         </math>
       </assignmentRule>
+      <assignmentRule variable="R0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <divide/>
+              <ci> alpha </ci>
+              <ci> r1 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> beta </ci>
+                <ci> epsilon </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r2 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> gamma </ci>
+                <ci> zeta </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r3 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> delta </ci>
+                <ci> eta </ci>
+                <ci> epsilon </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r2 </ci>
+                <ci> r4 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> delta </ci>
+                <ci> zeta </ci>
+                <ci> theta </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r3 </ci>
+                <ci> r4 </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
       <rateRule variable="Recovered">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -990,11 +995,11 @@
       </rateRule>
     </listOfRules>
     <listOfReactions>
-      <reaction metaid="COPASI40" id="contagion_I" name="contagion_I" reversible="false">
+      <reaction metaid="COPASI41" id="contagion_I" name="contagion_I" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI40">
+              <rdf:Description rdf:about="#COPASI41">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:39:32Z</dcterms:W3CDTF>
@@ -1023,11 +1028,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI41" id="contagion_D" name="contagion_D" reversible="false">
+      <reaction metaid="COPASI42" id="contagion_D" name="contagion_D" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI41">
+              <rdf:Description rdf:about="#COPASI42">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:40:20Z</dcterms:W3CDTF>
@@ -1057,11 +1062,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI42" id="contagion_A" name="contagion_A" reversible="false">
+      <reaction metaid="COPASI43" id="contagion_A" name="contagion_A" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI42">
+              <rdf:Description rdf:about="#COPASI43">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:40:54Z</dcterms:W3CDTF>
@@ -1091,11 +1096,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI43" id="contagion_R" name="contagion_R" reversible="false">
+      <reaction metaid="COPASI44" id="contagion_R" name="contagion_R" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI43">
+              <rdf:Description rdf:about="#COPASI44">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:41:27Z</dcterms:W3CDTF>
@@ -1125,11 +1130,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI44" id="diagnosis_I" name="diagnosis_I" reversible="false">
+      <reaction metaid="COPASI45" id="diagnosis_I" name="diagnosis_I" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI44">
+              <rdf:Description rdf:about="#COPASI45">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:43:45Z</dcterms:W3CDTF>
@@ -1156,11 +1161,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI45" id="symptoms_I" name="symptoms_I" reversible="false">
+      <reaction metaid="COPASI46" id="symptoms_I" name="symptoms_I" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI45">
+              <rdf:Description rdf:about="#COPASI46">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:44:25Z</dcterms:W3CDTF>
@@ -1187,11 +1192,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI46" id="symptoms_D" name="symptoms_D" reversible="false">
+      <reaction metaid="COPASI47" id="symptoms_D" name="symptoms_D" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI46">
+              <rdf:Description rdf:about="#COPASI47">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:44:41Z</dcterms:W3CDTF>
@@ -1218,11 +1223,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI47" id="diagnosis_A" name="diagnosis_A" reversible="false">
+      <reaction metaid="COPASI48" id="diagnosis_A" name="diagnosis_A" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI47">
+              <rdf:Description rdf:about="#COPASI48">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:45:01Z</dcterms:W3CDTF>
@@ -1249,11 +1254,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI48" id="critical_A" name="critical_A" reversible="false">
+      <reaction metaid="COPASI49" id="critical_A" name="critical_A" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI48">
+              <rdf:Description rdf:about="#COPASI49">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:45:28Z</dcterms:W3CDTF>
@@ -1280,11 +1285,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI49" id="critical_R" name="critical_R" reversible="false">
+      <reaction metaid="COPASI50" id="critical_R" name="critical_R" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI49">
+              <rdf:Description rdf:about="#COPASI50">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:45:40Z</dcterms:W3CDTF>
@@ -1311,11 +1316,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI50" id="death" name="death" reversible="false">
+      <reaction metaid="COPASI51" id="death" name="death" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI50">
+              <rdf:Description rdf:about="#COPASI51">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:46:06Z</dcterms:W3CDTF>
@@ -1342,11 +1347,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI51" id="healing_I" name="healing_I" reversible="false">
+      <reaction metaid="COPASI52" id="healing_I" name="healing_I" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI51">
+              <rdf:Description rdf:about="#COPASI52">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:46:27Z</dcterms:W3CDTF>
@@ -1373,11 +1378,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI52" id="healing_D" name="healing_D" reversible="false">
+      <reaction metaid="COPASI53" id="healing_D" name="healing_D" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI52">
+              <rdf:Description rdf:about="#COPASI53">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:46:56Z</dcterms:W3CDTF>
@@ -1404,11 +1409,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI53" id="healing_A" name="healing_A" reversible="false">
+      <reaction metaid="COPASI54" id="healing_A" name="healing_A" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI53">
+              <rdf:Description rdf:about="#COPASI54">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:47:19Z</dcterms:W3CDTF>
@@ -1435,11 +1440,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI54" id="healing_R" name="healing_R" reversible="false">
+      <reaction metaid="COPASI55" id="healing_R" name="healing_R" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI54">
+              <rdf:Description rdf:about="#COPASI55">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:47:31Z</dcterms:W3CDTF>
@@ -1466,11 +1471,11 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="COPASI55" id="healing_T" name="healing_T" reversible="false">
+      <reaction metaid="COPASI56" id="healing_T" name="healing_T" reversible="false">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI55">
+              <rdf:Description rdf:about="#COPASI56">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T14:47:52Z</dcterms:W3CDTF>
@@ -1499,11 +1504,11 @@
       </reaction>
     </listOfReactions>
     <listOfEvents>
-      <event metaid="COPASI38" id="Day_4_measures" name="Day 4 measures">
+      <event metaid="COPASI39" id="Day_4_measures" name="Day 4 measures">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI38">
+              <rdf:Description rdf:about="#COPASI39">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T18:33:56Z</dcterms:W3CDTF>
@@ -1545,11 +1550,11 @@
           </eventAssignment>
         </listOfEventAssignments>
       </event>
-      <event metaid="COPASI39" id="Day_12_screening" name="Day 12 screening">
+      <event metaid="COPASI40" id="Day_12_screening" name="Day 12 screening">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI39">
+              <rdf:Description rdf:about="#COPASI40">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2020-03-24T18:35:44Z</dcterms:W3CDTF>

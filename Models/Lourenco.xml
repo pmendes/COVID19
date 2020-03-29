@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model metaid="meta_lourenco" id="lourenco" substanceUnits="dimensionless" timeUnits="day" volumeUnits="dimensionless" areaUnits="dimensionless" lengthUnits="dimensionless" extentUnits="dimensionless">
+    <notes>
+      <p xmlns="http://www.w3.org/1999/xhtml">Deterministic version of &apos;Fundamental principles of epidemic spread highlight the immediate need for large-scale serological surveys to assess the stage of the SARS-CoV-2 epidemic&apos; by Lourenco et al.</p>
+      <p xmlns="http://www.w3.org/1999/xhtml">For software portability, the term z_delay(t) = z(t - psi) is approximated by d z_delay / dt = (z - z_delay) / psi, which is correct to first order.</p>
+      <p xmlns="http://www.w3.org/1999/xhtml">We assume one infection at time t = 0.</p>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#meta_lourenco">
+          <dcterms:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>Smallbone</vCard4:family-name>
+                  <vCard4:given-name>Kieran</vCard4:given-name>
+                </vCard4:hasName>
+              </rdf:li>
+            </rdf:Bag>
+          </dcterms:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-27T21:00:00Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-29T11:42:29Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqmodel:isDerivedFrom>
+            <rdf:Bag>
+              <rdf:li rdf:resource="doi:10.1101/2020.03.24.20042291"/>
+            </rdf:Bag>
+          </bqmodel:isDerivedFrom>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="day">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_day">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="compartment" spatialDimensions="3" size="1" units="dimensionless" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="S" compartment="compartment" initialConcentration="0.999999985045611" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="I" compartment="compartment" initialConcentration="1.49543891132047e-08" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="R" compartment="compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="y" value="1.49543891132047e-08" units="dimensionless" constant="false"/>
+      <parameter id="z" value="1.49543891132047e-08" units="dimensionless" constant="false"/>
+      <parameter id="Delta" value="0" units="item" constant="false"/>
+      <parameter id="R0" value="2.25" units="dimensionless" constant="true"/>
+      <parameter id="sigma_inv" value="4.5" units="day" constant="true"/>
+      <parameter id="sigma" value="0.222222222222222" units="per_day" constant="true"/>
+      <parameter id="beta" value="0.5" units="per_day" constant="true"/>
+      <parameter id="psi" value="17" units="day" constant="true"/>
+      <parameter id="theta" value="0.14" units="per_day" constant="true"/>
+      <parameter id="rho" value="0.01" units="dimensionless" constant="true"/>
+      <parameter id="N" value="66870000" units="item" constant="true"/>
+      <parameter id="z_delay" value="1.49543891132047e-08" units="dimensionless" constant="false"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="sigma">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <divide/>
+            <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+            <ci> sigma_inv </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="beta">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> sigma </ci>
+            <ci> R0 </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfRules>
+      <assignmentRule variable="y">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> I </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="z">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> I </ci>
+            <ci> R </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <rateRule variable="Delta">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> N </ci>
+            <ci> rho </ci>
+            <ci> theta </ci>
+            <ci> z_delay </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="z_delay">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <minus/>
+              <ci> z </ci>
+              <ci> z_delay </ci>
+            </apply>
+            <ci> psi </ci>
+          </apply>
+        </math>
+      </rateRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction id="S_to_I" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="I" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> beta </ci>
+              <ci> S </ci>
+              <ci> I </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="I_to_R" reversible="false">
+        <listOfReactants>
+          <speciesReference species="I" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> sigma </ci>
+              <ci> I </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

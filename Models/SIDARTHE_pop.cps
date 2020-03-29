@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-29T13:21:04Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-29T14:02:55Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -72,6 +72,8 @@ Reaction scheme where the products are created from the reactants and the change
 <p>This model is based on the model described in a preprint by <a href="https://arxiv.org/abs/2003.09861">Giordano et al. arXiv:2003.09861v1</a></p>
 
 <p>This model is very similar to the original, except that it now uses absolute numbers for the population, rather than proportions as in the original. More precisely, the summation of all variables is now to 60 million, rather than 1. Note that the constants for the infection reactions, alpha, beta, gamma, and delta, have to be divided by the total population too. Additionally the model is enhanced with a set of factors that are used to adjust all parameters to a scale factor (as communicated by the first author of the paper). These modifications allow the model to be simulated stochastically using the Gillespie algorithm.</p>
+
+<p>When running this model stochastically (using Direct Method or others) COPASI warns of a problem with an ODE in the model. Simply press "Ignore' to run the simulation anyway. This implies that the variables 'Recovered' and 'Diagn cumul infected' will not be calculated when running this model stochastically. This is because 'Recovered' is encoded as a direct ODE (calculates the number of recovered that had been diagnosed, ie the part of H that came from diagnosed people) and cannot be calculated in the stochastic mode. 'Diagn cumul infected' is the total diagnosed at all times and its calculation required 'Recovered', thus cannot also be calculated.</p>
 
 </body>
     </Comment>
@@ -575,7 +577,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_19" name="Recovered" simulationType="ode" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_19">
     <dcterms:created>
       <rdf:Description>
@@ -584,6 +588,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE_pop,Vector=Values[rho],Reference=Value>*&lt;CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE_pop,Vector=Values[xi],Reference=Value>*&lt;CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE_pop,Vector=Values[sigma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
@@ -591,7 +596,9 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_18" name="Diagn cumul infected" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_18">
     <dcterms:created>
       <rdf:Description>
@@ -600,6 +607,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=SIDARTHE_pop,Vector=Values[DRT],Reference=Value>+&lt;CN=Root,Model=SIDARTHE_pop,Vector=Values[Recovered],Reference=Value>+&lt;CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>
@@ -3808,12 +3816,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Use Values" type="bool" value="0"/>
         <Parameter name="Values" type="string" value=""/>
       </Problem>
-      <Method name="Deterministic (LSODA)" type="Deterministic(LSODA)">
-        <Parameter name="Integrate Reduced Model" type="bool" value="0"/>
-        <Parameter name="Relative Tolerance" type="unsignedFloat" value="1e-08"/>
-        <Parameter name="Absolute Tolerance" type="unsignedFloat" value="9.9999999999999998e-13"/>
-        <Parameter name="Max Internal Steps" type="unsignedInteger" value="100000"/>
-        <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
+      <Method name="Stochastic (Direct method)" type="Stochastic">
+        <Parameter name="Max Internal Steps" type="integer" value="1000000"/>
+        <Parameter name="Use Random Seed" type="bool" value="0"/>
+        <Parameter name="Random Seed" type="unsignedInteger" value="1"/>
       </Method>
     </Task>
     <Task key="Task_26" name="Scan" type="scan" scheduled="false" updateModel="false">
@@ -4479,11 +4485,13 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   </ListOfPlots>
   <GUI>
   </GUI>
-  <SBMLReference file="SIDARTHE.xml">
+  <SBMLReference file="SIDARTHE_pop.xml">
     <SBMLMap SBMLid="A" COPASIkey="Metabolite_4"/>
     <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_11"/>
     <SBMLMap SBMLid="D" COPASIkey="Metabolite_5"/>
     <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_22"/>
+    <SBMLMap SBMLid="Day_12_screening" COPASIkey="Event_1"/>
+    <SBMLMap SBMLid="Day_4_measures" COPASIkey="Event_0"/>
     <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_18"/>
     <SBMLMap SBMLid="E" COPASIkey="Metabolite_1"/>
     <SBMLMap SBMLid="H" COPASIkey="Metabolite_0"/>
@@ -4491,13 +4499,16 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="IDART" COPASIkey="ModelValue_20"/>
     <SBMLMap SBMLid="IDARTHE" COPASIkey="ModelValue_21"/>
     <SBMLMap SBMLid="Perceived_CFR" COPASIkey="ModelValue_12"/>
+    <SBMLMap SBMLid="Population" COPASIkey="ModelValue_8"/>
     <SBMLMap SBMLid="R" COPASIkey="Metabolite_3"/>
     <SBMLMap SBMLid="R0" COPASIkey="ModelValue_10"/>
     <SBMLMap SBMLid="Recovered" COPASIkey="ModelValue_19"/>
     <SBMLMap SBMLid="S" COPASIkey="Metabolite_6"/>
     <SBMLMap SBMLid="T" COPASIkey="Metabolite_2"/>
     <SBMLMap SBMLid="alpha" COPASIkey="ModelValue_38"/>
+    <SBMLMap SBMLid="alpha_pop" COPASIkey="ModelValue_7"/>
     <SBMLMap SBMLid="beta" COPASIkey="ModelValue_37"/>
+    <SBMLMap SBMLid="beta_pop" COPASIkey="ModelValue_6"/>
     <SBMLMap SBMLid="compartment" COPASIkey="Compartment_0"/>
     <SBMLMap SBMLid="contagion_A" COPASIkey="Reaction_13"/>
     <SBMLMap SBMLid="contagion_D" COPASIkey="Reaction_14"/>
@@ -4507,11 +4518,13 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="critical_R" COPASIkey="Reaction_6"/>
     <SBMLMap SBMLid="death" COPASIkey="Reaction_5"/>
     <SBMLMap SBMLid="delta" COPASIkey="ModelValue_35"/>
+    <SBMLMap SBMLid="delta_pop" COPASIkey="ModelValue_5"/>
     <SBMLMap SBMLid="diagnosis_A" COPASIkey="Reaction_8"/>
     <SBMLMap SBMLid="diagnosis_I" COPASIkey="Reaction_11"/>
     <SBMLMap SBMLid="epsilon" COPASIkey="ModelValue_34"/>
     <SBMLMap SBMLid="eta" COPASIkey="ModelValue_32"/>
     <SBMLMap SBMLid="gamma" COPASIkey="ModelValue_36"/>
+    <SBMLMap SBMLid="gamma_pop" COPASIkey="ModelValue_9"/>
     <SBMLMap SBMLid="healing_A" COPASIkey="Reaction_2"/>
     <SBMLMap SBMLid="healing_D" COPASIkey="Reaction_3"/>
     <SBMLMap SBMLid="healing_I" COPASIkey="Reaction_4"/>
@@ -4527,6 +4540,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <SBMLMap SBMLid="r4" COPASIkey="ModelValue_14"/>
     <SBMLMap SBMLid="r5" COPASIkey="ModelValue_13"/>
     <SBMLMap SBMLid="rho" COPASIkey="ModelValue_25"/>
+    <SBMLMap SBMLid="scale" COPASIkey="ModelValue_4"/>
     <SBMLMap SBMLid="sigma" COPASIkey="ModelValue_24"/>
     <SBMLMap SBMLid="symptoms_D" COPASIkey="Reaction_9"/>
     <SBMLMap SBMLid="symptoms_I" COPASIkey="Reaction_10"/>

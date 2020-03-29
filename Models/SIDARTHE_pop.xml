@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-29 09:36 with libSBML version 5.18.0. -->
+<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-29 10:02 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="SIDARTHE_pop" name="SIDARTHE_pop">
     <notes>
@@ -7,38 +7,10 @@
         <h1>SIDARTHE model of COVID-19 epidemic</h1>
         <p>This model is based on the model described in a preprint by <a href="https://arxiv.org/abs/2003.09861">Giordano et al. arXiv:2003.09861v1</a></p>
         <p>This model is very similar to the original, except that it now uses absolute numbers for the population, rather than proportions as in the original. More precisely, the summation of all variables is now to 60 million, rather than 1. Note that the constants for the infection reactions, alpha, beta, gamma, and delta, have to be divided by the total population too. Additionally the model is enhanced with a set of factors that are used to adjust all parameters to a scale factor (as communicated by the first author of the paper). These modifications allow the model to be simulated stochastically using the Gillespie algorithm.</p>
+        <p>When running this model stochastically (using Direct Method or others) COPASI warns of a problem with an ODE in the model. Simply press &quot;Ignore&apos; to run the simulation anyway. This implies that the variables &apos;Recovered&apos; and &apos;Diagn cumul infected&apos; will not be calculated when running this model stochastically. This is because &apos;Recovered&apos; is encoded as a direct ODE (calculates the number of recovered that had been diagnosed, ie the part of H that came from diagnosed people) and cannot be calculated in the stochastic mode. &apos;Diagn cumul infected&apos; is the total diagnosed at all times and its calculation required &apos;Recovered&apos;, thus cannot also be calculated.</p>
       </body>
     </notes>
     <annotation>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#COPASI0">
-          <dc:creator>
-            <rdf:Bag>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Mendes</vCard:Family>
-                  <vCard:Given>Pedro</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>pmendes@uchc.edu</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>University of Connecticut</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-            </rdf:Bag>
-          </dc:creator>
-          <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
-          </dcterms:created>
-          <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
-          </dcterms:modified>
-          <bqbiol:isDescribedBy>
-            <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/arxiv/2003.09861v1"/>
-            </rdf:Bag>
-          </bqbiol:isDescribedBy>
-        </rdf:Description>
-      </rdf:RDF>
       <COPASI xmlns="http://www.copasi.org/static/sbml">
         <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
           <rdf:Description rdf:about="#COPASI0">
@@ -72,6 +44,35 @@
           </rdf:Description>
         </rdf:RDF>
       </COPASI>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Mendes</vCard:Family>
+                  <vCard:Given>Pedro</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>pmendes@uchc.edu</vCard:EMAIL>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>University of Connecticut</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-03-24T14:21:17Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/arxiv/2003.09861v1"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
       <unitDefinition id="volume" name="volume">
@@ -760,27 +761,27 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_4" name="Initial for A" value="1">
+      <parameter id="Metabolite_4_0" name="Initial for A" value="1">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="A"/>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_7" name="Initial for I" value="200">
+      <parameter id="Metabolite_7_0" name="Initial for I" value="200">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="I"/>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_6" name="Initial for S" value="59999777">
+      <parameter id="Metabolite_6_0" name="Initial for S" value="59999777">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="S"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_8" name="Initial for Population" value="60000000">
+      <parameter id="ModelValue_8_0" name="Initial for Population" value="60000000">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="Population"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_4" name="Initial for scale" value="0.57">
+      <parameter id="ModelValue_4_0" name="Initial for scale" value="0.57">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="scale"/>
         </annotation>
@@ -947,27 +948,27 @@
           </apply>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_4">
+      <initialAssignment symbol="Metabolite_4_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> A </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_7">
+      <initialAssignment symbol="Metabolite_7_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> I </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_6">
+      <initialAssignment symbol="Metabolite_6_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> S </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="ModelValue_8">
+      <initialAssignment symbol="ModelValue_8_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> Population </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="ModelValue_4">
+      <initialAssignment symbol="ModelValue_4_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> scale </ci>
         </math>
@@ -988,7 +989,7 @@
           <apply>
             <divide/>
             <ci> beta </ci>
-            <ci> ModelValue_8 </ci>
+            <ci> ModelValue_8_0 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1019,7 +1020,7 @@
             <ci> E </ci>
             <apply>
               <minus/>
-              <ci> Metabolite_6 </ci>
+              <ci> Metabolite_6_0 </ci>
               <ci> S </ci>
             </apply>
           </apply>
@@ -1088,8 +1089,8 @@
                     <minus/>
                     <apply>
                       <plus/>
-                      <ci> Metabolite_7 </ci>
-                      <ci> Metabolite_6 </ci>
+                      <ci> Metabolite_7_0 </ci>
+                      <ci> Metabolite_6_0 </ci>
                     </apply>
                     <ci> I </ci>
                   </apply>
@@ -1109,7 +1110,7 @@
                 </apply>
                 <apply>
                   <minus/>
-                  <ci> Metabolite_4 </ci>
+                  <ci> Metabolite_4_0 </ci>
                   <ci> A </ci>
                 </apply>
               </apply>
@@ -1209,7 +1210,7 @@
           <apply>
             <divide/>
             <ci> delta </ci>
-            <ci> ModelValue_8 </ci>
+            <ci> ModelValue_8_0 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1228,7 +1229,7 @@
           <apply>
             <divide/>
             <ci> alpha </ci>
-            <ci> ModelValue_8 </ci>
+            <ci> ModelValue_8_0 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1237,7 +1238,7 @@
           <apply>
             <divide/>
             <ci> gamma </ci>
-            <ci> ModelValue_8 </ci>
+            <ci> ModelValue_8_0 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1814,7 +1815,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4 </ci>
+                <ci> ModelValue_4_0 </ci>
                 <cn> 0.74 </cn>
               </apply>
             </math>
@@ -1823,7 +1824,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4 </ci>
+                <ci> ModelValue_4_0 </ci>
                 <cn> 0.01 </cn>
               </apply>
             </math>
@@ -1832,7 +1833,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4 </ci>
+                <ci> ModelValue_4_0 </ci>
                 <cn> 0.5 </cn>
               </apply>
             </math>
@@ -1841,7 +1842,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4 </ci>
+                <ci> ModelValue_4_0 </ci>
                 <cn> 0.01 </cn>
               </apply>
             </math>
@@ -1876,7 +1877,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4 </ci>
+                <ci> ModelValue_4_0 </ci>
                 <cn> 0.25 </cn>
               </apply>
             </math>

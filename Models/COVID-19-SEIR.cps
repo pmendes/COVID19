@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-24T14:38:53Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-29T14:05:46Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -28,7 +28,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_1" name="COVID-19 SEIR CT" simulationType="time" timeUnit="d" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="#" type="deterministic" avogadroConstant="6.0221408570000002e+23">
+  <Model key="Model_1" name="COVID-19 SEIR" simulationType="time" timeUnit="d" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="#" type="deterministic" avogadroConstant="6.0221408570000002e+23">
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:dcterms="http://purl.org/dc/terms/"
@@ -77,8 +77,8 @@ Reaction scheme where the products are created from the reactants and the change
 
     </MiriamAnnotation>
     <Comment>
-      <body xmlns="http://www.w3.org/1999/xhtml"><h1>COVID-19 SEIR model for Connecticut</h1>
-<p>This model is a basic SEIR model that <font color="red"><u>will</u> be adjusted</font> for the epidemiological parameters derived from Connecticut's data.</p>
+      <body xmlns="http://www.w3.org/1999/xhtml"><h1>COVID-19 SEIR model</h1>
+<p>This model is a basic SEIR model.</p>
 <p>The model can be run in the traditional mode, by using and solving ODEs, or in a stochastic mode, by using the Gillespie stochastic simulation algorithm.</p>
 <p>This is based on the model published by <a href="https://alhill.shinyapps.io/COVID19seir/">Alison Hill</a> with code on <a href="https://github.com/alsnhll/SEIR_COVID19">GitHub</a></p>
 <p>This model is published under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0 International license</a></p></body>
@@ -127,9 +127,7 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_2" name="S" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_0">
     <dcterms:created>
       <rdf:Description>
@@ -138,7 +136,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_3" name="I2" simulationType="reactions" compartment="Compartment_0" addNoise="false">
@@ -182,9 +179,7 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_6" name="R" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_6">
     <dcterms:created>
       <rdf:Description>
@@ -193,16 +188,13 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
       <ModelValue key="ModelValue_0" name="beta1" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_0">
     <dcterms:created>
       <rdf:Description>
@@ -211,17 +203,14 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N],Reference=InitialValue>
+          &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta1_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[N],Reference=InitialValue>
         </Expression>
       </ModelValue>
       <ModelValue key="ModelValue_1" name="beta2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_1">
     <dcterms:created>
       <rdf:Description>
@@ -230,17 +219,14 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N],Reference=InitialValue>
+          &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta2_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[N],Reference=InitialValue>
         </Expression>
       </ModelValue>
       <ModelValue key="ModelValue_2" name="beta3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_2">
     <dcterms:created>
       <rdf:Description>
@@ -249,17 +235,14 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N],Reference=InitialValue>
+          &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta3_base],Reference=InitialValue>/&lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[N],Reference=InitialValue>
         </Expression>
       </ModelValue>
       <ModelValue key="ModelValue_3" name="alpha" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_3">
     <dcterms:created>
       <rdf:Description>
@@ -268,7 +251,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_4" name="gamma1" simulationType="fixed" addNoise="false">
@@ -312,9 +294,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_7" name="p1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_7">
     <dcterms:created>
       <rdf:Description>
@@ -323,7 +303,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_8" name="p2" simulationType="fixed" addNoise="false">
@@ -341,9 +320,7 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
       <ModelValue key="ModelValue_9" name="miu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_9">
     <dcterms:created>
       <rdf:Description>
@@ -352,14 +329,11 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
       <ModelValue key="ModelValue_10" name="N" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_10">
     <dcterms:created>
       <rdf:Description>
@@ -368,13 +342,28 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <InitialExpression>
-          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
+          &lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_12" name="Itot" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_11" name="Itot" simulationType="assignment" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_11">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-03-22T19:03:19Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <Expression>
+          &lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber>
+        </Expression>
+      </ModelValue>
+      <ModelValue key="ModelValue_12" name="Hosp" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_12">
@@ -387,31 +376,13 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber>
+          &lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_13" name="Hosp" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_13" name="beta1_base" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_12">
-    <dcterms:created>
-      <rdf:Description>
-        <dcterms:W3CDTF>2020-03-22T19:03:19Z</dcterms:W3CDTF>
-      </rdf:Description>
-    </dcterms:created>
-  </rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
-        <Expression>
-          &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber>
-        </Expression>
-      </ModelValue>
-      <ModelValue key="ModelValue_14" name="beta1_base" simulationType="fixed" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_14">
+  <rdf:Description rdf:about="#ModelValue_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-23T21:38:36Z</dcterms:W3CDTF>
@@ -419,15 +390,12 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_15" name="beta2_base" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_14" name="beta2_base" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_15">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_14">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-23T21:38:41Z</dcterms:W3CDTF>
@@ -435,15 +403,12 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_16" name="beta3_base" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_15" name="beta3_base" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_16">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#ModelValue_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-23T21:38:44Z</dcterms:W3CDTF>
@@ -451,7 +416,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
       </ModelValue>
     </ListOfModelValues>
@@ -479,7 +443,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5001" name="k1" value="9.2368e-08"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_0"/>
@@ -514,7 +478,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_5000" name="k1" value="0"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_1"/>
@@ -549,7 +513,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4999" name="k1" value="0"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_2"/>
@@ -582,7 +546,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4998" name="k1" value="0.2"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_3"/>
@@ -614,7 +578,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4997" name="k1" value="0.033"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_7"/>
@@ -646,7 +610,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4996" name="k1" value="0.062"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_8"/>
@@ -678,7 +642,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4995" name="k1" value="0.04"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_9"/>
@@ -710,7 +674,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4994" name="k1" value="0.133"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_4"/>
@@ -742,7 +706,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4993" name="k1" value="0.188"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_5"/>
@@ -774,7 +738,7 @@ Reaction scheme where the products are created from the reactants and the change
         <ListOfConstants>
           <Constant key="Parameter_4992" name="k1" value="0.06"/>
         </ListOfConstants>
-        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]">
+        <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
               <SourceParameter reference="ModelValue_6"/>
@@ -795,117 +759,117 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T21:28:36Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-29T14:04:14Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
 </rdf:RDF>
         </MiriamAnnotation>
         <ModelParameterGroup cn="String=Initial Time" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT" value="0" type="Model" simulationType="time"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1]" value="1" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1]" value="9.2368022190717578e-08" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[alpha]" value="0.20000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma1]" value="0.13300000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma2]" value="0.188" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma3]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p1]" value="0.033000000000000002" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p2]" value="0.062" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[miu]" value="0.040000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N]" value="3572665" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta1]" value="9.2368022190717578e-08" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta2]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta3]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[alpha]" value="0.20000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma1]" value="0.13300000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma2]" value="0.188" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma3]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[p1]" value="0.033000000000000002" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[p2]" value="0.062" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[miu]" value="0.040000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[N]" value="3572665" type="ModelValue" simulationType="fixed">
             <InitialExpression>
-              &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
+              &lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
             </InitialExpression>
           </ModelParameter>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Itot]" value="1" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Hosp]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1_base]" value="0.33000000000000002" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2_base]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3_base]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[Itot]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[Hosp]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta1_base]" value="0.33000000000000002" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta2_base]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta3_base]" value="0" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1],ParameterGroup=Parameters,Parameter=k1" value="9.2368022190717578e-08" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection1],ParameterGroup=Parameters,Parameter=k1" value="9.2368022190717578e-08" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection2],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection2],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection3],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection3],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta3],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Onset]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Onset],ParameterGroup=Parameters,Parameter=k1" value="0.20000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Onset]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Onset],ParameterGroup=Parameters,Parameter=k1" value="0.20000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[alpha],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[alpha],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression1],ParameterGroup=Parameters,Parameter=k1" value="0.033000000000000002" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression1],ParameterGroup=Parameters,Parameter=k1" value="0.033000000000000002" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p1],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[p1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression2],ParameterGroup=Parameters,Parameter=k1" value="0.062" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression2],ParameterGroup=Parameters,Parameter=k1" value="0.062" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p2],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[p2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Death]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Death],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Death],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[miu],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[miu],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery1],ParameterGroup=Parameters,Parameter=k1" value="0.13300000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery1],ParameterGroup=Parameters,Parameter=k1" value="0.13300000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma1],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery2],ParameterGroup=Parameters,Parameter=k1" value="0.188" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery2],ParameterGroup=Parameters,Parameter=k1" value="0.188" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma2],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery3],ParameterGroup=Parameters,Parameter=k1" value="0.059999999999999998" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery3],ParameterGroup=Parameters,Parameter=k1" value="0.059999999999999998" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma3],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma3],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -924,110 +888,110 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 </rdf:RDF>
         </MiriamAnnotation>
         <ModelParameterGroup cn="String=Initial Time" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT" value="0" type="Model" simulationType="time"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1]" value="1" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S]" value="999" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S]" value="999" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1]" value="0.00033" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[alpha]" value="0.20000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma1]" value="0.13300000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma2]" value="0.188" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma3]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p1]" value="0.033000000000000002" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p2]" value="0.062" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[miu]" value="0.040000000000000001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N]" value="1000" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta1]" value="0.00033" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta2]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[beta3]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[alpha]" value="0.20000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma1]" value="0.13300000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma2]" value="0.188" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma3]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[p1]" value="0.033000000000000002" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[p2]" value="0.062" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[miu]" value="0.040000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[N]" value="1000" type="ModelValue" simulationType="fixed">
             <InitialExpression>
-              &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
+              &lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>
             </InitialExpression>
           </ModelParameter>
-          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[N (moles)]" value="1000" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[N (moles)]" value="1000" type="ModelValue" simulationType="fixed">
             <InitialExpression>
-              (&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>)/&lt;CN=Root,Model=COVID-19 SEIR CT,Reference=Quantity Conversion Factor>
+              (&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialParticleNumber>+&lt;CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialParticleNumber>)/&lt;CN=Root,Model=COVID-19 SEIR,Reference=Quantity Conversion Factor>
             </InitialExpression>
           </ModelParameter>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection1],ParameterGroup=Parameters,Parameter=k1" value="0.00033" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection1],ParameterGroup=Parameters,Parameter=k1" value="0.00033" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta1],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection2],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection2],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta2],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Infection3],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Infection3],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[beta3],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[beta3],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Onset]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Onset],ParameterGroup=Parameters,Parameter=k1" value="0.20000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Onset]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Onset],ParameterGroup=Parameters,Parameter=k1" value="0.20000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[alpha],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[alpha],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression1],ParameterGroup=Parameters,Parameter=k1" value="0.033000000000000002" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression1],ParameterGroup=Parameters,Parameter=k1" value="0.033000000000000002" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p1],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[p1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Progression2],ParameterGroup=Parameters,Parameter=k1" value="0.062" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Progression2],ParameterGroup=Parameters,Parameter=k1" value="0.062" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[p2],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[p2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Death]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Death],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Death],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[miu],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[miu],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery1]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery1],ParameterGroup=Parameters,Parameter=k1" value="0.13300000000000001" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery1],ParameterGroup=Parameters,Parameter=k1" value="0.13300000000000001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma1],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma1],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery2]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery2],ParameterGroup=Parameters,Parameter=k1" value="0.188" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery2],ParameterGroup=Parameters,Parameter=k1" value="0.188" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma2],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma2],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Reactions[Recovery3],ParameterGroup=Parameters,Parameter=k1" value="0.059999999999999998" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=COVID-19 SEIR,Vector=Reactions[Recovery3],ParameterGroup=Parameters,Parameter=k1" value="0.059999999999999998" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=COVID-19 SEIR CT,Vector=Values[gamma3],Reference=InitialValue>
+                &lt;CN=Root,Model=COVID-19 SEIR,Vector=Values[gamma3],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -1046,8 +1010,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_0"/>
       <StateTemplateVariable objectReference="ModelValue_1"/>
       <StateTemplateVariable objectReference="ModelValue_2"/>
+      <StateTemplateVariable objectReference="ModelValue_11"/>
       <StateTemplateVariable objectReference="ModelValue_12"/>
-      <StateTemplateVariable objectReference="ModelValue_13"/>
       <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="ModelValue_3"/>
       <StateTemplateVariable objectReference="ModelValue_4"/>
@@ -1057,9 +1021,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_8"/>
       <StateTemplateVariable objectReference="ModelValue_9"/>
       <StateTemplateVariable objectReference="ModelValue_10"/>
+      <StateTemplateVariable objectReference="ModelValue_13"/>
       <StateTemplateVariable objectReference="ModelValue_14"/>
       <StateTemplateVariable objectReference="ModelValue_15"/>
-      <StateTemplateVariable objectReference="ModelValue_16"/>
     </StateTemplate>
     <InitialState type="initialState">
       0 0 0 0 1 0 0 3572664 9.2368022190717578e-08 0 0 1 0 1 0.20000000000000001 0.13300000000000001 0.188 0.059999999999999998 0.033000000000000002 0.062 0.040000000000000001 3572665 0.33000000000000002 0 0 
@@ -1484,8 +1448,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="E" type="Curve2D">
@@ -1496,8 +1460,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Hosp" type="Curve2D">
@@ -1508,8 +1472,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Hosp],Reference=Value"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[Hosp],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I1" type="Curve2D">
@@ -1520,8 +1484,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I2" type="Curve2D">
@@ -1532,8 +1496,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I3" type="Curve2D">
@@ -1544,8 +1508,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Itot" type="Curve2D">
@@ -1556,8 +1520,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Itot],Reference=Value"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[Itot],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="R" type="Curve2D">
@@ -1568,8 +1532,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="S" type="Curve2D">
@@ -1580,8 +1544,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
@@ -1595,7 +1559,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="E" type="Histogram1DItem">
@@ -1603,7 +1567,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Hosp" type="Histogram1DItem">
@@ -1611,7 +1575,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Hosp],Reference=Value"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[Hosp],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I1" type="Histogram1DItem">
@@ -1619,7 +1583,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I1],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I2" type="Histogram1DItem">
@@ -1627,7 +1591,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I2],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I3" type="Histogram1DItem">
@@ -1635,7 +1599,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[I3],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="I_tot" type="Histogram1DItem">
@@ -1643,7 +1607,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Values[Itot],Reference=Value"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Values[Itot],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="R" type="Histogram1DItem">
@@ -1651,7 +1615,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Color" type="string" value="auto"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
           <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR CT,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=ParticleNumber"/>
+            <ChannelSpec cn="CN=Root,Model=COVID-19 SEIR,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=ParticleNumber"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
@@ -2235,7 +2199,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-29T14:04:13Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2253,7 +2217,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-29T14:04:13Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2271,7 +2235,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-29T14:04:13Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2289,7 +2253,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-29T14:04:13Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2307,7 +2271,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_68">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-03-23T21:28:35Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-03-29T14:04:13Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>

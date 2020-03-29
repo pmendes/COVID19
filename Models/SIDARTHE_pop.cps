@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-29T14:09:14Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-03-29T17:50:59Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -1779,11 +1779,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </Task>
     <Task key="Task_27" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
       <Problem>
-        <Parameter name="AutomaticStepSize" type="bool" value="1"/>
-        <Parameter name="StepNumber" type="unsignedInteger" value="80"/>
-        <Parameter name="StepSize" type="float" value="0.27500000000000002"/>
-        <Parameter name="Duration" type="float" value="22"/>
-        <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
+        <Parameter name="AutomaticStepSize" type="bool" value="0"/>
+        <Parameter name="StepNumber" type="unsignedInteger" value="200"/>
+        <Parameter name="StepSize" type="float" value="0.5"/>
+        <Parameter name="Duration" type="float" value="100"/>
+        <Parameter name="TimeSeriesRequested" type="bool" value="0"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
         <Parameter name="Start in Steady State" type="bool" value="0"/>
@@ -1851,76 +1851,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Randomize Start Values" type="bool" value="1"/>
         <Parameter name="Calculate Statistics" type="bool" value="0"/>
         <ParameterGroup name="OptimizationItemList">
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration"/>
-            <Parameter name="LowerBound" type="cn" value="2"/>
-            <Parameter name="UpperBound" type="cn" value="3000"/>
-            <Parameter name="StartValue" type="float" value="24.086838520000001"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration"/>
-            <Parameter name="LowerBound" type="cn" value="2"/>
-            <Parameter name="UpperBound" type="cn" value="3000"/>
-            <Parameter name="StartValue" type="float" value="1013.5985084685924"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Values[scale],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.4"/>
-            <Parameter name="UpperBound" type="cn" value="0.7"/>
-            <Parameter name="StartValue" type="float" value="0.61791354474097338"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Values[f_epsilon],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.0001"/>
-            <Parameter name="UpperBound" type="cn" value="0.002"/>
-            <Parameter name="StartValue" type="float" value="0.00071552981068741771"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Values[f_sigma],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.0001"/>
-            <Parameter name="UpperBound" type="cn" value="0.033"/>
-            <Parameter name="StartValue" type="float" value="0.00060409251094887314"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Values[f_theta],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.4"/>
-            <Parameter name="UpperBound" type="cn" value="0.8"/>
-            <Parameter name="StartValue" type="float" value="0.62131376858365583"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Values[f_nu],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.045"/>
-            <Parameter name="UpperBound" type="cn" value="0.0576"/>
-            <Parameter name="StartValue" type="float" value="0.050661626713318197"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
         </ParameterGroup>
@@ -1928,48 +1858,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Time-Course" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
-          <ParameterGroup name="Experiment">
-            <Parameter name="Key" type="key" value="Experiment_0"/>
-            <Parameter name="File Name" type="file" value="NY-COVID19.tsv"/>
-            <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="25"/>
-            <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
-            <Parameter name="Normalize Weights per Experiment" type="bool" value="0"/>
-            <Parameter name="Separator" type="string" value="&#x09;"/>
-            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
-            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
-            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="8"/>
-            <ParameterGroup name="Object Map">
-              <ParameterGroup name="0">
-                <Parameter name="Role" type="unsignedInteger" value="3"/>
-              </ParameterGroup>
-              <ParameterGroup name="1">
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Values[DRT],Reference=Value"/>
-              </ParameterGroup>
-              <ParameterGroup name="2">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="3">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="4">
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration"/>
-              </ParameterGroup>
-              <ParameterGroup name="5">
-                <Parameter name="Role" type="unsignedInteger" value="2"/>
-                <Parameter name="Object CN" type="cn" value="CN=Root,Model=SIDARTHE_pop,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration"/>
-              </ParameterGroup>
-              <ParameterGroup name="6">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-              <ParameterGroup name="7">
-                <Parameter name="Role" type="unsignedInteger" value="0"/>
-              </ParameterGroup>
-            </ParameterGroup>
-          </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="Validation Set">
           <Parameter name="Weight" type="unsignedFloat" value="1"/>

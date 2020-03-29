@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-29 10:02 with libSBML version 5.18.0. -->
+<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-29 13:51 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="SIDARTHE_pop" name="SIDARTHE_pop">
     <notes>
@@ -761,27 +761,27 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_4_0" name="Initial for A" value="1">
+      <parameter id="Metabolite_4" name="Initial for A" value="1">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="A"/>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_7_0" name="Initial for I" value="200">
+      <parameter id="Metabolite_7" name="Initial for I" value="200">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="I"/>
         </annotation>
       </parameter>
-      <parameter id="Metabolite_6_0" name="Initial for S" value="59999777">
+      <parameter id="Metabolite_6" name="Initial for S" value="59999777">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="S"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_8_0" name="Initial for Population" value="60000000">
+      <parameter id="ModelValue_8" name="Initial for Population" value="60000000">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="Population"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_4_0" name="Initial for scale" value="0.57">
+      <parameter id="ModelValue_4" name="Initial for scale" value="0.57">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="scale"/>
         </annotation>
@@ -948,27 +948,27 @@
           </apply>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_4_0">
+      <initialAssignment symbol="Metabolite_4">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> A </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_7_0">
+      <initialAssignment symbol="Metabolite_7">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> I </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="Metabolite_6_0">
+      <initialAssignment symbol="Metabolite_6">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> S </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="ModelValue_8_0">
+      <initialAssignment symbol="ModelValue_8">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> Population </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="ModelValue_4_0">
+      <initialAssignment symbol="ModelValue_4">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> scale </ci>
         </math>
@@ -989,7 +989,7 @@
           <apply>
             <divide/>
             <ci> beta </ci>
-            <ci> ModelValue_8_0 </ci>
+            <ci> ModelValue_8 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1020,7 +1020,7 @@
             <ci> E </ci>
             <apply>
               <minus/>
-              <ci> Metabolite_6_0 </ci>
+              <ci> Metabolite_6 </ci>
               <ci> S </ci>
             </apply>
           </apply>
@@ -1089,8 +1089,8 @@
                     <minus/>
                     <apply>
                       <plus/>
-                      <ci> Metabolite_7_0 </ci>
-                      <ci> Metabolite_6_0 </ci>
+                      <ci> Metabolite_7 </ci>
+                      <ci> Metabolite_6 </ci>
                     </apply>
                     <ci> I </ci>
                   </apply>
@@ -1110,7 +1110,7 @@
                 </apply>
                 <apply>
                   <minus/>
-                  <ci> Metabolite_4_0 </ci>
+                  <ci> Metabolite_4 </ci>
                   <ci> A </ci>
                 </apply>
               </apply>
@@ -1210,7 +1210,7 @@
           <apply>
             <divide/>
             <ci> delta </ci>
-            <ci> ModelValue_8_0 </ci>
+            <ci> ModelValue_8 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1229,7 +1229,7 @@
           <apply>
             <divide/>
             <ci> alpha </ci>
-            <ci> ModelValue_8_0 </ci>
+            <ci> ModelValue_8 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1238,7 +1238,7 @@
           <apply>
             <divide/>
             <ci> gamma </ci>
-            <ci> ModelValue_8_0 </ci>
+            <ci> ModelValue_8 </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -1815,7 +1815,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4_0 </ci>
+                <ci> ModelValue_4 </ci>
                 <cn> 0.74 </cn>
               </apply>
             </math>
@@ -1824,7 +1824,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4_0 </ci>
+                <ci> ModelValue_4 </ci>
                 <cn> 0.01 </cn>
               </apply>
             </math>
@@ -1833,7 +1833,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4_0 </ci>
+                <ci> ModelValue_4 </ci>
                 <cn> 0.5 </cn>
               </apply>
             </math>
@@ -1842,7 +1842,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4_0 </ci>
+                <ci> ModelValue_4 </ci>
                 <cn> 0.01 </cn>
               </apply>
             </math>
@@ -1877,7 +1877,7 @@
             <math xmlns="http://www.w3.org/1998/Math/MathML">
               <apply>
                 <times/>
-                <ci> ModelValue_4_0 </ci>
+                <ci> ModelValue_4 </ci>
                 <cn> 0.25 </cn>
               </apply>
             </math>

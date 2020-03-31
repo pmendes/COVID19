@@ -17,7 +17,7 @@ I am not currently using these models, but either used them earlier or want to l
 
 2. **Lourenco.cps** An implementation by Kieran Smallbone of the  [Lourenço​ et al. model (preprint)](https://www.medrxiv.org/content/10.1101/2020.03.24.20042291v1) from the Oxford group. Note that the original model includes an explicit time delay which is simulated here by "diffusion".
 
-3. **Westerhoff_Kolodkin_COVID-19_comprehensive_model_2020-03-24.cps** A model calibrated for Luxemburg from [Westerhoff and Kolodkin (preprint)](https://www.medrxiv.org/content/10.1101/2020.03.29.20045039v1). The model is also [available at FairdomHub](https://fairdomhub.org/models/693?version=1). It includes a population with birth and death and has compartments for infected detected and undetected.
+3. **Westerhoff_Kolodkin_COVID-19_comprehensive_model_2020-03-24.cps** A model calibrated for Luxemburg from [Westerhoff and Kolodkin (preprint)](https://www.medrxiv.org/content/10.1101/2020.03.29.20045039v1). The model is also [available at FairdomHub](https://fairdomhub.org/models/693?version=1) where it has some instructions beyond what is in the preprint. It includes a population with birth and death and has compartments for infected detected and undetected.
 
 ## Licenses
 Models come under a variety of licenses depending on their origin, but whenever possible they will be made available as CC0.

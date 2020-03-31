@@ -11,7 +11,7 @@ Currently the main model being used is the SIDARTHE model of the Italian epidemi
 
 ## Other models
 
-I am not currently using these models, but either used them earlier or want to look at them at some point.
+I am not currently using these models, but either used them earlier or want to examine them at some point.
 
 1. **COVID-19-SEIR.cps** A basic SEIR model with three stages of infection (based on a [model by Alison Hill](https://alhill.shinyapps.io/COVID19seir/)). This model was initially intended to be the skeleton for a CT model, but has now been dropped in favor to SIDARTHE.
 

@@ -46,14 +46,14 @@ TARGET_NY=NY-COVID19.tsv
 
 # get data from covidtracking.org just for Connecticut
 curl -s https://covidtracking.com/api/states/daily.csv?state=CT | \
- awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$7,$8}; NR > 1 {print $1,$3,$4,$5,$6,$7,$8 | "sort"}' |\
- awk -F, 'BEGIN {OFS="\t"} NR == 1 {print "day",$2,$3,$4,$5,$6,$7,$1}; NR > 1 {print NR-3,$2,$3,$4,$5,$6,$7,$1}' \
+ awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$16,$15,$17}; NR > 1 {print $1,$3,$4,$5,$6,$16,$15,$17 | "sort"}' |\
+ awk -F, 'BEGIN {OFS="\t"} NR == 1 {print "day",$2,$3,$4,$5,$6,$7,$8,$1}; NR > 1 {print NR-3,$2,$3,$4,$5,$6,$7,$8,$1}' \
  > $TARGET_CT
 
  # get data from covidtracking.org just for NY
 curl -s https://covidtracking.com/api/states/daily.csv?state=NY | \
- awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$7,$8}; NR > 1 {print $1,$3,$4,$5,$6,$7,$8 | "sort"}' |\
- awk -F, 'BEGIN {OFS="\t"} NR == 1 {print "day",$2,$3,$4,$5,$6,$7,$1}; NR > 1 {print NR-2,$2,$3,$4,$5,$6,$7,$1}' \
+ awk -F, 'BEGIN {OFS=","} NR == 1 {print $1,$3,$4,$5,$6,$16,$15,$17}; NR > 1 {print $1,$3,$4,$5,$6,$16,$15,$17 | "sort"}' |\
+ awk -F, 'BEGIN {OFS="\t"} NR == 1 {print "day",$2,$3,$4,$5,$6,$7,$8,$1}; NR > 1 {print NR-3,$2,$3,$4,$5,$6,$7,$8,$1}' \
  > $TARGET_NY
 
 # we're done, isn't unix cute?

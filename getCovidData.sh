@@ -56,4 +56,11 @@ curl -s https://covidtracking.com/api/states/daily.csv?state=NY | \
  awk -F, 'BEGIN {OFS="\t"} NR == 1 {print "day",$2,$3,$4,$5,$6,$7,$8,$1}; NR > 1 {print NR-3,$2,$3,$4,$5,$6,$7,$8,$1}' \
  > $TARGET_NY
 
+# get statewide data for Connecticut from data.ct.gov
+curl -s https://data.ct.gov/resource/rf3k-f8fg.csv > CTstate.csv
+# get county level data for Connecticut from data.ct.gov
+curl -s https://data.ct.gov/resource/bfnu-rgqt.csv >CTcounty.csv
+# get age group level data for Connecticut from data.ct.gov
+curl -s https://data.ct.gov/resource/ypz6-8qyf.csv > CTage.csv
+
 # we're done, isn't unix cute?

@@ -9,7 +9,9 @@ Currently the main model being used is the SIDARTHE model of the Italian epidemi
 
 2. **SIDARTHE\_pop.cps** As the previous model but now scaled to the total population rather than using relative values as in the original. This means that the sum of all variables is now 60 million rather than 1, and parameters alpha, beta, gamma and delta have been rescaled (divided by total population). These changes are also reflected in the units of quantity, where the original model has units of 1 (adimensional), and this one has units of # (individuals). The model otherwise behaves as the original. This change is necessary to run the model with the Gillespie algorithm. As an example of stochastic simulation with this model see file **SIDARTHE_stochastic_100_100_IDART.png** which overlays 100 samples of the model behavior for IDART (the current total infected number) and shows the expected time window for a peak in cases.
 
-## Other models
+3. **SIDARTHE-CT_ModelX.cps** These are the models used for the Connecticut epidemic data. Several models have been parameterized with different criteria and are used in a multi-model approach. Some are dropped when they started failing to fit the data, then other parameterizations are carried out and new ones are introduced. Currently Models 3, 4, and 5 are being used, 1 and 2 have been dropped. 
+
+## Other models (not being used)
 
 I am not currently using these models, but either used them earlier or want to examine them at some point.
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-04-26T12:06:55Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-04-26T12:55:36Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -1502,7 +1502,7 @@ Reaction scheme where the products are created from the reactants and the change
           <Product metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4987" name="k1" value="0.03"/>
+          <Constant key="Parameter_4987" name="k1" value="0.0257851"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Compartments[compartment]">
           <ListOfCallParameters>
@@ -1735,7 +1735,9 @@ Reaction scheme where the products are created from the reactants and the change
       </Event>
       <Event key="Event_6" name="Day 29" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_6">
     <dcterms:created>
       <rdf:Description>
@@ -1744,6 +1746,7 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <TriggerExpression>
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 5,Reference=Time> > 28
@@ -1797,6 +1800,32 @@ Reaction scheme where the products are created from the reactants and the change
           </Assignment>
         </ListOfAssignments>
       </Event>
+      <Event key="Event_8" name="Day 47" fireAtInitialTime="0" persistentTrigger="0">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Event_8">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-04-26T12:54:04Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+        <TriggerExpression>
+          &lt;CN=Root,Model=SIDARTHE Connecticut Model 5,Reference=Time> > 46
+        </TriggerExpression>
+        <ListOfAssignments>
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[theta]" targetKey="ModelValue_7">
+            <Expression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[theta],Reference=InitialValue>*165
+            </Expression>
+          </Assignment>
+        </ListOfAssignments>
+      </Event>
     </ListOfEvents>
     <ListOfModelParameterSets activeSet="ModelParameterSet_1">
       <ModelParameterSet key="ModelParameterSet_1" name="Initial State">
@@ -1807,7 +1836,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T11:58:46Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-26T12:39:58Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1858,7 +1887,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[lambda]" value="0.025785050770753066" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[mu]" value="0.050000000000492796" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[nu]" value="0.050000000000492796" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[xi]" value="0.029999999999999999" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[xi]" value="0.025785050770753066" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[rho]" value="0.025785050770753066" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[sigma]" value="0.1982886423739337" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[tau]" value="0.040751589611573616" type="ModelValue" simulationType="fixed"/>
@@ -1870,11 +1899,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[r1]" value="0.075785050834716094" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[r2]" value="0.075785050834716094" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[r3]" value="0.061353908898536008" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[r4]" value="0.080000000000492788" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[r4]" value="0.075785050771245865" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[r5]" value="0.23904023198550733" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[R0]" value="10.004268299274015" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[R0]" value="10.004622859692288" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[gamma_pop]" value="1.9609904221729529e-08" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[alpha_pop]" value="1.9609904221729527e-07" type="ModelValue" simulationType="assignment"/>
@@ -2001,7 +2030,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Reactions[healing_R]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.029999999999999999" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.025785050770753066" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[xi],Reference=InitialValue>
               </InitialExpression>
@@ -2016,10 +2045,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_13" name="Model5 - 4/21">
+      <ModelParameterSet key="ModelParameterSet_3" name="Model5 - 4/21">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_13">
+<rdf:Description rdf:about="#ModelParameterSet_3">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-22T03:20:18Z</dcterms:W3CDTF>
@@ -2231,10 +2260,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_14" name="Model5 - 4/22">
+      <ModelParameterSet key="ModelParameterSet_4" name="Model5 - 4/22">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_14">
+  <rdf:Description rdf:about="#ModelParameterSet_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-22T03:20:18Z</dcterms:W3CDTF>
@@ -2446,10 +2475,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_15" name="Model5 - 4/22b">
+      <ModelParameterSet key="ModelParameterSet_5" name="Model5 - 4/22b">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_15">
+  <rdf:Description rdf:about="#ModelParameterSet_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-22T03:20:18Z</dcterms:W3CDTF>
@@ -2661,10 +2690,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_16" name="Model5 - 4/23">
+      <ModelParameterSet key="ModelParameterSet_6" name="Model5 - 4/23">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_16">
+<rdf:Description rdf:about="#ModelParameterSet_6">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-24T03:51:50Z</dcterms:W3CDTF>
@@ -2944,7 +2973,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_53"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 1.0000000006801599 0 0 0 8.5940230849999992e-09 0 3572663.9999999912 0 0.050000000063963025 0.050000000000492796 0.025785050770753066 0 1.000000009274183 1.000000009274183 0 0.075785050834716094 0.075785050834716094 0.061353908898536008 0.080000000000492788 0.23904023198550733 NaN NaN 10.004268299274015 1.9609904221729529e-08 1.9609904221729527e-07 3.9219808443459059e-08 9.8049521108647646e-09 0.059999999999999998 0.11077520991184649 0.11077520991184649 0.11077520991184649 0.22155041982369297 0.70059598964282044 1.1635524324735352e-11 0.13358131784627694 0 1 0.70059618466325324 0.14011923693265066 0.07005961846632533 0.035029809233162665 0 0.050000000063963025 0.0013539088980391485 0.010000000000004063 0.025785050770753066 0.050000000000492796 0.029999999999999999 0.1982886423739337 0.040751589611573616 3572665 0.78222655465241187 0.29999999999999999 0.0054878294478546081 0.059999999999999998 0.99999999911584836 0.13358131796438308 0.22155041982369297 -1 -1 -1 0 
+      0 0 1.0000000006801599 0 0 0 8.5940230849999992e-09 0 3572663.9999999912 0 0.050000000063963025 0.050000000000492796 0.025785050770753066 0 1.000000009274183 1.000000009274183 0 0.075785050834716094 0.075785050834716094 0.061353908898536008 0.075785050771245865 0.23904023198550733 NaN NaN 10.004622859692288 1.9609904221729529e-08 1.9609904221729527e-07 3.9219808443459059e-08 9.8049521108647646e-09 0.059999999999999998 0.11077520991184649 0.11077520991184649 0.11077520991184649 0.22155041982369297 0.70059598964282044 1.1635524324735352e-11 0.13358131784627694 0 1 0.70059618466325324 0.14011923693265066 0.07005961846632533 0.035029809233162665 0 0.050000000063963025 0.0013539088980391485 0.010000000000004063 0.025785050770753066 0.050000000000492796 0.025785050770753066 0.1982886423739337 0.040751589611573616 3572665 0.78222655465241187 0.29999999999999999 0.0054878294478546081 0.059999999999999998 0.99999999911584836 0.13358131796438308 0.22155041982369297 -1 -1 -1 0 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -3124,7 +3153,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[xi],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.03"/>
             <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 5,Vector=Values[lambda],Reference=InitialValue"/>
-            <Parameter name="StartValue" type="float" value="0.029999999999999999"/>
+            <Parameter name="StartValue" type="float" value="0.025785050770753066"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -3211,7 +3240,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="Key" type="key" value="Experiment_0"/>
             <Parameter name="File Name" type="file" value="CT-COVID19.tsv"/>
             <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="48"/>
+            <Parameter name="Last Row" type="unsignedInteger" value="50"/>
             <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
             <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
             <Parameter name="Separator" type="string" value="&#x09;"/>
@@ -4916,7 +4945,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T11:58:45Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-26T12:39:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -4934,7 +4963,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_14">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T11:58:45Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-26T12:39:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -4952,7 +4981,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T11:58:45Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-26T12:39:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -4970,7 +4999,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_68">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T11:58:45Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-26T12:39:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>

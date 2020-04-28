@@ -182,12 +182,12 @@ set style line 7 lc rgb '#0A0A0A' lt 1 ps 2 lw 8 dt 1
 set ylabel "#"
 set xlabel "time (d)"
 set ytics nomirror
-set xrange[0:200]
+set xrange[0:210]
 unset grid
 set style data lines
 
 set terminal pngcairo size 1280,900
-set output "../Report/TC-4-22-2020.png"
+set output "../Report/TC-4-25-2020.png"
 
 set multiplot layout 2,2
 
@@ -195,25 +195,23 @@ set label "A"  at screen 0.04,0.97 font "Arial,22"
 set label "B"  at screen 0.54,0.97 font "Arial,22" 
 set key top right
 
-set arrow 1 from 45, graph 0 to 45, graph 1 nohead linestyle 5
+set arrow 1 from 48, graph 0 to 48, graph 1 nohead linestyle 5
 
 unset key
-set title "Model 1"
-unset yrange#[0:80000]
-set xtics (0,30,60,90,120, 160,192) nomirror
-set arrow 2 from 192, 0 to 192, 17167 linestyle 6
-plot 'model5tc.txt' u 1:10 ls 1 t "total infected", "" u 1:5 ls 2 t "known infected", "" u 1:19 ls 3 t "hospitalized", "" u 1:7 ls 4 t "dead"
-unset arrow 2
-unset yrange
-set xtics (0,30,45,60,90,120,150,180) nomirror
-set arrow 2 from 45, 0 to 45, 2050 linestyle 6
-set title "Model 2"
-plot 'model4tc.txt' u 1:10 ls 1 t "total infected", "" u 1:5 ls 2 t "known infected", "" u 1:19 ls 3 t "hospitalized", "" u 1:7 ls 4 t "dead"
-unset arrow 2
-set xtics (0,42,60, 90,120,150,180) nomirror
-set arrow 2 from 42, 0 to 42, 2021 linestyle 6
 set title "Model 3"
+set xtics (0,43,60, 90,120,150,180,210) nomirror
+set arrow 2 from 43, 0 to 43, 2034 linestyle 6
 plot 'model3tc.txt' u 1:10 ls 1 t "total infected", "" u 1:5 ls 2 t "known infected", "" u 1:19 ls 3 t "hospitalized", "" u 1:7 ls 4 t "dead"
+set title "Model 4"
+unset arrow 2
+set xtics (0,30,44,60,90,120,150,180,210) nomirror
+set arrow 2 from 44, 0 to 44, 1999 linestyle 6
+plot 'model4tc.txt' u 1:10 ls 1 t "total infected", "" u 1:5 ls 2 t "known infected", "" u 1:19 ls 3 t "hospitalized", "" u 1:7 ls 4 t "dead"
+set title "Model 5"
+unset arrow 2
+set xtics (0,30,60,90,120, 150,180,203, "" 210) nomirror
+set arrow 2 from 203, 0 to 203, 9400 linestyle 6
+plot 'model5tc.txt' u 1:10 ls 1 t "total infected", "" u 1:5 ls 2 t "known infected", "" u 1:19 ls 3 t "hospitalized", "" u 1:7 ls 4 t "dead"
 unset title
 unset arrow 2
 unset arrow 1
@@ -237,34 +235,34 @@ unset label
 
 
 set terminal pngcairo size 1280,900
-set output "../Report/Brackets-4-22-2020.png"
+set output "../Report/Brackets-4-25-2020.png"
 set multiplot layout 2,2
 
 set border
 set xtics
 set ytics
 
-set arrow 1 from 45, graph 0 to 45, graph 1 nohead linestyle 5
+set arrow 1 from 48, graph 0 to 48, graph 1 nohead linestyle 5
 set label "A"  at screen 0.04,0.97 font "Arial,22" 
 set label "B"  at screen 0.54,0.97 font "Arial,22" 
 set label "C"  at screen 0.04,0.47 font "Arial,22" 
 set label "D"  at screen 0.54,0.47 font "Arial,22" 
 unset arrow 2
 set key center right
-set xtics (0,30,60,90,120,150,180) nomirror
+set xtics (0,30,60,90,120,150,180,210) nomirror
 set title "Total Infected"
-plot 'model5tc.txt' u 1:10 ls 1 t "Model 1", 'model4tc.txt' u 1:10 ls 2 t "Model 2",  'model3tc.txt' u 1:10 ls 3 t "Model 3"
+plot 'model3tc.txt' u 1:10 ls 1 t "Model 3", 'model4tc.txt' u 1:10 ls 2 t "Model 4",  'model5tc.txt' u 1:10 ls 3 t "Model 5"
 unset key
 set title "Known Infected"
-plot 'model5tc.txt' u 1:5 ls 1, 'model4tc.txt' u 1:5 ls 2, 'model3tc.txt' u 1:5 ls 3
-set arrow 3 from 42, 00 to 192, 00 linestyle 7 nohead
-set arrow 4 from 0, 2021 to 0, 17167 linestyle 7 nohead
+plot  'model3tc.txt' u 1:5 ls 1, 'model4tc.txt' u 1:5 ls 2, 'model5tc.txt' u 1:5 ls 3
+set arrow 3 from 43, 00 to 203, 00 linestyle 7 nohead
+set arrow 4 from 0, 1999 to 0, 9400 linestyle 7 nohead
 set title "Hospitalized"
-plot 'model5tc.txt' u 1:19 ls 1, 'model4tc.txt' u 1:19 ls 2, 'model3tc.txt' u 1:19 ls 3
+plot  'model3tc.txt' u 1:19 ls 1, 'model4tc.txt' u 1:19 ls 2, 'model5tc.txt' u 1:19 ls 3
 unset arrow 3
 unset arrow 4
 set title "Dead"
-plot 'model5tc.txt' u 1:7 ls 1, 'model4tc.txt' u 1:7 ls 2, 'model3tc.txt' u 1:7 ls 3
+plot 'model3tc.txt' u 1:7 ls 1, 'model4tc.txt' u 1:7 ls 2, 'model5tc.txt' u 1:7 ls 3
 unset multiplot
 
 set output

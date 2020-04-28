@@ -32,11 +32,11 @@ plot "CT-Hartford-COVID19.tsv" u 1:4 ls 1 t "JDH Census", \
       "model3Hfit.txt" u 1:9 w lines ls 3 t "", \
       "model4Hfit.txt" u 1:9 w lines ls 2 t "", \
       "model5Hfit.txt" u 1:9 w lines ls 4 t "", \
-      "TStoch-3-48.tsv" using 1:2 with lines ls 3 t "Model 3", \
+      "TStoch-3-48.tsv" using 1:2 with lines ls 3 t "Model 3H", \
       "TStoch-3-48.tsv" using 1:($2-$3):($2+$3) with filledcurves ls 3 t "", \
-      "TStoch-4-48.tsv" using 1:2 with lines ls 2 t "Model 4", \
+      "TStoch-4-48.tsv" using 1:2 with lines ls 2 t "Model 4H", \
       "TStoch-4-48.tsv" using 1:($2-$3):($2+$3) with filledcurves  ls 2 t "", \
-      "TStoch-5-48.tsv" using 1:2 with lines ls 4 t "Model 5", \
+      "TStoch-5-48.tsv" using 1:2 with lines ls 4 t "Model 5H", \
       "TStoch-5-48.tsv" using 1:($2-$3):($2+$3) with filledcurves ls 4 t ""
       
 set output

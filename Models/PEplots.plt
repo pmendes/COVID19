@@ -182,7 +182,7 @@ set ytics nomirror
 set grid
 
 set terminal pngcairo size 1280,900
-set output "../Report/PE-4-22-2020.png"
+set output "../Report/PE-4-25-2020.png"
 
 set multiplot layout 3,3
 
@@ -190,16 +190,17 @@ set label "A"  at screen 0.01,0.97 font "Arial,22"
 set label "B"  at screen 0.01,0.64 font "Arial,22" 
 set label "C"  at screen 0.01,0.30 font "Arial,22" 
 
-set xrange[0:46]
-set yrange[0:25000]
+set xrange[0:51]
 set title "Positive"
-plot 'model5fit.txt' u 1:2 ls 1, "" u 1:3 w lines ls 2
-unset yrange
+set yrange[0:30000]
+plot 'model3fit.txt' u 1:2 ls 1, "" u 1:3 w lines ls 2
 set title "Hospitalized"
-plot 'model5fit.txt' u 1:6 ls 1, "" u 1:7 w lines ls 2
+set yrange[0:2500]
+plot 'model3fit.txt' u 1:6 ls 1, "" u 1:7 w lines ls 2
 set title "Dead"
-plot 'model5fit.txt' u 1:4 ls 1, "" u 1:5 w lines ls 2
-set yrange[0:25000]
+unset yrange
+plot 'model3fit.txt' u 1:4 ls 1, "" u 1:5 w lines ls 2
+set yrange[0:30000]
 set title "Positive"
 plot 'model4fit.txt' u 1:2 ls 1, "" u 1:3 w lines ls 2
 set yrange[0:2500]
@@ -208,15 +209,15 @@ plot 'model4fit.txt' u 1:6 ls 1, "" u 1:7 w lines ls 2
 unset yrange
 set title "Dead"
 plot 'model4fit.txt' u 1:4 ls 1, "" u 1:5 w lines ls 2
+set yrange[0:30000]
 set title "Positive"
-set yrange[0:25000]
-plot 'model3fit.txt' u 1:2 ls 1, "" u 1:3 w lines ls 2
-set title "Hospitalized"
-set yrange[0:2500]
-plot 'model3fit.txt' u 1:6 ls 1, "" u 1:7 w lines ls 2
-set title "Dead"
+plot 'model5fit.txt' u 1:2 ls 1, "" u 1:3 w lines ls 2
 unset yrange
-plot 'model3fit.txt' u 1:4 ls 1, "" u 1:5 w lines ls 2
+set title "Hospitalized"
+plot 'model5fit.txt' u 1:6 ls 1, "" u 1:7 w lines ls 2
+set title "Dead"
+set yrange[0:2000]
+plot 'model5fit.txt' u 1:4 ls 1, "" u 1:5 w lines ls 2
 unset multiplot
 
 set output

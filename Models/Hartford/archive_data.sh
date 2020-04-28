@@ -1,11 +1,12 @@
 #!/bin/sh
-# move files and put them 
+# move files to Historic folder
+# usage archive_data.sh 4-25-2020
 for filename in model?*.txt
-do 
-    cp "${filename}" "Historic/${filename%.txt}-$1.txt"    
+do
+    cp "${filename}" "Historic/${filename%.txt}-$1.txt"
 done
 
-for filename in Tstoch*.tsv
+for filename in T?toch*.tsv
 do 
-    cp "${filename}" "Historic/${filename%.tsv}-$1.tsv"    
+    mv "${filename}" "Historic/"
 done

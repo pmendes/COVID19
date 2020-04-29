@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.27 (Build 217) on 2020-03-26 09:48 with libSBML version 5.18.0. -->
+<!-- Created by COPASI version 4.27 (Build 217) on 2020-04-29 07:49 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="SIDARTHE" name="SIDARTHE">
     <notes>
@@ -696,16 +696,20 @@
                     <minus/>
                     <apply>
                       <minus/>
-                      <cn> 1 </cn>
-                      <ci> I </ci>
+                      <apply>
+                        <minus/>
+                        <cn> 1 </cn>
+                        <ci> I </ci>
+                      </apply>
+                      <ci> D </ci>
                     </apply>
-                    <ci> D </ci>
+                    <ci> A </ci>
                   </apply>
-                  <ci> A </ci>
+                  <ci> R </ci>
                 </apply>
-                <ci> R </ci>
+                <ci> T </ci>
               </apply>
-              <ci> T </ci>
+              <ci> H </ci>
             </apply>
             <ci> E </ci>
           </apply>
@@ -728,49 +732,25 @@
       </initialAssignment>
     </listOfInitialAssignments>
     <listOfRules>
-      <assignmentRule variable="DRT">
+      <assignmentRule variable="CFR">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
-            <plus/>
-            <ci> D </ci>
-            <ci> R </ci>
-            <ci> T </ci>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="IDARTHE">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <ci> I </ci>
-            <ci> D </ci>
-            <ci> A </ci>
-            <ci> R </ci>
-            <ci> T </ci>
-            <ci> H </ci>
+            <divide/>
             <ci> E </ci>
+            <apply>
+              <minus/>
+              <ci> Metabolite_1 </ci>
+              <ci> S </ci>
+            </apply>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="IDART">
+      <assignmentRule variable="r4">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
-            <ci> I </ci>
-            <ci> D </ci>
-            <ci> A </ci>
-            <ci> R </ci>
-            <ci> T </ci>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="Diagn_cumul_infected">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <ci> DRT </ci>
-            <ci> Recovered </ci>
-            <ci> E </ci>
+            <ci> nu </ci>
+            <ci> xi </ci>
           </apply>
         </math>
       </assignmentRule>
@@ -803,21 +783,71 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="r4">
+      <assignmentRule variable="R0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
-            <ci> nu </ci>
-            <ci> xi </ci>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="r5">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <ci> sigma </ci>
-            <ci> tau </ci>
+            <apply>
+              <divide/>
+              <ci> alpha </ci>
+              <ci> r1 </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> beta </ci>
+                <ci> epsilon </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r2 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> gamma </ci>
+                <ci> zeta </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r3 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> delta </ci>
+                <ci> eta </ci>
+                <ci> epsilon </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r2 </ci>
+                <ci> r4 </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> delta </ci>
+                <ci> zeta </ci>
+                <ci> theta </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> r1 </ci>
+                <ci> r3 </ci>
+                <ci> r4 </ci>
+              </apply>
+            </apply>
           </apply>
         </math>
       </assignmentRule>
@@ -890,84 +920,58 @@
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="CFR">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <divide/>
-            <ci> E </ci>
-            <apply>
-              <minus/>
-              <ci> Metabolite_1 </ci>
-              <ci> S </ci>
-            </apply>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule variable="R0">
+      <assignmentRule variable="DRT">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
-            <apply>
-              <divide/>
-              <ci> alpha </ci>
-              <ci> r1 </ci>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> beta </ci>
-                <ci> epsilon </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r2 </ci>
-              </apply>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> gamma </ci>
-                <ci> zeta </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r3 </ci>
-              </apply>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> delta </ci>
-                <ci> eta </ci>
-                <ci> epsilon </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r2 </ci>
-                <ci> r4 </ci>
-              </apply>
-            </apply>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> delta </ci>
-                <ci> zeta </ci>
-                <ci> theta </ci>
-              </apply>
-              <apply>
-                <times/>
-                <ci> r1 </ci>
-                <ci> r3 </ci>
-                <ci> r4 </ci>
-              </apply>
-            </apply>
+            <ci> D </ci>
+            <ci> R </ci>
+            <ci> T </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Diagn_cumul_infected">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> DRT </ci>
+            <ci> Recovered </ci>
+            <ci> E </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="IDARTHE">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> I </ci>
+            <ci> D </ci>
+            <ci> A </ci>
+            <ci> R </ci>
+            <ci> T </ci>
+            <ci> H </ci>
+            <ci> E </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="IDART">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> I </ci>
+            <ci> D </ci>
+            <ci> A </ci>
+            <ci> R </ci>
+            <ci> T </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="r5">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> sigma </ci>
+            <ci> tau </ci>
           </apply>
         </math>
       </assignmentRule>

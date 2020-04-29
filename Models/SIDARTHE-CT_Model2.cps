@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-04-26T03:02:29Z -->
+<!-- generated with COPASI 4.27 (Build 217) (http://www.copasi.org) at 2020-04-29T11:45:59Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="27" versionDevel="217" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -28,14 +28,14 @@ Reaction scheme where the products are created from the reactants and the change
       </ListOfParameterDescriptions>
     </Function>
   </ListOfFunctions>
-  <Model key="Model_1" name="SIDARTHE Connecticut Model 2" simulationType="time" timeUnit="d" volumeUnit="1" areaUnit="1" lengthUnit="1" quantityUnit="#" type="deterministic" avogadroConstant="6.0221408570000002e+23">
+  <Model key="Model_0" name="SIDARTHE Connecticut Model 2" simulationType="time" timeUnit="d" volumeUnit="1" areaUnit="1" lengthUnit="1" quantityUnit="#" type="deterministic" avogadroConstant="6.0221408570000002e+23">
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <rdf:Description rdf:about="#Model_1">
+  <rdf:Description rdf:about="#Model_0">
     <dcterms:bibliographicCitation>
       <rdf:Description>
         <dcterms:description>Giordano, G., Blanchini, F., Bruno, R. et al. Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy. Nat Med (2020).</dcterms:description>
@@ -112,10 +112,10 @@ Reaction scheme where the products are created from the reactants and the change
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_0" name="I" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_7" name="I" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_0">
+  <rdf:Description rdf:about="#Metabolite_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:01Z</dcterms:W3CDTF>
@@ -125,10 +125,12 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_1" name="S" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_6" name="S" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_1">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Metabolite_6">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:01Z</dcterms:W3CDTF>
@@ -136,15 +138,16 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
         <InitialExpression>
-          &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+          &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
         </InitialExpression>
       </Metabolite>
-      <Metabolite key="Metabolite_2" name="D" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_5" name="D" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_2">
+  <rdf:Description rdf:about="#Metabolite_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:41Z</dcterms:W3CDTF>
@@ -154,10 +157,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_3" name="A" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_4" name="A" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_3">
+  <rdf:Description rdf:about="#Metabolite_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:41:07Z</dcterms:W3CDTF>
@@ -167,10 +170,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_4" name="R" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_3" name="R" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_4">
+  <rdf:Description rdf:about="#Metabolite_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:41:40Z</dcterms:W3CDTF>
@@ -180,10 +183,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_5" name="T" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_2" name="T" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_5">
+  <rdf:Description rdf:about="#Metabolite_2">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:32Z</dcterms:W3CDTF>
@@ -193,10 +196,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_6" name="E" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_1" name="E" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_6">
+  <rdf:Description rdf:about="#Metabolite_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:14Z</dcterms:W3CDTF>
@@ -206,10 +209,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_7" name="H" simulationType="reactions" compartment="Compartment_0" addNoise="false">
+      <Metabolite key="Metabolite_0" name="H" simulationType="reactions" compartment="Compartment_0" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_7">
+  <rdf:Description rdf:about="#Metabolite_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:48Z</dcterms:W3CDTF>
@@ -221,10 +224,10 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_0" name="alpha" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_53" name="alpha" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_0">
+  <rdf:Description rdf:about="#ModelValue_53">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:14Z</dcterms:W3CDTF>
@@ -237,10 +240,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_1" name="beta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_52" name="beta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_1">
+  <rdf:Description rdf:about="#ModelValue_52">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:15Z</dcterms:W3CDTF>
@@ -253,10 +256,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*0.02
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_2" name="gamma" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_51" name="gamma" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_2">
+  <rdf:Description rdf:about="#ModelValue_51">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:18Z</dcterms:W3CDTF>
@@ -269,10 +272,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*0.3
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_3" name="delta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_50" name="delta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_3">
+  <rdf:Description rdf:about="#ModelValue_50">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:20Z</dcterms:W3CDTF>
@@ -285,10 +288,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*0.02
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_4" name="epsilon" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_49" name="epsilon" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_4">
+  <rdf:Description rdf:about="#ModelValue_49">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:22Z</dcterms:W3CDTF>
@@ -298,10 +301,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_5" name="zeta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_48" name="zeta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_5">
+  <rdf:Description rdf:about="#ModelValue_48">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:48Z</dcterms:W3CDTF>
@@ -314,10 +317,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*0.22
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_6" name="eta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_47" name="eta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_6">
+  <rdf:Description rdf:about="#ModelValue_47">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:27:02Z</dcterms:W3CDTF>
@@ -330,10 +333,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*0.22
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_7" name="theta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_46" name="theta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_7">
+  <rdf:Description rdf:about="#ModelValue_46">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:28:58Z</dcterms:W3CDTF>
@@ -346,10 +349,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_theta],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_8" name="kappa" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_45" name="kappa" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_8">
+  <rdf:Description rdf:about="#ModelValue_45">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:03Z</dcterms:W3CDTF>
@@ -362,10 +365,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_kappa],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_9" name="lambda" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_44" name="lambda" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_9">
+  <rdf:Description rdf:about="#ModelValue_44">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:30Z</dcterms:W3CDTF>
@@ -378,10 +381,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_lambda],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_10" name="mu" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_43" name="mu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_10">
+  <rdf:Description rdf:about="#ModelValue_43">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:50Z</dcterms:W3CDTF>
@@ -394,10 +397,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_mu],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_11" name="nu" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_42" name="nu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_11">
+  <rdf:Description rdf:about="#ModelValue_42">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:55Z</dcterms:W3CDTF>
@@ -410,10 +413,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_nu],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_12" name="xi" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_41" name="xi" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_12">
+  <rdf:Description rdf:about="#ModelValue_41">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:31:39Z</dcterms:W3CDTF>
@@ -426,10 +429,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_xi],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_13" name="rho" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_40" name="rho" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_13">
+  <rdf:Description rdf:about="#ModelValue_40">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:31:42Z</dcterms:W3CDTF>
@@ -442,10 +445,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_rho],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_14" name="sigma" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_39" name="sigma" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_14">
+  <rdf:Description rdf:about="#ModelValue_39">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:31:45Z</dcterms:W3CDTF>
@@ -458,10 +461,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[scale],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_sigma],Reference=InitialValue>
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_15" name="tau" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_38" name="tau" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_15">
+  <rdf:Description rdf:about="#ModelValue_38">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:32:02Z</dcterms:W3CDTF>
@@ -471,10 +474,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_16" name="DRT" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_37" name="DRT" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_16">
+  <rdf:Description rdf:about="#ModelValue_37">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T18:54:35Z</dcterms:W3CDTF>
@@ -487,10 +490,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_17" name="IDARTHE" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_36" name="IDARTHE" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_17">
+  <rdf:Description rdf:about="#ModelValue_36">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T19:08:58Z</dcterms:W3CDTF>
@@ -503,10 +506,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_18" name="IDART" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_35" name="IDART" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_18">
+  <rdf:Description rdf:about="#ModelValue_35">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T19:10:28Z</dcterms:W3CDTF>
@@ -519,10 +522,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_19" name="Recovered" simulationType="ode" addNoise="false">
+      <ModelValue key="ModelValue_34" name="Recovered" simulationType="ode" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_19">
+  <rdf:Description rdf:about="#ModelValue_34">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T20:39:15Z</dcterms:W3CDTF>
@@ -535,10 +538,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[rho],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[xi],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[sigma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_20" name="Diagnosed Cumulative infected" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_33" name="Diagnosed Cumulative infected" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_20">
+  <rdf:Description rdf:about="#ModelValue_33">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T20:50:53Z</dcterms:W3CDTF>
@@ -551,10 +554,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[DRT],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Recovered],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_21" name="r1" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_32" name="r1" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_21">
+  <rdf:Description rdf:about="#ModelValue_32">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:31:35Z</dcterms:W3CDTF>
@@ -567,10 +570,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[epsilon],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[zeta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[lambda],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_22" name="r2" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_31" name="r2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_22">
+  <rdf:Description rdf:about="#ModelValue_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:32:25Z</dcterms:W3CDTF>
@@ -583,10 +586,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[eta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[rho],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_23" name="r3" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_30" name="r3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_23">
+  <rdf:Description rdf:about="#ModelValue_30">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:33:26Z</dcterms:W3CDTF>
@@ -599,10 +602,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[mu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[kappa],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_24" name="r4" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_29" name="r4" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_24">
+  <rdf:Description rdf:about="#ModelValue_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:34:17Z</dcterms:W3CDTF>
@@ -615,10 +618,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[nu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[xi],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_25" name="r5" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_28" name="r5" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_25">
+  <rdf:Description rdf:about="#ModelValue_28">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:34:51Z</dcterms:W3CDTF>
@@ -631,10 +634,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[sigma],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[tau],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_26" name="Perceived CFR" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_27" name="Perceived CFR" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_26">
+  <rdf:Description rdf:about="#ModelValue_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:36:06Z</dcterms:W3CDTF>
@@ -647,10 +650,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>/((&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[epsilon],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r3],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[zeta],Reference=Value>*(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[mu],Reference=Value>))/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r3],Reference=Value>)*(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=Concentration>)+(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[mu],Reference=Value>)/&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r3],Reference=Value>*(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>))
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_27" name="CFR" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_26" name="CFR" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_27">
+  <rdf:Description rdf:about="#ModelValue_26">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:45:28Z</dcterms:W3CDTF>
@@ -663,10 +666,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=Concentration>)
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_28" name="R0" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_25" name="R0" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_28">
+  <rdf:Description rdf:about="#ModelValue_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T00:00:24Z</dcterms:W3CDTF>
@@ -679,10 +682,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r1],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r2],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[zeta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r3],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[eta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r2],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r4],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[zeta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r3],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[r4],Reference=Value>)
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_29" name="gamma_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_24" name="gamma_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_29">
+  <rdf:Description rdf:about="#ModelValue_24">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T17:59:52Z</dcterms:W3CDTF>
@@ -695,10 +698,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_30" name="Population" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_23" name="Population" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_30">
+  <rdf:Description rdf:about="#ModelValue_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:00:37Z</dcterms:W3CDTF>
@@ -711,10 +714,10 @@ Reaction scheme where the products are created from the reactants and the change
           #
         </Unit>
       </ModelValue>
-      <ModelValue key="ModelValue_31" name="alpha_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_22" name="alpha_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_31">
+  <rdf:Description rdf:about="#ModelValue_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:07:32Z</dcterms:W3CDTF>
@@ -727,10 +730,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_32" name="beta_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_21" name="beta_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_32">
+  <rdf:Description rdf:about="#ModelValue_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:07:48Z</dcterms:W3CDTF>
@@ -743,10 +746,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_33" name="delta_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_20" name="delta_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_33">
+  <rdf:Description rdf:about="#ModelValue_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:08:08Z</dcterms:W3CDTF>
@@ -759,10 +762,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_34" name="scale" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_19" name="scale" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_34">
+  <rdf:Description rdf:about="#ModelValue_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T22:54:38Z</dcterms:W3CDTF>
@@ -772,10 +775,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_35" name="f_epsilon" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_18" name="f_epsilon" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_35">
+  <rdf:Description rdf:about="#ModelValue_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:10:51Z</dcterms:W3CDTF>
@@ -785,10 +788,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_36" name="f_theta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_17" name="f_theta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_36">
+  <rdf:Description rdf:about="#ModelValue_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:12:01Z</dcterms:W3CDTF>
@@ -798,10 +801,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_37" name="f_mu" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_16" name="f_mu" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_37">
+  <rdf:Description rdf:about="#ModelValue_16">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:24:32Z</dcterms:W3CDTF>
@@ -814,10 +817,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_nu],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_38" name="f_nu" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_15" name="f_nu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_38">
+  <rdf:Description rdf:about="#ModelValue_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:24:46Z</dcterms:W3CDTF>
@@ -827,10 +830,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_39" name="day8x" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_14" name="day8x" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_39">
+  <rdf:Description rdf:about="#ModelValue_14">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-31T01:43:46Z</dcterms:W3CDTF>
@@ -840,10 +843,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_40" name="day15x" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_13" name="day15x" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_40">
+  <rdf:Description rdf:about="#ModelValue_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-31T01:44:07Z</dcterms:W3CDTF>
@@ -853,10 +856,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_41" name="f_lambda" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_12" name="f_lambda" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_41">
+  <rdf:Description rdf:about="#ModelValue_12">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:08:38Z</dcterms:W3CDTF>
@@ -866,10 +869,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_42" name="f_kappa" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_11" name="f_kappa" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_42">
+  <rdf:Description rdf:about="#ModelValue_11">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:08:48Z</dcterms:W3CDTF>
@@ -882,10 +885,10 @@ Reaction scheme where the products are created from the reactants and the change
           0.5*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_lambda],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_43" name="f_sigma" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_10" name="f_sigma" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_43">
+  <rdf:Description rdf:about="#ModelValue_10">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:09:00Z</dcterms:W3CDTF>
@@ -898,10 +901,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_kappa],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_44" name="f_xi" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_9" name="f_xi" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_44">
+  <rdf:Description rdf:about="#ModelValue_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:09:07Z</dcterms:W3CDTF>
@@ -914,10 +917,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_kappa],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_45" name="f_rho" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_8" name="f_rho" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_45">
+  <rdf:Description rdf:about="#ModelValue_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:09:15Z</dcterms:W3CDTF>
@@ -930,10 +933,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[f_lambda],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_46" name="Tpeak" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_7" name="Tpeak" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_46">
+  <rdf:Description rdf:about="#ModelValue_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T01:20:58Z</dcterms:W3CDTF>
@@ -943,10 +946,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_47" name="Tpeaktime" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_6" name="Tpeaktime" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_47">
+  <rdf:Description rdf:about="#ModelValue_6">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T01:23:07Z</dcterms:W3CDTF>
@@ -956,10 +959,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_48" name="New cases" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_5" name="New cases" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_48">
+  <rdf:Description rdf:about="#ModelValue_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T13:50:18Z</dcterms:W3CDTF>
@@ -972,10 +975,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Reactions[contagion_A],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Reactions[contagion_D],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Reactions[contagion_I],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Reactions[contagion_R],Reference=Flux>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_49" name="New diagnosed" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_4" name="New diagnosed" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_49">
+  <rdf:Description rdf:about="#ModelValue_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T13:52:23Z</dcterms:W3CDTF>
@@ -988,10 +991,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Reactions[diagnosis_A],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Reactions[diagnosis_I],Reference=Flux>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_50" name="Tnonew" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_3" name="Tnonew" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_50">
+  <rdf:Description rdf:about="#ModelValue_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T13:53:38Z</dcterms:W3CDTF>
@@ -1001,10 +1004,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_51" name="Tot_reduction" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_2" name="Tot_reduction" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_51">
+  <rdf:Description rdf:about="#ModelValue_2">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-04T13:47:50Z</dcterms:W3CDTF>
@@ -1017,10 +1020,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day8x],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day15x],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_52" name="ImmuneRatio" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_1" name="ImmuneRatio" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_52">
+  <rdf:Description rdf:about="#ModelValue_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-13T20:46:20Z</dcterms:W3CDTF>
@@ -1033,10 +1036,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=Concentration>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=Concentration>)
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_53" name="applyRelaxationMay1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_0" name="applyRelaxationMay1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_53">
+  <rdf:Description rdf:about="#ModelValue_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-14T18:48:28Z</dcterms:W3CDTF>
@@ -1048,10 +1051,10 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
     </ListOfModelValues>
     <ListOfReactions>
-      <Reaction key="Reaction_0" name="contagion_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_15" name="contagion_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_0">
+  <rdf:Description rdf:about="#Reaction_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:39:32Z</dcterms:W3CDTF>
@@ -1061,31 +1064,31 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_0" stoichiometry="2"/>
+          <Product metabolite="Metabolite_7" stoichiometry="2"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5001" name="k1" value="2.67491e-07"/>
+          <Constant key="Parameter_5046" name="k1" value="2.67491e-07"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_31"/>
+              <SourceParameter reference="ModelValue_22"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_1"/>
-              <SourceParameter reference="Metabolite_0"/>
+              <SourceParameter reference="Metabolite_6"/>
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_1" name="contagion_D" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_14" name="contagion_D" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_1">
+  <rdf:Description rdf:about="#Reaction_14">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:20Z</dcterms:W3CDTF>
@@ -1095,32 +1098,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_0" stoichiometry="1"/>
-          <Product metabolite="Metabolite_2" stoichiometry="1"/>
+          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_5000" name="k1" value="5.34982e-09"/>
+          <Constant key="Parameter_5058" name="k1" value="5.34982e-09"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_32"/>
+              <SourceParameter reference="ModelValue_21"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_1"/>
-              <SourceParameter reference="Metabolite_2"/>
+              <SourceParameter reference="Metabolite_6"/>
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_2" name="contagion_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_13" name="contagion_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_2">
+  <rdf:Description rdf:about="#Reaction_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:54Z</dcterms:W3CDTF>
@@ -1130,32 +1133,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_0" stoichiometry="1"/>
-          <Product metabolite="Metabolite_3" stoichiometry="1"/>
+          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4999" name="k1" value="8.02473e-08"/>
+          <Constant key="Parameter_4407" name="k1" value="8.02473e-08"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_29"/>
+              <SourceParameter reference="ModelValue_24"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_1"/>
-              <SourceParameter reference="Metabolite_3"/>
+              <SourceParameter reference="Metabolite_6"/>
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_3" name="contagion_R" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_12" name="contagion_R" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_3">
+  <rdf:Description rdf:about="#Reaction_12">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:41:27Z</dcterms:W3CDTF>
@@ -1165,32 +1168,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_0" stoichiometry="1"/>
-          <Product metabolite="Metabolite_4" stoichiometry="1"/>
+          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4998" name="k1" value="5.34982e-09"/>
+          <Constant key="Parameter_5075" name="k1" value="5.34982e-09"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_33"/>
+              <SourceParameter reference="ModelValue_20"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_1"/>
-              <SourceParameter reference="Metabolite_4"/>
+              <SourceParameter reference="Metabolite_6"/>
+              <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_4" name="diagnosis_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_11" name="diagnosis_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_4">
+  <rdf:Description rdf:about="#Reaction_11">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:43:45Z</dcterms:W3CDTF>
@@ -1200,29 +1203,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_2" stoichiometry="1"/>
+          <Product metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4997" name="k1" value="0"/>
+          <Constant key="Parameter_4406" name="k1" value="0"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_4"/>
+              <SourceParameter reference="ModelValue_49"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_0"/>
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_5" name="symptoms_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_10" name="symptoms_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_5">
+  <rdf:Description rdf:about="#Reaction_10">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:44:25Z</dcterms:W3CDTF>
@@ -1232,29 +1235,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_3" stoichiometry="1"/>
+          <Product metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4996" name="k1" value="0.210244"/>
+          <Constant key="Parameter_5073" name="k1" value="0.210244"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_5"/>
+              <SourceParameter reference="ModelValue_48"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_0"/>
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_6" name="symptoms_D" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_9" name="symptoms_D" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_6">
+  <rdf:Description rdf:about="#Reaction_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:44:41Z</dcterms:W3CDTF>
@@ -1264,29 +1267,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_4" stoichiometry="1"/>
+          <Product metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4995" name="k1" value="0.210244"/>
+          <Constant key="Parameter_4411" name="k1" value="0.210244"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_6"/>
+              <SourceParameter reference="ModelValue_47"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_2"/>
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_7" name="diagnosis_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_8" name="diagnosis_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_7">
+  <rdf:Description rdf:about="#Reaction_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:01Z</dcterms:W3CDTF>
@@ -1296,29 +1299,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_4" stoichiometry="1"/>
+          <Product metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4994" name="k1" value="0.00144366"/>
+          <Constant key="Parameter_4409" name="k1" value="0.00144366"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_7"/>
+              <SourceParameter reference="ModelValue_46"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_3"/>
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_8" name="critical_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_7" name="critical_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_8">
+  <rdf:Description rdf:about="#Reaction_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:28Z</dcterms:W3CDTF>
@@ -1328,29 +1331,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_5" stoichiometry="1"/>
+          <Product metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4993" name="k1" value="0.0573394"/>
+          <Constant key="Parameter_4403" name="k1" value="0.0573394"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_10"/>
+              <SourceParameter reference="ModelValue_43"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_3"/>
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_9" name="critical_R" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_6" name="critical_R" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_9">
+  <rdf:Description rdf:about="#Reaction_6">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:40Z</dcterms:W3CDTF>
@@ -1360,29 +1363,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_5" stoichiometry="1"/>
+          <Product metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4992" name="k1" value="0.0573394"/>
+          <Constant key="Parameter_4414" name="k1" value="0.0573394"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_11"/>
+              <SourceParameter reference="ModelValue_42"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_4"/>
+              <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_10" name="death" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_5" name="death" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_10">
+  <rdf:Description rdf:about="#Reaction_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:06Z</dcterms:W3CDTF>
@@ -1392,29 +1395,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_6" stoichiometry="1"/>
+          <Product metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4991" name="k1" value="0.0363927"/>
+          <Constant key="Parameter_4408" name="k1" value="0.0363927"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_15"/>
+              <SourceParameter reference="ModelValue_38"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_5"/>
+              <SourceParameter reference="Metabolite_2"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_11" name="healing_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_4" name="healing_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_11">
+  <rdf:Description rdf:about="#Reaction_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:27Z</dcterms:W3CDTF>
@@ -1424,29 +1427,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4990" name="k1" value="0.3"/>
+          <Constant key="Parameter_4757" name="k1" value="0.3"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_9"/>
+              <SourceParameter reference="ModelValue_44"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_0"/>
+              <SourceParameter reference="Metabolite_7"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_12" name="healing_D" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_3" name="healing_D" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_12">
+  <rdf:Description rdf:about="#Reaction_3">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:56Z</dcterms:W3CDTF>
@@ -1456,29 +1459,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4989" name="k1" value="0.3"/>
+          <Constant key="Parameter_4756" name="k1" value="0.3"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_13"/>
+              <SourceParameter reference="ModelValue_40"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_2"/>
+              <SourceParameter reference="Metabolite_5"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_13" name="healing_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_2" name="healing_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_13">
+  <rdf:Description rdf:about="#Reaction_2">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:47:19Z</dcterms:W3CDTF>
@@ -1488,29 +1491,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4988" name="k1" value="0.15"/>
+          <Constant key="Parameter_4404" name="k1" value="0.15"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_8"/>
+              <SourceParameter reference="ModelValue_45"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_3"/>
+              <SourceParameter reference="Metabolite_4"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_14" name="healing_R" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_1" name="healing_R" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_14">
+  <rdf:Description rdf:about="#Reaction_1">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:47:31Z</dcterms:W3CDTF>
@@ -1520,29 +1523,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4987" name="k1" value="0.15"/>
+          <Constant key="Parameter_4400" name="k1" value="0.15"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_12"/>
+              <SourceParameter reference="ModelValue_41"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_4"/>
+              <SourceParameter reference="Metabolite_3"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_15" name="healing_T" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_0" name="healing_T" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_15">
+  <rdf:Description rdf:about="#Reaction_0">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:47:52Z</dcterms:W3CDTF>
@@ -1552,31 +1555,31 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_7" stoichiometry="1"/>
+          <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4986" name="k1" value="0.15"/>
+          <Constant key="Parameter_4402" name="k1" value="0.15"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_14"/>
+              <SourceParameter reference="ModelValue_39"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_5"/>
+              <SourceParameter reference="Metabolite_2"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
     </ListOfReactions>
     <ListOfEvents>
-      <Event key="Event_0" name="Day 15" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_8" name="Day 15" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_0">
+  <rdf:Description rdf:about="#Event_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T18:33:56Z</dcterms:W3CDTF>
@@ -1592,37 +1595,37 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time> > 15
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha]" targetKey="ModelValue_0">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha]" targetKey="ModelValue_53">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma]" targetKey="ModelValue_2">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma]" targetKey="ModelValue_51">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta]" targetKey="ModelValue_1">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta]" targetKey="ModelValue_52">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta]" targetKey="ModelValue_3">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta]" targetKey="ModelValue_50">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_7">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_46">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=InitialValue>*50
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_1" name="Day 08" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_7" name="Day 08" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_1">
+  <rdf:Description rdf:about="#Event_7">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T17:37:25Z</dcterms:W3CDTF>
@@ -1638,32 +1641,32 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time> > 8
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha]" targetKey="ModelValue_0">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha]" targetKey="ModelValue_53">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma]" targetKey="ModelValue_2">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma]" targetKey="ModelValue_51">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta]" targetKey="ModelValue_1">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta]" targetKey="ModelValue_52">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta]" targetKey="ModelValue_3">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta]" targetKey="ModelValue_50">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_2" name="Day 11" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_6" name="Day 11" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_2">
+  <rdf:Description rdf:about="#Event_6">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-30T17:24:04Z</dcterms:W3CDTF>
@@ -1676,17 +1679,17 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time> > 10
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_7">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_46">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=InitialValue>*20
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_3" name="T peak detection" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_5" name="T peak detection" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_3">
+  <rdf:Description rdf:about="#Event_5">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T01:20:18Z</dcterms:W3CDTF>
@@ -1699,12 +1702,12 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Rate> &lt; 0
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tpeak]" targetKey="ModelValue_46">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tpeak]" targetKey="ModelValue_7">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tpeaktime]" targetKey="ModelValue_47">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tpeaktime]" targetKey="ModelValue_6">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time>
             </Expression>
@@ -1727,14 +1730,14 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[New diagnosed],Reference=Value> &lt; 1
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tnonew]" targetKey="ModelValue_50">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tnonew]" targetKey="ModelValue_3">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time>
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_5" name="Day 19" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_3" name="Day 19" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_2">
@@ -1750,14 +1753,14 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time> > 18
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_7">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_46">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=InitialValue>*95
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_6" name="Day 29" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_2" name="Day 29" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_2">
@@ -1773,14 +1776,14 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time> > 28
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_7">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta]" targetKey="ModelValue_46">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[theta],Reference=InitialValue>*150
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_7" name="May 1 relaxation" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_1" name="May 1 relaxation" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_5">
@@ -1799,22 +1802,22 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Reference=Time> > 54 &amp;&amp; &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[applyRelaxationMay1],Reference=Value> == 1
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha]" targetKey="ModelValue_0">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha]" targetKey="ModelValue_53">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[alpha],Reference=InitialValue>*(1-(1-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tot_reduction],Reference=Value>)/2)
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma]" targetKey="ModelValue_2">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma]" targetKey="ModelValue_51">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[gamma],Reference=InitialValue>*(1-(1-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tot_reduction],Reference=Value>)/2)
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta]" targetKey="ModelValue_1">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta]" targetKey="ModelValue_52">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[beta],Reference=InitialValue>*(1-(1-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tot_reduction],Reference=Value>)/2)
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta]" targetKey="ModelValue_3">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta]" targetKey="ModelValue_50">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[delta],Reference=InitialValue>*(1-(1-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Tot_reduction],Reference=Value>)/2)
             </Expression>
@@ -1831,7 +1834,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T03:00:44Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-29T11:45:49Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1847,7 +1850,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1.0000000303166965" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572661.9999999697" type="Species" simulationType="reactions">
             <InitialExpression>
-              &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
             </InitialExpression>
           </ModelParameter>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
@@ -2084,10 +2087,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_3" name="Model2 - 4/08">
+      <ModelParameterSet key="ModelParameterSet_18" name="Model2 - 4/08">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_3">
+  <rdf:Description rdf:about="#ModelParameterSet_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-06T16:03:34Z</dcterms:W3CDTF>
@@ -2341,10 +2344,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_4" name="Model2 - 4/10">
+      <ModelParameterSet key="ModelParameterSet_19" name="Model2 - 4/10">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_4">
+  <rdf:Description rdf:about="#ModelParameterSet_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-11T01:59:16Z</dcterms:W3CDTF>
@@ -2598,10 +2601,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_5" name="Model2 - 4/11">
+      <ModelParameterSet key="ModelParameterSet_20" name="Model2 - 4/11">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_5">
+<rdf:Description rdf:about="#ModelParameterSet_20">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-12T00:04:49Z</dcterms:W3CDTF>
@@ -2855,10 +2858,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_6" name="Model2 - 4/12">
+      <ModelParameterSet key="ModelParameterSet_21" name="Model2 - 4/12">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_6">
+  <rdf:Description rdf:about="#ModelParameterSet_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-12T19:22:34Z</dcterms:W3CDTF>
@@ -3112,10 +3115,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_7" name="Model2 - 4/13">
+      <ModelParameterSet key="ModelParameterSet_22" name="Model2 - 4/13">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_7">
+  <rdf:Description rdf:about="#ModelParameterSet_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-13T20:45:56Z</dcterms:W3CDTF>
@@ -3629,10 +3632,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_9" name="Model2 - 4/15">
+      <ModelParameterSet key="ModelParameterSet_16" name="Model2 - 4/15">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_9">
+<rdf:Description rdf:about="#ModelParameterSet_16">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-16T14:30:44Z</dcterms:W3CDTF>
@@ -3888,10 +3891,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_10" name="Model2 - 4/16">
+      <ModelParameterSet key="ModelParameterSet_9" name="Model2 - 4/16">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_10">
+  <rdf:Description rdf:about="#ModelParameterSet_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-16T14:30:44Z</dcterms:W3CDTF>
@@ -4147,10 +4150,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_11" name="Model2 - 4/17">
+      <ModelParameterSet key="ModelParameterSet_3" name="Model2 - 4/17">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_11">
+<rdf:Description rdf:about="#ModelParameterSet_3">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-17T03:56:29Z</dcterms:W3CDTF>
@@ -4406,10 +4409,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_12" name="Model2 - 4/18">
+      <ModelParameterSet key="ModelParameterSet_4" name="Model2 - 4/18">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_12">
+  <rdf:Description rdf:about="#ModelParameterSet_4">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-18T11:34:33Z</dcterms:W3CDTF>
@@ -4665,10 +4668,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_13" name="Model2 - 4/19">
+      <ModelParameterSet key="ModelParameterSet_5" name="Model2 - 4/19">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_13">
+<rdf:Description rdf:about="#ModelParameterSet_5">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-18T11:34:33Z</dcterms:W3CDTF>
@@ -4926,78 +4929,78 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelParameterSet>
     </ListOfModelParameterSets>
     <StateTemplate>
-      <StateTemplateVariable objectReference="Model_1"/>
-      <StateTemplateVariable objectReference="ModelValue_19"/>
-      <StateTemplateVariable objectReference="Metabolite_0"/>
+      <StateTemplateVariable objectReference="Model_0"/>
+      <StateTemplateVariable objectReference="ModelValue_34"/>
       <StateTemplateVariable objectReference="Metabolite_7"/>
-      <StateTemplateVariable objectReference="Metabolite_4"/>
-      <StateTemplateVariable objectReference="Metabolite_5"/>
+      <StateTemplateVariable objectReference="Metabolite_0"/>
       <StateTemplateVariable objectReference="Metabolite_3"/>
       <StateTemplateVariable objectReference="Metabolite_2"/>
-      <StateTemplateVariable objectReference="Metabolite_1"/>
+      <StateTemplateVariable objectReference="Metabolite_4"/>
+      <StateTemplateVariable objectReference="Metabolite_5"/>
       <StateTemplateVariable objectReference="Metabolite_6"/>
-      <StateTemplateVariable objectReference="ModelValue_16"/>
-      <StateTemplateVariable objectReference="ModelValue_17"/>
-      <StateTemplateVariable objectReference="ModelValue_18"/>
-      <StateTemplateVariable objectReference="ModelValue_20"/>
-      <StateTemplateVariable objectReference="ModelValue_21"/>
-      <StateTemplateVariable objectReference="ModelValue_22"/>
-      <StateTemplateVariable objectReference="ModelValue_23"/>
-      <StateTemplateVariable objectReference="ModelValue_24"/>
-      <StateTemplateVariable objectReference="ModelValue_25"/>
-      <StateTemplateVariable objectReference="ModelValue_26"/>
-      <StateTemplateVariable objectReference="ModelValue_27"/>
-      <StateTemplateVariable objectReference="ModelValue_28"/>
-      <StateTemplateVariable objectReference="ModelValue_29"/>
-      <StateTemplateVariable objectReference="ModelValue_31"/>
-      <StateTemplateVariable objectReference="ModelValue_32"/>
-      <StateTemplateVariable objectReference="ModelValue_33"/>
+      <StateTemplateVariable objectReference="Metabolite_1"/>
       <StateTemplateVariable objectReference="ModelValue_37"/>
-      <StateTemplateVariable objectReference="ModelValue_42"/>
-      <StateTemplateVariable objectReference="ModelValue_43"/>
-      <StateTemplateVariable objectReference="ModelValue_44"/>
-      <StateTemplateVariable objectReference="ModelValue_45"/>
-      <StateTemplateVariable objectReference="ModelValue_48"/>
-      <StateTemplateVariable objectReference="ModelValue_49"/>
-      <StateTemplateVariable objectReference="ModelValue_51"/>
-      <StateTemplateVariable objectReference="ModelValue_52"/>
-      <StateTemplateVariable objectReference="Compartment_0"/>
-      <StateTemplateVariable objectReference="ModelValue_0"/>
-      <StateTemplateVariable objectReference="ModelValue_1"/>
-      <StateTemplateVariable objectReference="ModelValue_2"/>
-      <StateTemplateVariable objectReference="ModelValue_3"/>
-      <StateTemplateVariable objectReference="ModelValue_4"/>
-      <StateTemplateVariable objectReference="ModelValue_5"/>
-      <StateTemplateVariable objectReference="ModelValue_6"/>
-      <StateTemplateVariable objectReference="ModelValue_7"/>
-      <StateTemplateVariable objectReference="ModelValue_8"/>
-      <StateTemplateVariable objectReference="ModelValue_9"/>
-      <StateTemplateVariable objectReference="ModelValue_10"/>
-      <StateTemplateVariable objectReference="ModelValue_11"/>
-      <StateTemplateVariable objectReference="ModelValue_12"/>
-      <StateTemplateVariable objectReference="ModelValue_13"/>
-      <StateTemplateVariable objectReference="ModelValue_14"/>
-      <StateTemplateVariable objectReference="ModelValue_15"/>
-      <StateTemplateVariable objectReference="ModelValue_30"/>
-      <StateTemplateVariable objectReference="ModelValue_34"/>
-      <StateTemplateVariable objectReference="ModelValue_35"/>
       <StateTemplateVariable objectReference="ModelValue_36"/>
-      <StateTemplateVariable objectReference="ModelValue_38"/>
-      <StateTemplateVariable objectReference="ModelValue_39"/>
-      <StateTemplateVariable objectReference="ModelValue_40"/>
-      <StateTemplateVariable objectReference="ModelValue_41"/>
-      <StateTemplateVariable objectReference="ModelValue_46"/>
-      <StateTemplateVariable objectReference="ModelValue_47"/>
-      <StateTemplateVariable objectReference="ModelValue_50"/>
+      <StateTemplateVariable objectReference="ModelValue_35"/>
+      <StateTemplateVariable objectReference="ModelValue_33"/>
+      <StateTemplateVariable objectReference="ModelValue_32"/>
+      <StateTemplateVariable objectReference="ModelValue_31"/>
+      <StateTemplateVariable objectReference="ModelValue_30"/>
+      <StateTemplateVariable objectReference="ModelValue_29"/>
+      <StateTemplateVariable objectReference="ModelValue_28"/>
+      <StateTemplateVariable objectReference="ModelValue_27"/>
+      <StateTemplateVariable objectReference="ModelValue_26"/>
+      <StateTemplateVariable objectReference="ModelValue_25"/>
+      <StateTemplateVariable objectReference="ModelValue_24"/>
+      <StateTemplateVariable objectReference="ModelValue_22"/>
+      <StateTemplateVariable objectReference="ModelValue_21"/>
+      <StateTemplateVariable objectReference="ModelValue_20"/>
+      <StateTemplateVariable objectReference="ModelValue_16"/>
+      <StateTemplateVariable objectReference="ModelValue_11"/>
+      <StateTemplateVariable objectReference="ModelValue_10"/>
+      <StateTemplateVariable objectReference="ModelValue_9"/>
+      <StateTemplateVariable objectReference="ModelValue_8"/>
+      <StateTemplateVariable objectReference="ModelValue_5"/>
+      <StateTemplateVariable objectReference="ModelValue_4"/>
+      <StateTemplateVariable objectReference="ModelValue_2"/>
+      <StateTemplateVariable objectReference="ModelValue_1"/>
+      <StateTemplateVariable objectReference="Compartment_0"/>
       <StateTemplateVariable objectReference="ModelValue_53"/>
+      <StateTemplateVariable objectReference="ModelValue_52"/>
+      <StateTemplateVariable objectReference="ModelValue_51"/>
+      <StateTemplateVariable objectReference="ModelValue_50"/>
+      <StateTemplateVariable objectReference="ModelValue_49"/>
+      <StateTemplateVariable objectReference="ModelValue_48"/>
+      <StateTemplateVariable objectReference="ModelValue_47"/>
+      <StateTemplateVariable objectReference="ModelValue_46"/>
+      <StateTemplateVariable objectReference="ModelValue_45"/>
+      <StateTemplateVariable objectReference="ModelValue_44"/>
+      <StateTemplateVariable objectReference="ModelValue_43"/>
+      <StateTemplateVariable objectReference="ModelValue_42"/>
+      <StateTemplateVariable objectReference="ModelValue_41"/>
+      <StateTemplateVariable objectReference="ModelValue_40"/>
+      <StateTemplateVariable objectReference="ModelValue_39"/>
+      <StateTemplateVariable objectReference="ModelValue_38"/>
+      <StateTemplateVariable objectReference="ModelValue_23"/>
+      <StateTemplateVariable objectReference="ModelValue_19"/>
+      <StateTemplateVariable objectReference="ModelValue_18"/>
+      <StateTemplateVariable objectReference="ModelValue_17"/>
+      <StateTemplateVariable objectReference="ModelValue_15"/>
+      <StateTemplateVariable objectReference="ModelValue_14"/>
+      <StateTemplateVariable objectReference="ModelValue_13"/>
+      <StateTemplateVariable objectReference="ModelValue_12"/>
+      <StateTemplateVariable objectReference="ModelValue_7"/>
+      <StateTemplateVariable objectReference="ModelValue_6"/>
+      <StateTemplateVariable objectReference="ModelValue_3"/>
+      <StateTemplateVariable objectReference="ModelValue_0"/>
     </StateTemplate>
     <InitialState type="initialState">
       0 0 1.0000000303166965 0 1 0 1 0 3572661.9999999697 0 1 3.0000000303166967 3.0000000303166967 1 0.51024429948827299 0.51024429948827299 0.20878301562164978 0.20733935446272006 0.18639272398745058 NaN NaN 2.4390145993040035 8.024731445251612e-08 2.6749104817505372e-07 5.3498209635010756e-09 5.3498209635010756e-09 0.059999999999999998 0.15696026073987143 0.15696026073987143 0.15696026073987143 0.31392052147974286 1.2614647651371376 0.0014436611589297094 0.50337154919241289 0 1 0.95565590562832836 0.019113118112566569 0.2866967716884985 0.019113118112566569 0 0.21024429923823224 0.21024429923823224 0.0014436611589297094 0.15000000012502038 0.30000000025004075 0.057339354337699697 0.057339354337699697 0.15000000012502038 0.30000000025004075 0.15000000012502038 0.036392723862430205 3572665 0.95565590562832836 0.29999999999999999 0.0015106495449118012 0.059999999999999998 0.99999999998592837 0.50337154919949612 0.31392052147974286 -1 -1 -1 0 
     </InitialState>
   </Model>
   <ListOfTasks>
-    <Task key="Task_15" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
-      <Report reference="Report_10" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_13" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
+      <Report reference="Report_24" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="JacobianRequested" type="bool" value="1"/>
         <Parameter name="StabilityAnalysisRequested" type="bool" value="1"/>
@@ -5015,8 +5018,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Target Criterion" type="string" value="Distance and Rate"/>
       </Method>
     </Task>
-    <Task key="Task_16" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
-      <Report reference="Report_24" target="timecourses.txt" append="1" confirmOverwrite="0"/>
+    <Task key="Task_1" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
+      <Report reference="Report_9" target="timecourses.txt" append="1" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="1"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -5037,8 +5040,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_17" name="Scan" type="scan" scheduled="true" updateModel="false">
-      <Report reference="Report_23" target="ct-Model2-sampling-TC-4-8-2020.txt" append="0" confirmOverwrite="0"/>
+    <Task key="Task_2" name="Scan" type="scan" scheduled="true" updateModel="false">
+      <Report reference="Report_8" target="ct-Model2-sampling-TC-4-8-2020.txt" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="1"/>
         <ParameterGroup name="ScanItems">
@@ -5060,15 +5063,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Method name="Scan Framework" type="ScanFramework">
       </Method>
     </Task>
-    <Task key="Task_18" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
-      <Report reference="Report_11" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_3" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
+      <Report reference="Report_23" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="EFM Algorithm" type="EFMAlgorithm">
       </Method>
     </Task>
-    <Task key="Task_19" name="Optimization" type="optimization" scheduled="false" updateModel="false">
-      <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_4" name="Optimization" type="optimization" scheduled="false" updateModel="false">
+      <Report reference="Report_22" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Subtask" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <ParameterText name="ObjectiveExpression" type="expression">
@@ -5101,8 +5104,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Rho" type="float" value="0.20000000000000001"/>
       </Method>
     </Task>
-    <Task key="Task_20" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="true">
-      <Report reference="Report_20" target="" append="0" confirmOverwrite="0"/>
+    <Task key="Task_5" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="true">
+      <Report reference="Report_5" target="" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
         <Parameter name="Randomize Start Values" type="bool" value="0"/>
@@ -5257,10 +5260,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Log Verbosity" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_21" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_14" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_6" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_20" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_15"/>
+        <Parameter name="Steady-State" type="key" value="Task_13"/>
       </Problem>
       <Method name="MCA Method (Reder)" type="MCAMethod(Reder)">
         <Parameter name="Modulation Factor" type="unsignedFloat" value="1.0000000000000001e-09"/>
@@ -5268,8 +5271,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Use Smallbone" type="bool" value="1"/>
       </Method>
     </Task>
-    <Task key="Task_22" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
-      <Report reference="Report_15" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_7" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
+      <Report reference="Report_0" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="ExponentNumber" type="unsignedInteger" value="3"/>
         <Parameter name="DivergenceRequested" type="bool" value="1"/>
@@ -5283,8 +5286,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
       </Method>
     </Task>
-    <Task key="Task_23" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_8" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_1" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
@@ -5296,8 +5299,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Deuflhard Tolerance" type="unsignedFloat" value="0.0001"/>
       </Method>
     </Task>
-    <Task key="Task_24" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
-      <Report reference="Report_17" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_9" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
+      <Report reference="Report_2" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="SubtaskType" type="unsignedInteger" value="2"/>
         <ParameterGroup name="TargetFunctions">
@@ -5320,14 +5323,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Delta minimum" type="unsignedFloat" value="9.9999999999999998e-13"/>
       </Method>
     </Task>
-    <Task key="Task_25" name="Moieties" type="moieties" scheduled="false" updateModel="false">
-      <Report reference="Report_18" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_10" name="Moieties" type="moieties" scheduled="false" updateModel="false">
+      <Report reference="Report_3" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="Householder Reduction" type="Householder">
       </Method>
     </Task>
-    <Task key="Task_26" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
+    <Task key="Task_11" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -5363,15 +5366,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_27" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
-      <Report reference="Report_19" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_12" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
+      <Report reference="Report_4" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_15"/>
+        <Parameter name="Steady-State" type="key" value="Task_13"/>
       </Problem>
       <Method name="Linear Noise Approximation" type="LinearNoiseApproximation">
       </Method>
     </Task>
-    <Task key="Task_28" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
+    <Task key="Task_14" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -5398,7 +5401,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </Task>
   </ListOfTasks>
   <ListOfReports>
-    <Report key="Report_10" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
+    <Report key="Report_24" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5406,7 +5409,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
       </Footer>
     </Report>
-    <Report key="Report_11" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
+    <Report key="Report_23" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5414,7 +5417,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_12" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
+    <Report key="Report_22" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5438,7 +5441,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_13" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
+    <Report key="Report_21" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5462,7 +5465,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_14" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_20" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5474,7 +5477,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_15" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
+    <Report key="Report_0" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5486,7 +5489,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_16" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_1" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5498,7 +5501,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Time Scale Separation Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_17" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
+    <Report key="Report_2" name="Sensitivities" taskType="sensitivities" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5510,7 +5513,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_18" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
+    <Report key="Report_3" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5522,7 +5525,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_19" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
+    <Report key="Report_4" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5534,7 +5537,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_20" name="summary PE" taskType="scan" separator="&#x09;" precision="6">
+    <Report key="Report_5" name="summary PE" taskType="scan" separator="&#x09;" precision="6">
       <Comment>
       </Comment>
       <Table printTitle="1">
@@ -5544,7 +5547,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[R0],Reference=Value"/>
       </Table>
     </Report>
-    <Report key="Report_21" name="Time-Course" taskType="timeCourse" separator="&#x09;" precision="6">
+    <Report key="Report_6" name="Time-Course" taskType="timeCourse" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -5555,7 +5558,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Time-Course],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_22" name="TC-summary" taskType="timeCourse" separator="&#x09;" precision="10">
+    <Report key="Report_7" name="TC-summary" taskType="timeCourse" separator="&#x09;" precision="10">
       <Comment>
       </Comment>
       <Header>
@@ -5837,7 +5840,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration"/>
       </Footer>
     </Report>
-    <Report key="Report_23" name="TC variables, fluxes, global quantities" taskType="timeCourse" separator="&#x09;" precision="6">
+    <Report key="Report_8" name="TC variables, fluxes, global quantities" taskType="timeCourse" separator="&#x09;" precision="6">
       <Comment>
       </Comment>
       <Table printTitle="1">
@@ -5920,7 +5923,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 2,Vector=Values[zeta],Reference=Value"/>
       </Table>
     </Report>
-    <Report key="Report_24" name="TC-summary2" taskType="timeCourse" separator="&#x09;" precision="10">
+    <Report key="Report_9" name="TC-summary2" taskType="timeCourse" separator="&#x09;" precision="10">
       <Comment>
       </Comment>
       <Header>
@@ -6850,60 +6853,60 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <GUI>
   </GUI>
   <SBMLReference file="SIDARTHE.xml">
-    <SBMLMap SBMLid="A" COPASIkey="Metabolite_3"/>
-    <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_27"/>
-    <SBMLMap SBMLid="D" COPASIkey="Metabolite_2"/>
-    <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_16"/>
-    <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_20"/>
-    <SBMLMap SBMLid="E" COPASIkey="Metabolite_6"/>
-    <SBMLMap SBMLid="H" COPASIkey="Metabolite_7"/>
-    <SBMLMap SBMLid="I" COPASIkey="Metabolite_0"/>
-    <SBMLMap SBMLid="IDART" COPASIkey="ModelValue_18"/>
-    <SBMLMap SBMLid="IDARTHE" COPASIkey="ModelValue_17"/>
-    <SBMLMap SBMLid="Perceived_CFR" COPASIkey="ModelValue_26"/>
-    <SBMLMap SBMLid="R" COPASIkey="Metabolite_4"/>
-    <SBMLMap SBMLid="R0" COPASIkey="ModelValue_28"/>
-    <SBMLMap SBMLid="Recovered" COPASIkey="ModelValue_19"/>
-    <SBMLMap SBMLid="S" COPASIkey="Metabolite_1"/>
-    <SBMLMap SBMLid="T" COPASIkey="Metabolite_5"/>
-    <SBMLMap SBMLid="alpha" COPASIkey="ModelValue_0"/>
-    <SBMLMap SBMLid="beta" COPASIkey="ModelValue_1"/>
+    <SBMLMap SBMLid="A" COPASIkey="Metabolite_4"/>
+    <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_26"/>
+    <SBMLMap SBMLid="D" COPASIkey="Metabolite_5"/>
+    <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_37"/>
+    <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_33"/>
+    <SBMLMap SBMLid="E" COPASIkey="Metabolite_1"/>
+    <SBMLMap SBMLid="H" COPASIkey="Metabolite_0"/>
+    <SBMLMap SBMLid="I" COPASIkey="Metabolite_7"/>
+    <SBMLMap SBMLid="IDART" COPASIkey="ModelValue_35"/>
+    <SBMLMap SBMLid="IDARTHE" COPASIkey="ModelValue_36"/>
+    <SBMLMap SBMLid="Perceived_CFR" COPASIkey="ModelValue_27"/>
+    <SBMLMap SBMLid="R" COPASIkey="Metabolite_3"/>
+    <SBMLMap SBMLid="R0" COPASIkey="ModelValue_25"/>
+    <SBMLMap SBMLid="Recovered" COPASIkey="ModelValue_34"/>
+    <SBMLMap SBMLid="S" COPASIkey="Metabolite_6"/>
+    <SBMLMap SBMLid="T" COPASIkey="Metabolite_2"/>
+    <SBMLMap SBMLid="alpha" COPASIkey="ModelValue_53"/>
+    <SBMLMap SBMLid="beta" COPASIkey="ModelValue_52"/>
     <SBMLMap SBMLid="compartment" COPASIkey="Compartment_0"/>
-    <SBMLMap SBMLid="contagion_A" COPASIkey="Reaction_2"/>
-    <SBMLMap SBMLid="contagion_D" COPASIkey="Reaction_1"/>
-    <SBMLMap SBMLid="contagion_I" COPASIkey="Reaction_0"/>
-    <SBMLMap SBMLid="contagion_R" COPASIkey="Reaction_3"/>
-    <SBMLMap SBMLid="critical_A" COPASIkey="Reaction_8"/>
-    <SBMLMap SBMLid="critical_R" COPASIkey="Reaction_9"/>
-    <SBMLMap SBMLid="death" COPASIkey="Reaction_10"/>
-    <SBMLMap SBMLid="delta" COPASIkey="ModelValue_3"/>
-    <SBMLMap SBMLid="diagnosis_A" COPASIkey="Reaction_7"/>
-    <SBMLMap SBMLid="diagnosis_I" COPASIkey="Reaction_4"/>
-    <SBMLMap SBMLid="epsilon" COPASIkey="ModelValue_4"/>
-    <SBMLMap SBMLid="eta" COPASIkey="ModelValue_6"/>
-    <SBMLMap SBMLid="gamma" COPASIkey="ModelValue_2"/>
-    <SBMLMap SBMLid="healing_A" COPASIkey="Reaction_13"/>
-    <SBMLMap SBMLid="healing_D" COPASIkey="Reaction_12"/>
-    <SBMLMap SBMLid="healing_I" COPASIkey="Reaction_11"/>
-    <SBMLMap SBMLid="healing_R" COPASIkey="Reaction_14"/>
-    <SBMLMap SBMLid="healing_T" COPASIkey="Reaction_15"/>
-    <SBMLMap SBMLid="kappa" COPASIkey="ModelValue_8"/>
-    <SBMLMap SBMLid="lambda" COPASIkey="ModelValue_9"/>
-    <SBMLMap SBMLid="mu" COPASIkey="ModelValue_10"/>
-    <SBMLMap SBMLid="nu" COPASIkey="ModelValue_11"/>
-    <SBMLMap SBMLid="r1" COPASIkey="ModelValue_21"/>
-    <SBMLMap SBMLid="r2" COPASIkey="ModelValue_22"/>
-    <SBMLMap SBMLid="r3" COPASIkey="ModelValue_23"/>
-    <SBMLMap SBMLid="r4" COPASIkey="ModelValue_24"/>
-    <SBMLMap SBMLid="r5" COPASIkey="ModelValue_25"/>
-    <SBMLMap SBMLid="rho" COPASIkey="ModelValue_13"/>
-    <SBMLMap SBMLid="sigma" COPASIkey="ModelValue_14"/>
-    <SBMLMap SBMLid="symptoms_D" COPASIkey="Reaction_6"/>
-    <SBMLMap SBMLid="symptoms_I" COPASIkey="Reaction_5"/>
-    <SBMLMap SBMLid="tau" COPASIkey="ModelValue_15"/>
-    <SBMLMap SBMLid="theta" COPASIkey="ModelValue_7"/>
-    <SBMLMap SBMLid="xi" COPASIkey="ModelValue_12"/>
-    <SBMLMap SBMLid="zeta" COPASIkey="ModelValue_5"/>
+    <SBMLMap SBMLid="contagion_A" COPASIkey="Reaction_13"/>
+    <SBMLMap SBMLid="contagion_D" COPASIkey="Reaction_14"/>
+    <SBMLMap SBMLid="contagion_I" COPASIkey="Reaction_15"/>
+    <SBMLMap SBMLid="contagion_R" COPASIkey="Reaction_12"/>
+    <SBMLMap SBMLid="critical_A" COPASIkey="Reaction_7"/>
+    <SBMLMap SBMLid="critical_R" COPASIkey="Reaction_6"/>
+    <SBMLMap SBMLid="death" COPASIkey="Reaction_5"/>
+    <SBMLMap SBMLid="delta" COPASIkey="ModelValue_50"/>
+    <SBMLMap SBMLid="diagnosis_A" COPASIkey="Reaction_8"/>
+    <SBMLMap SBMLid="diagnosis_I" COPASIkey="Reaction_11"/>
+    <SBMLMap SBMLid="epsilon" COPASIkey="ModelValue_49"/>
+    <SBMLMap SBMLid="eta" COPASIkey="ModelValue_47"/>
+    <SBMLMap SBMLid="gamma" COPASIkey="ModelValue_51"/>
+    <SBMLMap SBMLid="healing_A" COPASIkey="Reaction_2"/>
+    <SBMLMap SBMLid="healing_D" COPASIkey="Reaction_3"/>
+    <SBMLMap SBMLid="healing_I" COPASIkey="Reaction_4"/>
+    <SBMLMap SBMLid="healing_R" COPASIkey="Reaction_1"/>
+    <SBMLMap SBMLid="healing_T" COPASIkey="Reaction_0"/>
+    <SBMLMap SBMLid="kappa" COPASIkey="ModelValue_45"/>
+    <SBMLMap SBMLid="lambda" COPASIkey="ModelValue_44"/>
+    <SBMLMap SBMLid="mu" COPASIkey="ModelValue_43"/>
+    <SBMLMap SBMLid="nu" COPASIkey="ModelValue_42"/>
+    <SBMLMap SBMLid="r1" COPASIkey="ModelValue_32"/>
+    <SBMLMap SBMLid="r2" COPASIkey="ModelValue_31"/>
+    <SBMLMap SBMLid="r3" COPASIkey="ModelValue_30"/>
+    <SBMLMap SBMLid="r4" COPASIkey="ModelValue_29"/>
+    <SBMLMap SBMLid="r5" COPASIkey="ModelValue_28"/>
+    <SBMLMap SBMLid="rho" COPASIkey="ModelValue_40"/>
+    <SBMLMap SBMLid="sigma" COPASIkey="ModelValue_39"/>
+    <SBMLMap SBMLid="symptoms_D" COPASIkey="Reaction_9"/>
+    <SBMLMap SBMLid="symptoms_I" COPASIkey="Reaction_10"/>
+    <SBMLMap SBMLid="tau" COPASIkey="ModelValue_38"/>
+    <SBMLMap SBMLid="theta" COPASIkey="ModelValue_46"/>
+    <SBMLMap SBMLid="xi" COPASIkey="ModelValue_41"/>
+    <SBMLMap SBMLid="zeta" COPASIkey="ModelValue_48"/>
   </SBMLReference>
   <ListOfUnitDefinitions>
     <UnitDefinition key="Unit_5" name="second" symbol="s">
@@ -6914,7 +6917,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T03:00:43Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-28T14:21:51Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -6932,7 +6935,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_14">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T03:00:43Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-28T14:21:51Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -6950,7 +6953,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T03:00:43Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-28T14:21:51Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -6968,7 +6971,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_68">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-04-26T03:00:43Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-04-28T14:21:51Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>

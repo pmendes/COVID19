@@ -14,7 +14,7 @@ data_experimental <-  read_tsv(datafile)
 today <- as.double( data_experimental$'#day'[NROW(data_experimental)])
                                              
 # which models to process
-modelnos <- c(3,4,5)
+modelnos <- c(4,6,7)
 
 pathto <- getwd()
 
@@ -81,15 +81,15 @@ for (modelno in modelnos)
   p1 <- defineParameterEstimationParameter(quantity_strict("ZeroDay", "InitialValue"), start_value = 1, lower_bound = 0, upper_bound = 15)
   p2 <-defineParameterEstimationParameter(quantity_strict("mu_UCH", "InitialValue"), start_value = getGlobalQuantities("mu_UCH")$initial_value, lower_bound = 1e-6, upper_bound = getGlobalQuantities("mu")$initial_value)
   val = getGlobalQuantities("day8x")$initial_value
-  p3 <- defineParameterEstimationParameter(quantity_strict("day8x", "InitialValue"), start_value = val, lower_bound = val*0.9, upper_bound = 1)
+  p3 <- defineParameterEstimationParameter(quantity_strict("day8x", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = 1)
   val = getGlobalQuantities("day15")$initial_value
   #up = quantity_strict("day8x",  reference = "Value")
   up = getGlobalQuantities("day8x")$initial_value
-  p4 <- defineParameterEstimationParameter(quantity_strict("day15x", "InitialValue"), start_value = val, lower_bound = val*0.9, upper_bound = up)
+  p4 <- defineParameterEstimationParameter(quantity_strict("day15x", "InitialValue"), start_value = val, lower_bound = val*0.8, upper_bound = up)
   val = getGlobalQuantities("tau")$initial_value
-  p5 <- defineParameterEstimationParameter(quantity_strict("tau", "InitialValue"), start_value = val, lower_bound = val*0.8, upper_bound = val*1.2)
+  p5 <- defineParameterEstimationParameter(quantity_strict("tau", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = val*1.3)
   val = getGlobalQuantities("theta")$initial_value
-  p6 <- defineParameterEstimationParameter(quantity_strict("theta", "InitialValue"), start_value = val, lower_bound = val*0.8, upper_bound = val*1.2)
+  p6 <- defineParameterEstimationParameter(quantity_strict("theta", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = val*1.3)
 
   setPE(parameters = list(p1,p2,p3,p4,p5,p6)
 )

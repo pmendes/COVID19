@@ -23,8 +23,8 @@ data_experimental <-  read_tsv(datafile)
 # serial number of the day of this iteration, in the last row of data file
 today <- as.double( data_experimental$'#day'[NROW(data_experimental)])
 
-# which models to process
-modelnos <- c(4,6,7)
+# which models to processget
+modelnos <- c(7,11,14)
 
 for (modelno in modelnos)
 {
@@ -41,40 +41,26 @@ for (modelno in modelnos)
  runTimeCourse(duration = today, intervals = 1, update_model = TRUE, executable = TRUE, method = "deterministic")
  # set the initial time back to zero, as previous run set it to today
  setInitialTime(0)
- # remember original alpha and beta initial values
- alpha0 = getGlobalQuantities(key="alpha")$initial_value
- beta0 = getGlobalQuantities(key="beta")$initial_value
- gamma0 = getGlobalQuantities(key="gamma")$initial_value
- delta0 = getGlobalQuantities(key="delta")$initial_value
  # update the parameters that have changed
- setGlobalQuantities("alpha", initial_value = getGlobalQuantities("alpha")$value)
+ setGlobalQuantities("alpha", initial_value = getGlobalQuantities(key = quantity_strict("alpha"))$value)
+ setGlobalQuantities("beta", initial_value = getGlobalQuantities(key = quantity_strict("beta"))$value, initial_expression = NULL )
+ setGlobalQuantities("gamma", initial_value = getGlobalQuantities(key = quantity_strict("gamma"))$value, initial_expression = NULL )
+ setGlobalQuantities("delta", initial_value = getGlobalQuantities(key = quantity_strict("delta"))$value, initial_expression = NULL )
  setGlobalQuantities("theta", initial_value = getGlobalQuantities("theta")$value)
- # relax social distancing by 50% on May 20
- setGlobalQuantities("f_stage4", initial_value = 0.5)
- # reset the event as May 20 is no longer day 73 
- trg <- sprintf("{Time} > %d",73-today)
- ass1 <- sprintf("{Values[alpha]}+(%f-{Values[alpha]})*{Values[f_stage4]}",alpha0)
- ass2 <- sprintf("{Values[beta]}+(%f-{Values[beta]})*{Values[f_stage4]}",beta0)
- ass3 <- sprintf("{Values[gamma]}+(%f-{Values[gamma]})*{Values[f_stage4]}",alpha0)
- ass4 <- sprintf("{Values[delta]}+(%f-{Values[delta]})*{Values[f_stage4]}",beta0)
- ev1 <- getEvents(key="Day 73 ReOpenStage 4")
- ev1$trigger_expression = trg
- if( length(unlist(ev1$assignment_target))>2 ) {
-   ev1$assignment_expression = list(c(ass1,ass2,ass3,ass4)) 
- } else {
-   ev1$assignment_expression = list(c(ass1,ass2)) 
- }   
- setEvents(key = "Day 73 ReOpenStage 4", data = ev1 ) 
+ setGlobalQuantities("epsilon", initial_value = getGlobalQuantities("epsilon")$value)
  # remove the explicit ODEs as these don't work with stochastic simulation
  deleteGlobalQuantity("Diagnosed Cumulative infected")
  deleteGlobalQuantity("Recovered")
-  # remove the events that change infection and testing parameters
+  # remove all events
  deleteEvent("Day 08")
  deleteEvent("Day 11")
  deleteEvent("Day 15")
  deleteEvent("Day 21")
  deleteEvent("Day 32")
  deleteEvent("Day 60")
+ deleteEvent("Day 67")
+ deleteEvent("Day 75")
+ deleteEvent("Day 73 ReOpenStage 4")
  deleteEvent("Seeding")
  deleteEvent("T no new case")
  deleteEvent("T peak detection")

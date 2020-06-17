@@ -14,7 +14,7 @@ data_experimental <-  read_tsv(datafile)
 today <- as.double( data_experimental$'#day'[NROW(data_experimental)])
                                              
 # which models to process
-modelnos <- c(4,6,7)
+modelnos <- c(7,11,14)
 
 pathto <- getwd()
 
@@ -67,15 +67,22 @@ for (modelno in modelnos)
 
   data_pe <- data_experimental %>% rename("time" = "#day") %>% set_tidy_names(TRUE)
   
+ types = c("time", "dependent", "dependent", "dependent", "ignore", "dependent", "ignore")
+  mappings = c( "{Time}", "{Values[Diagnosed Cumulative infected]}", "{Values[Total_Hospitalized]}", "{[UCH]}", NA, "{[E]}", NA)
+  data_pe <- data_pe[, types != "ignore"]
+  mappings <- mappings[types != "ignore"]
+  types <- types[types != "ignore"]
+  
+  outputdatafile <- sprintf("CT-Hartford-COVID19-%d-%d.tsv",modelno,today)
   # define the experiment with the Hartford data set
-  #fit_experiments <- defineExperiments(
-  #  experiment_type = "time_course",
-  #  #data = data_pe
-  #  type = c("time", "dependent", "dependent", "dependent", "ignore", "dependent", "ignore"),
-  #  mapping = c( "{Time}", "{Values[Diagnosed Cumulative infected]}", "{Values[Total_Hospitalized]}", "{[UCH]}", NA, "{[E]}", NA),
-  #  weight_method = "mean_square",
-  #  filename = datafile
-  #)
+  fit_experiments <- defineExperiments(
+    experiment_type = "time_course",
+    data = data_pe,
+    type = types,
+    mapping = mappings,
+    weight_method = "mean_square",
+    filename = outputdatafile
+  )
   
   # define the parameters to fit
   p1 <- defineParameterEstimationParameter(quantity_strict("ZeroDay", "InitialValue"), start_value = 1, lower_bound = 0, upper_bound = 15)
@@ -85,14 +92,16 @@ for (modelno in modelnos)
   val = getGlobalQuantities("day15")$initial_value
   #up = quantity_strict("day8x",  reference = "Value")
   up = getGlobalQuantities("day8x")$initial_value
-  p4 <- defineParameterEstimationParameter(quantity_strict("day15x", "InitialValue"), start_value = val, lower_bound = val*0.8, upper_bound = up)
+  p4 <- defineParameterEstimationParameter(quantity_strict("day15x", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = up)
   val = getGlobalQuantities("tau")$initial_value
   p5 <- defineParameterEstimationParameter(quantity_strict("tau", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = val*1.3)
   val = getGlobalQuantities("theta")$initial_value
   p6 <- defineParameterEstimationParameter(quantity_strict("theta", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = val*1.3)
-
-  setPE(parameters = list(p1,p2,p3,p4,p5,p6)
-)
+  val = getGlobalQuantities("f_epsilon")$initial_value
+  p7 <- defineParameterEstimationParameter(quantity_strict("f_epsilon", "InitialValue"), start_value = val, lower_bound = val*0.7, upper_bound = val*1.3)
+  
+  setPE(parameters = list(p1,p2,p3,p4,p5,p6,p7), experiments = list(fit_experiments))
+  
   saveModel(newmodelfname)
   unloadModel()
 }

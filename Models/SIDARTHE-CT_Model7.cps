@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.28 (Build 224) (http://www.copasi.org) at 2020-05-21T02:18:23Z -->
+<!-- generated with COPASI 4.28 (Build 226) (http://www.copasi.org) at 2020-06-17T12:33:16Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
-<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="28" versionDevel="224" copasiSourcesModified="0">
+<COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="28" versionDevel="226" copasiSourcesModified="0">
   <ListOfFunctions>
     <Function key="Function_13" name="Mass action (irreversible)" type="MassAction" reversible="false">
       <MiriamAnnotation>
@@ -114,10 +114,10 @@ Reaction scheme where the products are created from the reactants and the change
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_8" name="I" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_15" name="I" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_8">
+  <rdf:Description rdf:about="#Metabolite_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:01Z</dcterms:W3CDTF>
@@ -127,10 +127,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_9" name="S" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_14" name="S" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_9">
+  <rdf:Description rdf:about="#Metabolite_14">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:01Z</dcterms:W3CDTF>
@@ -140,13 +140,13 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <InitialExpression>
-          &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+          &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
         </InitialExpression>
       </Metabolite>
-      <Metabolite key="Metabolite_10" name="D" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_13" name="D" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_10">
+  <rdf:Description rdf:about="#Metabolite_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:41Z</dcterms:W3CDTF>
@@ -156,10 +156,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_11" name="A" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_12" name="A" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_11">
+  <rdf:Description rdf:about="#Metabolite_12">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:41:07Z</dcterms:W3CDTF>
@@ -169,10 +169,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_12" name="R" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_11" name="R" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_12">
+  <rdf:Description rdf:about="#Metabolite_11">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:41:40Z</dcterms:W3CDTF>
@@ -182,10 +182,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_13" name="T" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_10" name="T" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_13">
+  <rdf:Description rdf:about="#Metabolite_10">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:32Z</dcterms:W3CDTF>
@@ -195,10 +195,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_14" name="E" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_9" name="E" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_14">
+  <rdf:Description rdf:about="#Metabolite_9">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:14Z</dcterms:W3CDTF>
@@ -208,10 +208,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_15" name="H" simulationType="reactions" compartment="Compartment_1" addNoise="false">
+      <Metabolite key="Metabolite_8" name="H" simulationType="reactions" compartment="Compartment_1" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Metabolite_15">
+  <rdf:Description rdf:about="#Metabolite_8">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:48Z</dcterms:W3CDTF>
@@ -223,10 +223,10 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_66" name="alpha" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_122" name="alpha" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_66">
+  <rdf:Description rdf:about="#ModelValue_122">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:14Z</dcterms:W3CDTF>
@@ -236,10 +236,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_67" name="beta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_121" name="beta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_67">
+  <rdf:Description rdf:about="#ModelValue_121">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:15Z</dcterms:W3CDTF>
@@ -252,10 +252,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_68" name="gamma" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_120" name="gamma" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_68">
+  <rdf:Description rdf:about="#ModelValue_120">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:18Z</dcterms:W3CDTF>
@@ -268,10 +268,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_69" name="delta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_119" name="delta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_69">
+  <rdf:Description rdf:about="#ModelValue_119">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:20Z</dcterms:W3CDTF>
@@ -284,10 +284,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
         </InitialExpression>
       </ModelValue>
-      <ModelValue key="ModelValue_70" name="epsilon" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_118" name="epsilon" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_70">
+  <rdf:Description rdf:about="#ModelValue_118">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:22Z</dcterms:W3CDTF>
@@ -297,10 +297,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_71" name="zeta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_117" name="zeta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_71">
+  <rdf:Description rdf:about="#ModelValue_117">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:26:48Z</dcterms:W3CDTF>
@@ -310,10 +310,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_72" name="eta" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_116" name="eta" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_72">
+  <rdf:Description rdf:about="#ModelValue_116">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:27:02Z</dcterms:W3CDTF>
@@ -326,10 +326,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_73" name="theta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_115" name="theta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_73">
+  <rdf:Description rdf:about="#ModelValue_115">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:28:58Z</dcterms:W3CDTF>
@@ -339,10 +339,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_74" name="kappa" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_114" name="kappa" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_74">
+  <rdf:Description rdf:about="#ModelValue_114">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:03Z</dcterms:W3CDTF>
@@ -352,10 +352,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_75" name="lambda" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_113" name="lambda" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_75">
+  <rdf:Description rdf:about="#ModelValue_113">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:30Z</dcterms:W3CDTF>
@@ -365,10 +365,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_76" name="mu" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_112" name="mu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_76">
+  <rdf:Description rdf:about="#ModelValue_112">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:50Z</dcterms:W3CDTF>
@@ -378,10 +378,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_77" name="nu" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_111" name="nu" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_77">
+  <rdf:Description rdf:about="#ModelValue_111">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:29:55Z</dcterms:W3CDTF>
@@ -394,10 +394,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_78" name="xi" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_110" name="xi" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_78">
+  <rdf:Description rdf:about="#ModelValue_110">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:31:39Z</dcterms:W3CDTF>
@@ -407,10 +407,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_79" name="rho" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_109" name="rho" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_79">
+  <rdf:Description rdf:about="#ModelValue_109">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:31:42Z</dcterms:W3CDTF>
@@ -423,10 +423,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_80" name="sigma" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_108" name="sigma" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_80">
+  <rdf:Description rdf:about="#ModelValue_108">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:31:45Z</dcterms:W3CDTF>
@@ -436,10 +436,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_81" name="tau" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_107" name="tau" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_81">
+  <rdf:Description rdf:about="#ModelValue_107">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T15:32:02Z</dcterms:W3CDTF>
@@ -449,10 +449,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_82" name="DRT" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_106" name="DRT" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_82">
+  <rdf:Description rdf:about="#ModelValue_106">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T18:54:35Z</dcterms:W3CDTF>
@@ -465,10 +465,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_83" name="IDARTHE" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_105" name="IDARTHE" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_83">
+  <rdf:Description rdf:about="#ModelValue_105">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T19:08:58Z</dcterms:W3CDTF>
@@ -481,10 +481,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_84" name="IDART" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_104" name="IDART" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_84">
+  <rdf:Description rdf:about="#ModelValue_104">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T19:10:28Z</dcterms:W3CDTF>
@@ -497,10 +497,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_85" name="Recovered" simulationType="ode" addNoise="false">
+      <ModelValue key="ModelValue_103" name="Recovered" simulationType="ode" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_85">
+  <rdf:Description rdf:about="#ModelValue_103">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T20:39:15Z</dcterms:W3CDTF>
@@ -513,10 +513,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_86" name="Diagnosed Cumulative infected" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_102" name="Diagnosed Cumulative infected" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_86">
+  <rdf:Description rdf:about="#ModelValue_102">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T20:50:53Z</dcterms:W3CDTF>
@@ -529,10 +529,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_87" name="r1" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_101" name="r1" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_87">
+  <rdf:Description rdf:about="#ModelValue_101">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:31:35Z</dcterms:W3CDTF>
@@ -545,10 +545,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_88" name="r2" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_100" name="r2" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_88">
+  <rdf:Description rdf:about="#ModelValue_100">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:32:25Z</dcterms:W3CDTF>
@@ -561,10 +561,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_89" name="r3" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_99" name="r3" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_89">
+  <rdf:Description rdf:about="#ModelValue_99">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:33:26Z</dcterms:W3CDTF>
@@ -577,10 +577,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_90" name="r4" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_98" name="r4" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_90">
+  <rdf:Description rdf:about="#ModelValue_98">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:34:17Z</dcterms:W3CDTF>
@@ -593,10 +593,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_91" name="r5" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_97" name="r5" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_91">
+  <rdf:Description rdf:about="#ModelValue_97">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:34:51Z</dcterms:W3CDTF>
@@ -609,10 +609,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_92" name="Perceived CFR" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_96" name="Perceived CFR" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_92">
+  <rdf:Description rdf:about="#ModelValue_96">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:36:06Z</dcterms:W3CDTF>
@@ -625,10 +625,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=Concentration>/((&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value>*(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=Value>))/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3],Reference=Value>)*(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=Concentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=Concentration>)+(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=Value>)/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3],Reference=Value>*(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=Concentration>))
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_93" name="CFR" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_95" name="CFR" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_93">
+  <rdf:Description rdf:about="#ModelValue_95">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-25T17:45:28Z</dcterms:W3CDTF>
@@ -657,10 +657,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1],Reference=Value>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4],Reference=Value>)+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=Value>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4],Reference=Value>)
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_95" name="gamma_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_93" name="gamma_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_95">
+  <rdf:Description rdf:about="#ModelValue_93">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T17:59:52Z</dcterms:W3CDTF>
@@ -673,10 +673,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_96" name="Population" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_92" name="Population" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_96">
+  <rdf:Description rdf:about="#ModelValue_92">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:00:37Z</dcterms:W3CDTF>
@@ -689,10 +689,10 @@ Reaction scheme where the products are created from the reactants and the change
           #
         </Unit>
       </ModelValue>
-      <ModelValue key="ModelValue_97" name="alpha_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_91" name="alpha_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_97">
+  <rdf:Description rdf:about="#ModelValue_91">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:07:32Z</dcterms:W3CDTF>
@@ -705,10 +705,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_98" name="beta_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_90" name="beta_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_98">
+  <rdf:Description rdf:about="#ModelValue_90">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:07:48Z</dcterms:W3CDTF>
@@ -721,10 +721,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_99" name="delta_pop" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_89" name="delta_pop" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_99">
+  <rdf:Description rdf:about="#ModelValue_89">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T18:08:08Z</dcterms:W3CDTF>
@@ -737,10 +737,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_100" name="scale" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_88" name="scale" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_100">
+  <rdf:Description rdf:about="#ModelValue_88">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T22:54:38Z</dcterms:W3CDTF>
@@ -750,10 +750,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_101" name="f_epsilon" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_87" name="f_epsilon" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_101">
+  <rdf:Description rdf:about="#ModelValue_87">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:10:51Z</dcterms:W3CDTF>
@@ -763,10 +763,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_102" name="f_theta" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_86" name="f_theta" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_102">
+  <rdf:Description rdf:about="#ModelValue_86">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:12:01Z</dcterms:W3CDTF>
@@ -776,10 +776,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_103" name="f_mu" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_85" name="f_mu" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_103">
+  <rdf:Description rdf:about="#ModelValue_85">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:24:32Z</dcterms:W3CDTF>
@@ -792,10 +792,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_104" name="f_nu" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_84" name="f_nu" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_104">
+  <rdf:Description rdf:about="#ModelValue_84">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-27T19:24:46Z</dcterms:W3CDTF>
@@ -805,10 +805,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_105" name="day8x" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_83" name="day8x" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_105">
+  <rdf:Description rdf:about="#ModelValue_83">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-31T01:43:46Z</dcterms:W3CDTF>
@@ -818,10 +818,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_106" name="day15x" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_82" name="day15x" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_106">
+  <rdf:Description rdf:about="#ModelValue_82">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-31T01:44:07Z</dcterms:W3CDTF>
@@ -831,10 +831,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_107" name="f_lambda" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_81" name="f_lambda" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_107">
+  <rdf:Description rdf:about="#ModelValue_81">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:08:38Z</dcterms:W3CDTF>
@@ -844,10 +844,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_108" name="f_kappa" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_80" name="f_kappa" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_108">
+  <rdf:Description rdf:about="#ModelValue_80">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:08:48Z</dcterms:W3CDTF>
@@ -860,10 +860,10 @@ Reaction scheme where the products are created from the reactants and the change
           0.5*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_109" name="f_sigma" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_79" name="f_sigma" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_109">
+  <rdf:Description rdf:about="#ModelValue_79">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:09:00Z</dcterms:W3CDTF>
@@ -876,10 +876,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_110" name="f_xi" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_78" name="f_xi" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_110">
+  <rdf:Description rdf:about="#ModelValue_78">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:09:07Z</dcterms:W3CDTF>
@@ -892,10 +892,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_111" name="f_rho" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_77" name="f_rho" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_111">
+  <rdf:Description rdf:about="#ModelValue_77">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-01T02:09:15Z</dcterms:W3CDTF>
@@ -908,10 +908,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_112" name="Tpeak" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_76" name="Tpeak" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_112">
+  <rdf:Description rdf:about="#ModelValue_76">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T01:20:58Z</dcterms:W3CDTF>
@@ -921,10 +921,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_113" name="Tpeaktime" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_75" name="Tpeaktime" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_113">
+  <rdf:Description rdf:about="#ModelValue_75">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T01:23:07Z</dcterms:W3CDTF>
@@ -934,10 +934,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_114" name="New cases" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_74" name="New cases" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_114">
+  <rdf:Description rdf:about="#ModelValue_74">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T13:50:18Z</dcterms:W3CDTF>
@@ -950,10 +950,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],Reference=Flux>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_115" name="New diagnosed" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_73" name="New diagnosed" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_115">
+  <rdf:Description rdf:about="#ModelValue_73">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T13:52:23Z</dcterms:W3CDTF>
@@ -966,10 +966,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],Reference=Flux>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],Reference=Flux>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_116" name="Tnonew" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_72" name="Tnonew" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_116">
+  <rdf:Description rdf:about="#ModelValue_72">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T13:53:38Z</dcterms:W3CDTF>
@@ -979,10 +979,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_117" name="Tot_reduction" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_71" name="Tot_reduction" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_117">
+  <rdf:Description rdf:about="#ModelValue_71">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-04T13:47:50Z</dcterms:W3CDTF>
@@ -995,10 +995,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=InitialValue>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x],Reference=InitialValue>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_118" name="ImmuneRatio" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_70" name="ImmuneRatio" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_118">
+  <rdf:Description rdf:about="#ModelValue_70">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-13T19:01:23Z</dcterms:W3CDTF>
@@ -1011,10 +1011,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=Concentration>/(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S],Reference=Concentration>+&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=Concentration>)
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_119" name="ApplyRelaxationMay1" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_69" name="ApplyRelaxationMay1" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_119">
+  <rdf:Description rdf:about="#ModelValue_69">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-14T18:52:46Z</dcterms:W3CDTF>
@@ -1024,10 +1024,10 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_120" name="HiddenRatio" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_68" name="HiddenRatio" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_120">
+  <rdf:Description rdf:about="#ModelValue_68">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-29T14:51:16Z</dcterms:W3CDTF>
@@ -1040,10 +1040,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_121" name="InfectedRatio" simulationType="assignment" addNoise="false">
+      <ModelValue key="ModelValue_67" name="InfectedRatio" simulationType="assignment" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_121">
+  <rdf:Description rdf:about="#ModelValue_67">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-30T12:05:00Z</dcterms:W3CDTF>
@@ -1056,10 +1056,10 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected],Reference=Value>/&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE],Reference=Value>
         </Expression>
       </ModelValue>
-      <ModelValue key="ModelValue_122" name="f_stage4" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_66" name="f_stage4" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelValue_122">
+  <rdf:Description rdf:about="#ModelValue_66">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-05-07T01:43:16Z</dcterms:W3CDTF>
@@ -1110,10 +1110,10 @@ Reaction scheme where the products are created from the reactants and the change
       </ModelValue>
     </ListOfModelValues>
     <ListOfReactions>
-      <Reaction key="Reaction_16" name="contagion_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_31" name="contagion_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_16">
+  <rdf:Description rdf:about="#Reaction_31">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:39:32Z</dcterms:W3CDTF>
@@ -1123,31 +1123,31 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_8" stoichiometry="2"/>
+          <Product metabolite="Metabolite_15" stoichiometry="2"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_3436" name="k1" value="2.3866e-07"/>
+          <Constant key="Parameter_7422" name="k1" value="3.33675e-07"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_97"/>
+              <SourceParameter reference="ModelValue_91"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_9"/>
-              <SourceParameter reference="Metabolite_8"/>
+              <SourceParameter reference="Metabolite_14"/>
+              <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_17" name="contagion_D" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_30" name="contagion_D" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_17">
+  <rdf:Description rdf:about="#Reaction_30">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:20Z</dcterms:W3CDTF>
@@ -1157,32 +1157,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_8" stoichiometry="1"/>
-          <Product metabolite="Metabolite_10" stoichiometry="1"/>
+          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4909" name="k1" value="4.7732e-09"/>
+          <Constant key="Parameter_7425" name="k1" value="6.6735e-09"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_98"/>
+              <SourceParameter reference="ModelValue_90"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_9"/>
-              <SourceParameter reference="Metabolite_10"/>
+              <SourceParameter reference="Metabolite_14"/>
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_18" name="contagion_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_29" name="contagion_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_18">
+  <rdf:Description rdf:about="#Reaction_29">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:40:54Z</dcterms:W3CDTF>
@@ -1192,32 +1192,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_8" stoichiometry="1"/>
-          <Product metabolite="Metabolite_11" stoichiometry="1"/>
+          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4916" name="k1" value="1.1933e-07"/>
+          <Constant key="Parameter_2933" name="k1" value="1.66837e-07"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_95"/>
+              <SourceParameter reference="ModelValue_93"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_9"/>
-              <SourceParameter reference="Metabolite_11"/>
+              <SourceParameter reference="Metabolite_14"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_19" name="contagion_R" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_28" name="contagion_R" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_19">
+  <rdf:Description rdf:about="#Reaction_28">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:41:27Z</dcterms:W3CDTF>
@@ -1227,32 +1227,32 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
-          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_8" stoichiometry="1"/>
-          <Product metabolite="Metabolite_12" stoichiometry="1"/>
+          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_3633" name="k1" value="7.1598e-09"/>
+          <Constant key="Parameter_3011" name="k1" value="1.00102e-08"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_99"/>
+              <SourceParameter reference="ModelValue_89"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_9"/>
-              <SourceParameter reference="Metabolite_12"/>
+              <SourceParameter reference="Metabolite_14"/>
+              <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_20" name="diagnosis_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_27" name="diagnosis_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_20">
+  <rdf:Description rdf:about="#Reaction_27">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:43:45Z</dcterms:W3CDTF>
@@ -1262,29 +1262,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_10" stoichiometry="1"/>
+          <Product metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7480" name="k1" value="0"/>
+          <Constant key="Parameter_3001" name="k1" value="0"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_70"/>
+              <SourceParameter reference="ModelValue_118"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_8"/>
+              <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_21" name="symptoms_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_26" name="symptoms_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_21">
+  <rdf:Description rdf:about="#Reaction_26">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:44:25Z</dcterms:W3CDTF>
@@ -1294,29 +1294,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_11" stoichiometry="1"/>
+          <Product metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_6301" name="k1" value="0.92897"/>
+          <Constant key="Parameter_7414" name="k1" value="0.04"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_71"/>
+              <SourceParameter reference="ModelValue_117"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_8"/>
+              <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_22" name="symptoms_D" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_25" name="symptoms_D" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_22">
+  <rdf:Description rdf:about="#Reaction_25">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:44:41Z</dcterms:W3CDTF>
@@ -1326,29 +1326,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_12" stoichiometry="1"/>
+          <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4907" name="k1" value="0.92897"/>
+          <Constant key="Parameter_2925" name="k1" value="0.04"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_72"/>
+              <SourceParameter reference="ModelValue_116"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_10"/>
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_23" name="diagnosis_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_24" name="diagnosis_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_23">
+  <rdf:Description rdf:about="#Reaction_24">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:01Z</dcterms:W3CDTF>
@@ -1358,29 +1358,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_12" stoichiometry="1"/>
+          <Product metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4969" name="k1" value="0.00682548"/>
+          <Constant key="Parameter_3010" name="k1" value="0.000252452"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_73"/>
+              <SourceParameter reference="ModelValue_115"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_11"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_24" name="critical_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_23" name="critical_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_24">
+  <rdf:Description rdf:about="#Reaction_23">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:28Z</dcterms:W3CDTF>
@@ -1390,29 +1390,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_13" stoichiometry="1"/>
+          <Product metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_3269" name="k1" value="0.114717"/>
+          <Constant key="Parameter_2928" name="k1" value="0.06"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_76"/>
+              <SourceParameter reference="ModelValue_112"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_11"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_25" name="critical_R" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_22" name="critical_R" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_25">
+  <rdf:Description rdf:about="#Reaction_22">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:45:40Z</dcterms:W3CDTF>
@@ -1422,29 +1422,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_13" stoichiometry="1"/>
+          <Product metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_3536" name="k1" value="0.114717"/>
+          <Constant key="Parameter_2839" name="k1" value="0.06"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_77"/>
+              <SourceParameter reference="ModelValue_111"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_12"/>
+              <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_26" name="death" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_21" name="death" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_26">
+  <rdf:Description rdf:about="#Reaction_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:06Z</dcterms:W3CDTF>
@@ -1454,29 +1454,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_14" stoichiometry="1"/>
+          <Product metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_3261" name="k1" value="0.0458618"/>
+          <Constant key="Parameter_7417" name="k1" value="0.0463591"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_81"/>
+              <SourceParameter reference="ModelValue_107"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_13"/>
+              <SourceParameter reference="Metabolite_10"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_27" name="healing_I" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_20" name="healing_I" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_27">
+  <rdf:Description rdf:about="#Reaction_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:27Z</dcterms:W3CDTF>
@@ -1486,29 +1486,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7413" name="k1" value="0.209412"/>
+          <Constant key="Parameter_7394" name="k1" value="0.500699"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_75"/>
+              <SourceParameter reference="ModelValue_113"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_8"/>
+              <SourceParameter reference="Metabolite_15"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_28" name="healing_D" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_19" name="healing_D" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_28">
+  <rdf:Description rdf:about="#Reaction_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:46:56Z</dcterms:W3CDTF>
@@ -1518,29 +1518,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_3253" name="k1" value="0.209412"/>
+          <Constant key="Parameter_7398" name="k1" value="0.500699"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_79"/>
+              <SourceParameter reference="ModelValue_109"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_10"/>
+              <SourceParameter reference="Metabolite_13"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_29" name="healing_A" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_18" name="healing_A" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_29">
+  <rdf:Description rdf:about="#Reaction_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:47:19Z</dcterms:W3CDTF>
@@ -1550,29 +1550,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4914" name="k1" value="0.00510617"/>
+          <Constant key="Parameter_7424" name="k1" value="0.0891227"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_74"/>
+              <SourceParameter reference="ModelValue_114"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_11"/>
+              <SourceParameter reference="Metabolite_12"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_30" name="healing_R" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_17" name="healing_R" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_30">
+  <rdf:Description rdf:about="#Reaction_17">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:47:31Z</dcterms:W3CDTF>
@@ -1582,29 +1582,29 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_4905" name="k1" value="0.165225"/>
+          <Constant key="Parameter_7430" name="k1" value="0.03"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_78"/>
+              <SourceParameter reference="ModelValue_110"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_12"/>
+              <SourceParameter reference="Metabolite_11"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_31" name="healing_T" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_16" name="healing_T" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Reaction_31">
+  <rdf:Description rdf:about="#Reaction_16">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T14:47:52Z</dcterms:W3CDTF>
@@ -1614,31 +1614,31 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
-          <Product metabolite="Metabolite_15" stoichiometry="1"/>
+          <Product metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7415" name="k1" value="0.17324"/>
+          <Constant key="Parameter_7330" name="k1" value="0.368059"/>
         </ListOfConstants>
         <KineticLaw function="Function_13" unitType="Default" scalingCompartment="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]">
           <ListOfCallParameters>
             <CallParameter functionParameter="FunctionParameter_80">
-              <SourceParameter reference="ModelValue_80"/>
+              <SourceParameter reference="ModelValue_108"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_81">
-              <SourceParameter reference="Metabolite_13"/>
+              <SourceParameter reference="Metabolite_10"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
     </ListOfReactions>
     <ListOfEvents>
-      <Event key="Event_13" name="Day 15" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_21" name="Day 15" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_13">
+  <rdf:Description rdf:about="#Event_21">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-24T18:33:56Z</dcterms:W3CDTF>
@@ -1654,37 +1654,37 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 15
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" targetKey="ModelValue_66">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" targetKey="ModelValue_122">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" targetKey="ModelValue_68">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" targetKey="ModelValue_120">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" targetKey="ModelValue_67">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" targetKey="ModelValue_121">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" targetKey="ModelValue_69">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" targetKey="ModelValue_119">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_73">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_115">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*50
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_14" name="Day 08" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_20" name="Day 08" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_14">
+  <rdf:Description rdf:about="#Event_20">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-26T17:37:25Z</dcterms:W3CDTF>
@@ -1700,32 +1700,32 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 8
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" targetKey="ModelValue_66">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" targetKey="ModelValue_122">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" targetKey="ModelValue_68">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" targetKey="ModelValue_120">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" targetKey="ModelValue_67">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" targetKey="ModelValue_121">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" targetKey="ModelValue_69">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" targetKey="ModelValue_119">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=Value>
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_15" name="Day 11" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_19" name="Day 11" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_15">
+  <rdf:Description rdf:about="#Event_19">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-30T17:24:04Z</dcterms:W3CDTF>
@@ -1738,17 +1738,17 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 10
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_73">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_115">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*20
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_16" name="T peak detection" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_18" name="T peak detection" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_16">
+  <rdf:Description rdf:about="#Event_18">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-02T01:20:18Z</dcterms:W3CDTF>
@@ -1761,12 +1761,12 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Rate> &lt; 0
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" targetKey="ModelValue_112">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" targetKey="ModelValue_76">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" targetKey="ModelValue_113">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" targetKey="ModelValue_75">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time>
             </Expression>
@@ -1789,17 +1789,17 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed],Reference=Value> &lt; 1
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" targetKey="ModelValue_116">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" targetKey="ModelValue_72">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time>
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_18" name="Day 21" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_16" name="Day 21" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_18">
+  <rdf:Description rdf:about="#Event_16">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-30T17:24:04Z</dcterms:W3CDTF>
@@ -1812,17 +1812,17 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 20
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_73">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_115">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*95
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_19" name="Day 32" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_15" name="Day 32" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_19">
+  <rdf:Description rdf:about="#Event_15">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-03-30T17:24:04Z</dcterms:W3CDTF>
@@ -1835,14 +1835,14 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 31
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_73">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_115">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*150
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_20" name="Day 73 ReOpenStage 4" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_14" name="Day 73 ReOpenStage 4" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_6">
@@ -1861,22 +1861,22 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 73
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" targetKey="ModelValue_66">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" targetKey="ModelValue_122">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=Value>+(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=Value>)*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" targetKey="ModelValue_68">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" targetKey="ModelValue_120">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=Value>+(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma],Reference=Value>)*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" targetKey="ModelValue_67">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" targetKey="ModelValue_121">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=Value>+(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta],Reference=Value>)*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4],Reference=Value>
             </Expression>
           </Assignment>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" targetKey="ModelValue_69">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" targetKey="ModelValue_119">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>+(&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta],Reference=Value>)*&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4],Reference=Value>
             </Expression>
@@ -1898,10 +1898,10 @@ Reaction scheme where the products are created from the reactants and the change
           </Assignment>
         </ListOfAssignments>
       </Event>
-      <Event key="Event_10" name="Day 60" fireAtInitialTime="0" persistentTrigger="0">
+      <Event key="Event_13" name="Day 60" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#Event_10">
+  <rdf:Description rdf:about="#Event_13">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-05-12T11:14:48Z</dcterms:W3CDTF>
@@ -1914,7 +1914,7 @@ Reaction scheme where the products are created from the reactants and the change
           &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 59
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_73">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_115">
             <Expression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*256
             </Expression>
@@ -1922,6 +1922,32 @@ Reaction scheme where the products are created from the reactants and the change
         </ListOfAssignments>
       </Event>
       <Event key="Event_12" name="Day 67" fireAtInitialTime="0" persistentTrigger="0">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Event_8">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2020-05-12T11:14:48Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
+        <TriggerExpression>
+          &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 66
+        </TriggerExpression>
+        <ListOfAssignments>
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_115">
+            <Expression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*350
+            </Expression>
+          </Assignment>
+        </ListOfAssignments>
+      </Event>
+      <Event key="Event_11" name="Day 75" fireAtInitialTime="0" persistentTrigger="0">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Event_8">
@@ -1934,27 +1960,27 @@ Reaction scheme where the products are created from the reactants and the change
 </rdf:RDF>
         </MiriamAnnotation>
         <TriggerExpression>
-          &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 66
+          &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Reference=Time> > 74
         </TriggerExpression>
         <ListOfAssignments>
-          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" targetKey="ModelValue_73">
+          <Assignment target="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" targetKey="ModelValue_118">
             <Expression>
-              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>*390
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon],Reference=InitialValue>
             </Expression>
           </Assignment>
         </ListOfAssignments>
       </Event>
     </ListOfEvents>
-    <ListOfModelParameterSets activeSet="ModelParameterSet_2">
-      <ModelParameterSet key="ModelParameterSet_2" name="Initial State">
+    <ListOfModelParameterSets activeSet="ModelParameterSet_0">
+      <ModelParameterSet key="ModelParameterSet_0" name="Initial State">
         <MiriamAnnotation>
 <rdf:RDF
 xmlns:dcterms="http://purl.org/dc/terms/"
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_2">
+<rdf:Description rdf:about="#ModelParameterSet_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-05-20T03:50:12Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-06-12T00:42:55Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1967,73 +1993,73 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1.0000000099005031" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572663.9999999902" type="Species" simulationType="reactions">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
             <InitialExpression>
-              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
             </InitialExpression>
           </ModelParameter>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="5.4070165331004173e-11" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="0.83105506451999778" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.016621101290399957" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.1629870010139249" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.023259740020278499" type="ModelValue" simulationType="fixed">
             <InitialExpression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
             </InitialExpression>
           </ModelParameter>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.41552753225999889" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.58149350050696247" type="ModelValue" simulationType="fixed">
             <InitialExpression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
             </InitialExpression>
           </ModelParameter>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.024931651935599933" type="ModelValue" simulationType="fixed">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.034889610030417746" type="ModelValue" simulationType="fixed">
             <InitialExpression>
               &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
             </InitialExpression>
           </ModelParameter>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.96854071199834302" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.96854071199834302" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0076585973269404266" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.0050000000097085657" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.16070011770521422" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.11649529783987486" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.11649529783987486" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.1590501890916288" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.16070011770521422" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.17601018132125773" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.045926245704284246" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.68774488210644447" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.68774488210644447" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0073443249529558594" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.14864748676562406" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.44343594040674433" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.084658600471347892" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.084658600471347892" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.14864748676562406" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.44343594040674433" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.14864748676562406" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046895735664313841" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1.0000000099545732" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1.0000000099545732" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.1292408297035572" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.1292408297035572" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.12915389517652384" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.27554548693150366" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.22193642702554198" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.1311808225131887" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.1311808225131887" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.2406504121899278" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.23330608723697194" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.19554322242993791" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="3.5000000525951838" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.1630744339589603e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000145772532" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.6276183199571257e-07" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="2.3261488679179206e-07" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="4.6522977358358413e-09" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="6.9784466037537619e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="3.2552366399142514e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="6.510473279828503e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="9.7657099197427545e-09" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.29999999999999999" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.0073443242009009948" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.99999999166115583" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.90283445958020214" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.85046780912437492" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.85000033886840465" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
@@ -2041,43 +2067,43 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="0.83105484015543718" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="4.1410162367125547e-13" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.1629866754902609" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.90283445205160628" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.72289792595238833" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.29999999999999999" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="2.3261488679179206e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="3.2552366399142514e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="4.6522977358358413e-09" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="6.510473279828503e-09" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.1630744339589603e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.6276183199571257e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="6.9784466037537619e-09" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="9.7657099197427545e-09" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
               </InitialExpression>
@@ -2091,77 +2117,77 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.96854071199834302" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.68774488210644447" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.96854071199834302" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.68774488210644447" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0076585973269404266" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0073443249529558594" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.11649529783987486" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.084658600471347892" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.11649529783987486" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.084658600471347892" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.045926245704284246" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046895735664313841" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.16070011770521422" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.44343594040674433" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.16070011770521422" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.44343594040674433" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.0050000000097085657" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.14864748676562406" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.1590501890916288" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.14864748676562406" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.17601018132125773" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.14864748676562406" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
               </InitialExpression>
@@ -2169,10 +2195,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_26" name="Model5 - 4/21">
+      <ModelParameterSet key="ModelParameterSet_54" name="Model5 - 4/21">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_26">
+<rdf:Description rdf:about="#ModelParameterSet_54">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-22T03:20:18Z</dcterms:W3CDTF>
@@ -2384,10 +2410,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_25" name="Model5 - 4/22">
+      <ModelParameterSet key="ModelParameterSet_53" name="Model5 - 4/22">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_25">
+  <rdf:Description rdf:about="#ModelParameterSet_53">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-22T03:20:18Z</dcterms:W3CDTF>
@@ -2599,10 +2625,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_7" name="Model5 - 4/22b">
+      <ModelParameterSet key="ModelParameterSet_52" name="Model5 - 4/22b">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_7">
+  <rdf:Description rdf:about="#ModelParameterSet_52">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-22T03:20:18Z</dcterms:W3CDTF>
@@ -2814,10 +2840,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_8" name="Model5 - 4/23">
+      <ModelParameterSet key="ModelParameterSet_51" name="Model5 - 4/23">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_8">
+  <rdf:Description rdf:about="#ModelParameterSet_51">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-24T03:51:50Z</dcterms:W3CDTF>
@@ -3029,10 +3055,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_9" name="Model5 - 4/25">
+      <ModelParameterSet key="ModelParameterSet_50" name="Model5 - 4/25">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_9">
+<rdf:Description rdf:about="#ModelParameterSet_50">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-26T12:39:58Z</dcterms:W3CDTF>
@@ -3244,10 +3270,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_10" name="Model5 - 4/27">
+      <ModelParameterSet key="ModelParameterSet_49" name="Model5 - 4/27">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_10">
+<rdf:Description rdf:about="#ModelParameterSet_49">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-04-26T12:39:58Z</dcterms:W3CDTF>
@@ -3459,10 +3485,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_11" name="Model6 - 4/27">
+      <ModelParameterSet key="ModelParameterSet_48" name="Model6 - 4/27">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_11">
+  <rdf:Description rdf:about="#ModelParameterSet_48">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-28T16:50:51Z</dcterms:W3CDTF>
@@ -3674,10 +3700,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_12" name="Model6 - 4/29">
+      <ModelParameterSet key="ModelParameterSet_47" name="Model6 - 4/29">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_12">
+  <rdf:Description rdf:about="#ModelParameterSet_47">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-04-29T21:25:20Z</dcterms:W3CDTF>
@@ -3890,10 +3916,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_13" name="Model7 - 5/05">
+      <ModelParameterSet key="ModelParameterSet_46" name="Model7 - 5/05">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_13">
+  <rdf:Description rdf:about="#ModelParameterSet_46">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-05-07T00:52:10Z</dcterms:W3CDTF>
@@ -4107,10 +4133,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_14" name="Model7 - 5/07">
+      <ModelParameterSet key="ModelParameterSet_45" name="Model7 - 5/07">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_14">
+<rdf:Description rdf:about="#ModelParameterSet_45">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-05-07T21:04:41Z</dcterms:W3CDTF>
@@ -4325,10 +4351,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_15" name="Model7 - 5/09">
+      <ModelParameterSet key="ModelParameterSet_44" name="Model7 - 5/09">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_15">
+<rdf:Description rdf:about="#ModelParameterSet_44">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-05-09T21:11:12Z</dcterms:W3CDTF>
@@ -4543,10 +4569,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_16" name="Model7 - 5/11">
+      <ModelParameterSet key="ModelParameterSet_43" name="Model7 - 5/11">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_16">
+<rdf:Description rdf:about="#ModelParameterSet_43">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-05-11T20:17:14Z</dcterms:W3CDTF>
@@ -4761,10 +4787,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_17" name="Model7 - 5/13">
+      <ModelParameterSet key="ModelParameterSet_42" name="Model7 - 5/13">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_17">
+<rdf:Description rdf:about="#ModelParameterSet_42">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-05-14T12:26:12Z</dcterms:W3CDTF>
@@ -4980,10 +5006,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_18" name="Model7 - 5/15">
+      <ModelParameterSet key="ModelParameterSet_41" name="Model7 - 5/15">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_18">
+  <rdf:Description rdf:about="#ModelParameterSet_41">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-05-15T18:57:54Z</dcterms:W3CDTF>
@@ -5199,10 +5225,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_19" name="Model7 - 5/17">
+      <ModelParameterSet key="ModelParameterSet_40" name="Model7 - 5/17">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_19">
+  <rdf:Description rdf:about="#ModelParameterSet_40">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-05-15T18:57:54Z</dcterms:W3CDTF>
@@ -5420,10 +5446,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_20" name="Model7 - 5/18">
+      <ModelParameterSet key="ModelParameterSet_39" name="Model7 - 5/18">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <rdf:Description rdf:about="#ModelParameterSet_20">
+  <rdf:Description rdf:about="#ModelParameterSet_39">
     <dcterms:created>
       <rdf:Description>
         <dcterms:W3CDTF>2020-05-19T01:44:45Z</dcterms:W3CDTF>
@@ -5641,12 +5667,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
-      <ModelParameterSet key="ModelParameterSet_0" name="Model7 - 5/19">
+      <ModelParameterSet key="ModelParameterSet_38" name="Model7 - 5/19">
         <MiriamAnnotation>
-<rdf:RDF
-xmlns:dcterms="http://purl.org/dc/terms/"
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#ModelParameterSet_0">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_38">
 <dcterms:created>
 <rdf:Description>
 <dcterms:W3CDTF>2020-05-20T03:50:12Z</dcterms:W3CDTF>
@@ -5714,8 +5738,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.12915389517652384" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.27554548693150366" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.22193642702554198" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
-          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="0" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="3.5000000525951838" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.1630744339589603e-07" type="ModelValue" simulationType="assignment"/>
           <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
@@ -5864,86 +5888,1864 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ModelParameterGroup>
         </ModelParameterGroup>
       </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_37" name="Model7 - 5/21">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_37">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-05-21T20:35:27Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="4.4521118399710288e-12" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="0.82925473844091613" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.016585094768818323" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.41462736922045806" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.024877642153227481" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.98730101258319747" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.98730101258319747" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0087534586099683245" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.0050000053248000003" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.14578084515251244" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.1170215950998785" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.1170215950998785" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.14578084515251244" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.14578084515251244" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.18248328657261076" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046038705623617296" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1.0000000000044522" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1.0000000000044522" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.1330818577357098" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.1330818577357098" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.13077505903464681" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.26280244025239097" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.22852199219622804" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="3.5000000000002962" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.1605548497283067e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="2.3211096994566133e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="4.6422193989132269e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="6.9633290983698395e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.29999999999999999" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.9279642855016258" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="0.82925450633179221" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="3.8971376718136321e-14" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.9279642855016258" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="2.3211096994566133e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="4.6422193989132269e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.1605548497283067e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="6.9633290983698395e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.98730101258319747" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.98730101258319747" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0087534586099683245" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.1170215950998785" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.1170215950998785" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046038705623617296" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.14578084515251244" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.14578084515251244" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.0050000053248000003" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.14578084515251244" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.18248328657261076" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_36" name="Model7 - 6/07">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_36">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-08T13:06:08Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.029999999999999999" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.75" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.044999999999999998" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.58005177182294221" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.58005177182294221" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0095706421084176731" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.050541506547633563" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="1.0207331804957884" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.11437235087716228" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.11437235087716228" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.050541506547633563" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="1.0207331804957884" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.2878808529485079" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046624053444447928" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.6007849523187305" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.6007849523187305" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.17448449953321352" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.16491385742479586" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.33450490639295583" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000091717527" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="2.0992732316072175e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="4.1985464632144351e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="8.3970929264288694e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="1.2595639389643305e-08" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="1.0002034034381586e-06" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.91878556075985507" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.91281195790747405" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.4999995801453536" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.83867844661431978" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="4.1985464632144351e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="8.3970929264288694e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="2.0992732316072175e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="1.2595639389643305e-08" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.58005177182294221" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.58005177182294221" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0095706421084176731" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.11437235087716228" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.11437235087716228" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046624053444447928" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="1.0207331804957884" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="1.0207331804957884" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.050541506547633563" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.050541506547633563" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.2878808529485079" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_35" name="Model7 - 6/10">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_35">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-11T00:41:06Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1.0000000017207336" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572663.9999999916" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="6.4381276947392534e-09" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.19210864707157" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.0238421729414314" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.59605432353578502" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.0357632594121471" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.040000000000000646" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.040000000000000646" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.00025245155183579987" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.089122745439362258" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.50069924811225786" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.060000001003540832" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.060000001003540832" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.030000000014120294" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.50069924811225786" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.36805925509230247" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046359136735062458" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1.0000000081588611" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1.0000000081588611" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="0.54069924811225856" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="0.54069924811225856" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.14937519799473889" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.090000001017661119" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.41441839182736495" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000951548467" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.6683745146432286e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="3.3367490292864573e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="6.6734980585729143e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="1.001024708785937e-08" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.000252431457354656" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.99936506021565497" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.47997914517494383" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.192108319285438" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="1.6253153274539653e-12" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.47967438732001633" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.10000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="3.3367490292864573e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="6.6734980585729143e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.6683745146432286e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="1.001024708785937e-08" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000646" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000646" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.00025245155183579987" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.060000001003540832" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.060000001003540832" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046359136735062458" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.50069924811225786" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.50069924811225786" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.089122745439362258" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.030000000014120294" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.36805925509230247" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_24" name="Model7 - 6/11">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_24">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-12T00:42:55Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572663.9999999828" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="1.7321895610220115e-08" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.1921086421886931" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.023842172843773862" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.59605432109434653" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.035763259265660791" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.040000000000000001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.040000000000000001" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.00025297829265852394" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.089122290947355007" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.50069925836657847" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.029999999999999999" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.50069925836657847" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.36837987582616166" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046404199643933608" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1.0000000173218957" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1.0000000173218957" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="0.54069925836657851" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="0.54069925836657851" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.14937526924001354" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.089999999999999997" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.41478407547009527" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000003452492" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.6683745078095667e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="3.3367490156191333e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="6.6734980312382669e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="1.0010247046857399e-08" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.00025297829265852394" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.9993506712121778" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.48004821368543732" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.1921083188385737" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="4.3820635770826655e-12" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.47973650456074873" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.10121296464052605" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="3.3367490156191333e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="6.6734980312382669e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.6683745078095667e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="1.0010247046857399e-08" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.040000000000000001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.00025297829265852394" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.059999999999999998" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.059999999999999998" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046404199643933608" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.50069925836657847" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.50069925836657847" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.089122290947355007" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.029999999999999999" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.36837987582616166" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_1" name="Model7 - 6/12">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_1">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-12T00:42:55Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.0356656320468129" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.02071331264093626" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.51783281602340647" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.031069968961404387" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.80216002179907753" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.80216002179907753" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0075406229859839883" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.15074646659484023" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.2878551460381098" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.088059890050610559" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.088059890050610559" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.15074646613513445" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.2878551460381098" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.15074645931250757" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046821662032881413" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.0900151678371874" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.0900151678371874" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.24634697963143476" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.23880635618574503" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.19756812134538898" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000057466809" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.4494300921676297e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="2.8988601843352593e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="5.7977203686705188e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="8.696580553005777e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.0075406227000448618" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.90781250566907712" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.83049979610240587" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.0356653421607944" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.75393810085738278" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.41912394151934002" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="2.8988601843352593e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="5.7977203686705188e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.4494300921676297e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="8.696580553005777e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.80216002179907753" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.80216002179907753" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0075406229859839883" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.088059890050610559" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.088059890050610559" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046821662032881413" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.2878551460381098" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.2878551460381098" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.15074646659484023" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.15074646613513445" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.15074645931250757" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_56" name="Model7 - 6/13">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_56">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-12T00:42:55Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.1304419292272929" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.022608838584545859" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.56522096461364646" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.033913257876818786" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.6865646556445486" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.6865646556445486" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0067992661350608028" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.15104638045590921" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.40173242657466351" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.086590458518174929" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.086590458518174929" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.15104637921853734" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.40173242657466351" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.15104638045590921" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046742381988117886" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.0882970822192122" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.0882970822192122" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.24443610510914493" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.23763683773671226" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.1977887624440271" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000035221248" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.5820709879421845e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="3.164141975884369e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="6.328283951768738e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="9.4924259276531061e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.0067992655502150138" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.85701181880287147" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.82655319047979825" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.1304416128130954" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.70836585311040812" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.29999999877119998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="3.164141975884369e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="6.328283951768738e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.5820709879421845e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="9.4924259276531061e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.6865646556445486" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.6865646556445486" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0067992661350608028" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.086590458518174929" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.086590458518174929" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046742381988117886" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.40173242657466351" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.40173242657466351" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.15104638045590921" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.15104637921853734" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.15104638045590921" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_2" name="Model7 - 6/15">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_2">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-12T00:42:55Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1.0000000000158478" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.157640172104379" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.023152803442087581" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.57882008605218949" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.034729205163131369" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.68735821533499464" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.68735821533499464" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0070932073136884743" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.15015360057921015" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.43147529423220171" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.085868690456679386" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.085868690456679386" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.1501535360222504" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.43147529423220171" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.15015360057921015" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046852356173459384" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1.0000000000158478" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1.0000000000158478" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.1188335095671964" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.1188335095671964" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.24311549834957802" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.23602222647892979" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.19700595675266952" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000131125137" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.6201353500879301e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="3.2402707001758603e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="6.480541400351721e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="9.7208121005275802e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.0070931918901580146" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.84584472627480278" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.84583800553469135" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.1576398480956549" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.71544761626431608" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.29999999999999999" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="3.2402707001758603e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="6.480541400351721e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.6201353500879301e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="9.7208121005275802e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.68735821533499464" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.68735821533499464" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0070932073136884743" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.085868690456679386" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.085868690456679386" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046852356173459384" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.43147529423220171" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.43147529423220171" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.15015360057921015" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.1501535360222504" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.15015360057921015" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_3" name="Model7 - 6/16">
+        <MiriamAnnotation>
+<rdf:RDF
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="#ModelParameterSet_3">
+<dcterms:created>
+<rdf:Description>
+<dcterms:W3CDTF>2020-06-12T00:42:55Z</dcterms:W3CDTF>
+</rdf:Description>
+</dcterms:created>
+</rdf:Description>
+</rdf:RDF>
+        </MiriamAnnotation>
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I]" value="1" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[S]" value="3572664" type="Species" simulationType="reactions">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population],Reference=InitialValue>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H],Reference=InitialConcentration>-&lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[D]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[R]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[E]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[H]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha]" value="1.1629870010139249" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta]" value="0.023259740020278499" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.02
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma]" value="0.58149350050696247" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.5
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta]" value="0.034889610030417746" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue>*0.03
+            </InitialExpression>
+          </ModelParameter>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta]" value="0.68774488210644447" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta]" value="0.68774488210644447" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta]" value="0.0073443249529558594" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa]" value="0.14864748676562406" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda]" value="0.44343594040674433" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu]" value="0.084658600471347892" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu]" value="0.084658600471347892" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi]" value="0.14864748676562406" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho]" value="0.44343594040674433" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma]" value="0.14864748676562406" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau]" value="0.046895735664313841" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[DRT]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDARTHE]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[IDART]" value="1" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Recovered]" value="0" type="ModelValue" simulationType="ode"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Diagnosed Cumulative infected]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r1]" value="1.1311808225131887" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r2]" value="1.1311808225131887" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r3]" value="0.2406504121899278" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r4]" value="0.23330608723697194" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[r5]" value="0.19554322242993791" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Perceived CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[CFR]" value="NaN" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0]" value="2.5000000145772532" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop]" value="1.6276183199571257e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Population]" value="3572665" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop]" value="3.2552366399142514e-07" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop]" value="6.510473279828503e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop]" value="9.7657099197427545e-09" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[scale]" value="0.78222655465241187" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon]" value="0.0073443242009009948" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_theta]" value="0.0054878294478546081" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_mu]" value="0.059999999999999998" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_nu]" value="0.059999999999999998" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x]" value="0.85046780912437492" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x]" value="0.85000033886840465" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_lambda]" value="0.22155041982369297" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_kappa]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_sigma]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_xi]" value="0.11077520991184649" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_rho]" value="0.22155041982369297" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeak]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tpeaktime]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New cases]" value="1.1629866754902609" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[New diagnosed]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tnonew]" value="-1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[Tot_reduction]" value="0.72289792595238833" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ApplyRelaxationMay1]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[HiddenRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio]" value="0" type="ModelValue" simulationType="assignment"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4]" value="0.29999999999999999" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[ImmuneRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[InfectedRatio(73)]" value="0" type="ModelValue" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_I],ParameterGroup=Parameters,Parameter=k1" value="3.2552366399142514e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_D],ParameterGroup=Parameters,Parameter=k1" value="6.510473279828503e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[beta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_A],ParameterGroup=Parameters,Parameter=k1" value="1.6276183199571257e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[gamma_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[contagion_R],ParameterGroup=Parameters,Parameter=k1" value="9.7657099197427545e-09" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[delta_pop],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_I],ParameterGroup=Parameters,Parameter=k1" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[epsilon],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_I],ParameterGroup=Parameters,Parameter=k1" value="0.68774488210644447" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[symptoms_D],ParameterGroup=Parameters,Parameter=k1" value="0.68774488210644447" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[eta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[diagnosis_A],ParameterGroup=Parameters,Parameter=k1" value="0.0073443249529558594" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_A],ParameterGroup=Parameters,Parameter=k1" value="0.084658600471347892" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[critical_R],ParameterGroup=Parameters,Parameter=k1" value="0.084658600471347892" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[nu],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[death],ParameterGroup=Parameters,Parameter=k1" value="0.046895735664313841" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_I],ParameterGroup=Parameters,Parameter=k1" value="0.44343594040674433" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_D],ParameterGroup=Parameters,Parameter=k1" value="0.44343594040674433" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[rho],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_A],ParameterGroup=Parameters,Parameter=k1" value="0.14864748676562406" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_R],ParameterGroup=Parameters,Parameter=k1" value="0.14864748676562406" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Reactions[healing_T],ParameterGroup=Parameters,Parameter=k1" value="0.14864748676562406" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
     </ListOfModelParameterSets>
     <StateTemplate>
       <StateTemplateVariable objectReference="Model_1"/>
-      <StateTemplateVariable objectReference="ModelValue_85"/>
-      <StateTemplateVariable objectReference="Metabolite_8"/>
+      <StateTemplateVariable objectReference="ModelValue_103"/>
       <StateTemplateVariable objectReference="Metabolite_15"/>
-      <StateTemplateVariable objectReference="Metabolite_12"/>
-      <StateTemplateVariable objectReference="Metabolite_13"/>
+      <StateTemplateVariable objectReference="Metabolite_8"/>
       <StateTemplateVariable objectReference="Metabolite_11"/>
       <StateTemplateVariable objectReference="Metabolite_10"/>
-      <StateTemplateVariable objectReference="Metabolite_9"/>
+      <StateTemplateVariable objectReference="Metabolite_12"/>
+      <StateTemplateVariable objectReference="Metabolite_13"/>
       <StateTemplateVariable objectReference="Metabolite_14"/>
-      <StateTemplateVariable objectReference="ModelValue_72"/>
-      <StateTemplateVariable objectReference="ModelValue_77"/>
-      <StateTemplateVariable objectReference="ModelValue_79"/>
-      <StateTemplateVariable objectReference="ModelValue_82"/>
-      <StateTemplateVariable objectReference="ModelValue_83"/>
-      <StateTemplateVariable objectReference="ModelValue_84"/>
-      <StateTemplateVariable objectReference="ModelValue_86"/>
-      <StateTemplateVariable objectReference="ModelValue_87"/>
-      <StateTemplateVariable objectReference="ModelValue_88"/>
-      <StateTemplateVariable objectReference="ModelValue_89"/>
-      <StateTemplateVariable objectReference="ModelValue_90"/>
-      <StateTemplateVariable objectReference="ModelValue_91"/>
-      <StateTemplateVariable objectReference="ModelValue_92"/>
-      <StateTemplateVariable objectReference="ModelValue_93"/>
-      <StateTemplateVariable objectReference="ModelValue_94"/>
-      <StateTemplateVariable objectReference="ModelValue_95"/>
-      <StateTemplateVariable objectReference="ModelValue_97"/>
-      <StateTemplateVariable objectReference="ModelValue_98"/>
-      <StateTemplateVariable objectReference="ModelValue_99"/>
-      <StateTemplateVariable objectReference="ModelValue_103"/>
-      <StateTemplateVariable objectReference="ModelValue_108"/>
-      <StateTemplateVariable objectReference="ModelValue_109"/>
-      <StateTemplateVariable objectReference="ModelValue_110"/>
-      <StateTemplateVariable objectReference="ModelValue_111"/>
-      <StateTemplateVariable objectReference="ModelValue_114"/>
-      <StateTemplateVariable objectReference="ModelValue_115"/>
-      <StateTemplateVariable objectReference="ModelValue_117"/>
-      <StateTemplateVariable objectReference="ModelValue_118"/>
-      <StateTemplateVariable objectReference="ModelValue_120"/>
-      <StateTemplateVariable objectReference="ModelValue_121"/>
-      <StateTemplateVariable objectReference="Compartment_1"/>
-      <StateTemplateVariable objectReference="ModelValue_66"/>
-      <StateTemplateVariable objectReference="ModelValue_67"/>
-      <StateTemplateVariable objectReference="ModelValue_68"/>
-      <StateTemplateVariable objectReference="ModelValue_69"/>
-      <StateTemplateVariable objectReference="ModelValue_70"/>
-      <StateTemplateVariable objectReference="ModelValue_71"/>
-      <StateTemplateVariable objectReference="ModelValue_73"/>
-      <StateTemplateVariable objectReference="ModelValue_74"/>
-      <StateTemplateVariable objectReference="ModelValue_75"/>
-      <StateTemplateVariable objectReference="ModelValue_76"/>
-      <StateTemplateVariable objectReference="ModelValue_78"/>
-      <StateTemplateVariable objectReference="ModelValue_80"/>
-      <StateTemplateVariable objectReference="ModelValue_81"/>
-      <StateTemplateVariable objectReference="ModelValue_96"/>
-      <StateTemplateVariable objectReference="ModelValue_100"/>
-      <StateTemplateVariable objectReference="ModelValue_101"/>
-      <StateTemplateVariable objectReference="ModelValue_102"/>
-      <StateTemplateVariable objectReference="ModelValue_104"/>
-      <StateTemplateVariable objectReference="ModelValue_105"/>
-      <StateTemplateVariable objectReference="ModelValue_106"/>
-      <StateTemplateVariable objectReference="ModelValue_107"/>
-      <StateTemplateVariable objectReference="ModelValue_112"/>
-      <StateTemplateVariable objectReference="ModelValue_113"/>
+      <StateTemplateVariable objectReference="Metabolite_9"/>
       <StateTemplateVariable objectReference="ModelValue_116"/>
-      <StateTemplateVariable objectReference="ModelValue_119"/>
+      <StateTemplateVariable objectReference="ModelValue_111"/>
+      <StateTemplateVariable objectReference="ModelValue_109"/>
+      <StateTemplateVariable objectReference="ModelValue_106"/>
+      <StateTemplateVariable objectReference="ModelValue_105"/>
+      <StateTemplateVariable objectReference="ModelValue_104"/>
+      <StateTemplateVariable objectReference="ModelValue_102"/>
+      <StateTemplateVariable objectReference="ModelValue_101"/>
+      <StateTemplateVariable objectReference="ModelValue_100"/>
+      <StateTemplateVariable objectReference="ModelValue_99"/>
+      <StateTemplateVariable objectReference="ModelValue_98"/>
+      <StateTemplateVariable objectReference="ModelValue_97"/>
+      <StateTemplateVariable objectReference="ModelValue_96"/>
+      <StateTemplateVariable objectReference="ModelValue_95"/>
+      <StateTemplateVariable objectReference="ModelValue_94"/>
+      <StateTemplateVariable objectReference="ModelValue_93"/>
+      <StateTemplateVariable objectReference="ModelValue_91"/>
+      <StateTemplateVariable objectReference="ModelValue_90"/>
+      <StateTemplateVariable objectReference="ModelValue_89"/>
+      <StateTemplateVariable objectReference="ModelValue_85"/>
+      <StateTemplateVariable objectReference="ModelValue_80"/>
+      <StateTemplateVariable objectReference="ModelValue_79"/>
+      <StateTemplateVariable objectReference="ModelValue_78"/>
+      <StateTemplateVariable objectReference="ModelValue_77"/>
+      <StateTemplateVariable objectReference="ModelValue_74"/>
+      <StateTemplateVariable objectReference="ModelValue_73"/>
+      <StateTemplateVariable objectReference="ModelValue_71"/>
+      <StateTemplateVariable objectReference="ModelValue_70"/>
+      <StateTemplateVariable objectReference="ModelValue_68"/>
+      <StateTemplateVariable objectReference="ModelValue_67"/>
+      <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="ModelValue_122"/>
+      <StateTemplateVariable objectReference="ModelValue_121"/>
+      <StateTemplateVariable objectReference="ModelValue_120"/>
+      <StateTemplateVariable objectReference="ModelValue_119"/>
+      <StateTemplateVariable objectReference="ModelValue_118"/>
+      <StateTemplateVariable objectReference="ModelValue_117"/>
+      <StateTemplateVariable objectReference="ModelValue_115"/>
+      <StateTemplateVariable objectReference="ModelValue_114"/>
+      <StateTemplateVariable objectReference="ModelValue_113"/>
+      <StateTemplateVariable objectReference="ModelValue_112"/>
+      <StateTemplateVariable objectReference="ModelValue_110"/>
+      <StateTemplateVariable objectReference="ModelValue_108"/>
+      <StateTemplateVariable objectReference="ModelValue_107"/>
+      <StateTemplateVariable objectReference="ModelValue_92"/>
+      <StateTemplateVariable objectReference="ModelValue_88"/>
+      <StateTemplateVariable objectReference="ModelValue_87"/>
+      <StateTemplateVariable objectReference="ModelValue_86"/>
+      <StateTemplateVariable objectReference="ModelValue_84"/>
+      <StateTemplateVariable objectReference="ModelValue_83"/>
+      <StateTemplateVariable objectReference="ModelValue_82"/>
+      <StateTemplateVariable objectReference="ModelValue_81"/>
+      <StateTemplateVariable objectReference="ModelValue_76"/>
+      <StateTemplateVariable objectReference="ModelValue_75"/>
+      <StateTemplateVariable objectReference="ModelValue_72"/>
+      <StateTemplateVariable objectReference="ModelValue_69"/>
+      <StateTemplateVariable objectReference="ModelValue_66"/>
       <StateTemplateVariable objectReference="ModelValue_65"/>
       <StateTemplateVariable objectReference="ModelValue_64"/>
       <StateTemplateVariable objectReference="ModelValue_63"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 1.0000000099005031 0 0 0 5.4070165331004173e-11 0 3572663.9999999902 0 0.96854071199834302 0.11649529783987486 0.16070011770521422 0 1.0000000099545732 1.0000000099545732 0 1.1292408297035572 1.1292408297035572 0.12915389517652384 0.27554548693150366 0.22193642702554198 NaN NaN 3.5000000525951838 1.1630744339589603e-07 2.3261488679179206e-07 4.6522977358358413e-09 6.9784466037537619e-09 0.059999999999999998 0.11077520991184649 0.11077520991184649 0.11077520991184649 0.22155041982369297 0.83105484015543718 4.1410162367125547e-13 0.90283445205160628 0 0 0 1 0.83105506451999778 0.016621101290399957 0.41552753225999889 0.024931651935599933 0 0.96854071199834302 0.0076585973269404266 0.0050000000097085657 0.16070011770521422 0.11649529783987486 0.1590501890916288 0.17601018132125773 0.045926245704284246 3572665 0.78222655465241187 0.29999999999999999 0.0054878294478546081 0.059999999999999998 0.99999999166115583 0.90283445958020214 0.22155041982369297 -1 -1 -1 0 0.5 0 0 0 
+      0 0 1 0 0 0 0 0 3572664 0 0.68774488210644447 0.084658600471347892 0.44343594040674433 0 1 1 0 1.1311808225131887 1.1311808225131887 0.2406504121899278 0.23330608723697194 0.19554322242993791 NaN NaN 2.5000000145772532 1.6276183199571257e-07 3.2552366399142514e-07 6.510473279828503e-09 9.7657099197427545e-09 0.059999999999999998 0.11077520991184649 0.11077520991184649 0.11077520991184649 0.22155041982369297 1.1629866754902609 0 0.72289792595238833 0 0 0 1 1.1629870010139249 0.023259740020278499 0.58149350050696247 0.034889610030417746 0 0.68774488210644447 0.0073443249529558594 0.14864748676562406 0.44343594040674433 0.084658600471347892 0.14864748676562406 0.14864748676562406 0.046895735664313841 3572665 0.78222655465241187 0.0073443242009009948 0.0054878294478546081 0.059999999999999998 0.85046780912437492 0.85000033886840465 0.22155041982369297 -1 -1 -1 0 0.29999999999999999 0 0 0 
     </InitialState>
   </Model>
   <ListOfTasks>
-    <Task key="Task_15" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
-      <Report reference="Report_21" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_29" name="Steady-State" type="steadyState" scheduled="false" updateModel="false">
+      <Report reference="Report_29" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="JacobianRequested" type="bool" value="1"/>
         <Parameter name="StabilityAnalysisRequested" type="bool" value="1"/>
@@ -5961,8 +7763,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Target Criterion" type="string" value="Distance and Rate"/>
       </Method>
     </Task>
-    <Task key="Task_27" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
-      <Report reference="Report_29" target="timecourses.txt" append="1" confirmOverwrite="0"/>
+    <Task key="Task_16" name="Time-Course" type="timeCourse" scheduled="false" updateModel="false">
+      <Report reference="Report_21" target="timecourses.txt" append="1" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="1"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="413"/>
@@ -5972,7 +7774,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
         <Parameter name="Start in Steady State" type="bool" value="0"/>
-        <Parameter name="Use Values" type="bool" value="1"/>
+        <Parameter name="Use Values" type="bool" value="0"/>
         <Parameter name="Values" type="string" value="0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120 122 124 126 128 130 132 134 136 138 140 142 144 146 148 150 152 154 156 158 160 162 164 166 168 170 172 174 176 178 180 182 184 186 188 190 192 194 196 198 200 400 800"/>
       </Problem>
       <Method name="Deterministic (LSODA)" type="Deterministic(LSODA)">
@@ -5983,8 +7785,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_26" name="Scan" type="scan" scheduled="true" updateModel="false">
-      <Report reference="Report_28" target="ct-Model1-sampling-TC-4-8-2020.txt" append="0" confirmOverwrite="0"/>
+    <Task key="Task_17" name="Scan" type="scan" scheduled="true" updateModel="false">
+      <Report reference="Report_20" target="ct-Model1-sampling-TC-4-8-2020.txt" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="1"/>
         <ParameterGroup name="ScanItems">
@@ -6006,15 +7808,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <Method name="Scan Framework" type="ScanFramework">
       </Method>
     </Task>
-    <Task key="Task_25" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
-      <Report reference="Report_20" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_18" name="Elementary Flux Modes" type="fluxMode" scheduled="false" updateModel="false">
+      <Report reference="Report_28" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="EFM Algorithm" type="EFMAlgorithm">
       </Method>
     </Task>
-    <Task key="Task_24" name="Optimization" type="optimization" scheduled="false" updateModel="false">
-      <Report reference="Report_19" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_19" name="Optimization" type="optimization" scheduled="false" updateModel="false">
+      <Report reference="Report_27" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Subtask" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <ParameterText name="ObjectiveExpression" type="expression">
@@ -6047,28 +7849,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Rho" type="float" value="0.20000000000000001"/>
       </Method>
     </Task>
-    <Task key="Task_23" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="true">
-      <Report reference="Report_11" target="" append="0" confirmOverwrite="0"/>
+    <Task key="Task_20" name="Parameter Estimation" type="parameterFitting" scheduled="false" updateModel="true">
+      <Report reference="Report_17" target="" append="0" confirmOverwrite="0"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
         <Parameter name="Randomize Start Values" type="bool" value="0"/>
         <Parameter name="Calculate Statistics" type="bool" value="0"/>
         <ParameterGroup name="OptimizationItemList">
           <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[A],Reference=InitialConcentration"/>
-            <Parameter name="LowerBound" type="cn" value="0"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="5.4070165330000001e-11"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[I],Reference=InitialConcentration"/>
             <Parameter name="LowerBound" type="cn" value="1"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="1.0000000099005031"/>
+            <Parameter name="UpperBound" type="cn" value="3"/>
+            <Parameter name="StartValue" type="float" value="1"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6077,8 +7869,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.005"/>
-            <Parameter name="UpperBound" type="cn" value="1.5"/>
-            <Parameter name="StartValue" type="float" value="0.83105506451999778"/>
+            <Parameter name="UpperBound" type="cn" value="2"/>
+            <Parameter name="StartValue" type="float" value="1.1629870010139249"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6088,7 +7880,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-06"/>
             <Parameter name="UpperBound" type="cn" value="0.05"/>
-            <Parameter name="StartValue" type="float" value="0.0076585973269404266"/>
+            <Parameter name="StartValue" type="float" value="0.0073443249529558594"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6097,8 +7889,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.05"/>
-            <Parameter name="UpperBound" type="cn" value="10"/>
-            <Parameter name="StartValue" type="float" value="0.16070011770521422"/>
+            <Parameter name="UpperBound" type="cn" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.44343594040674433"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6108,7 +7900,17 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.005"/>
             <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue"/>
-            <Parameter name="StartValue" type="float" value="0.0050000000097085657"/>
+            <Parameter name="StartValue" type="float" value="0.14864748676562406"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="0.03"/>
+            <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue"/>
+            <Parameter name="StartValue" type="float" value="0.14864748676562406"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6117,8 +7919,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[xi],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.03"/>
-            <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[lambda],Reference=InitialValue"/>
-            <Parameter name="StartValue" type="float" value="0.1590501890916288"/>
+            <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[kappa],Reference=InitialValue"/>
+            <Parameter name="StartValue" type="float" value="0.14864748676562406"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6128,7 +7930,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.5"/>
             <Parameter name="UpperBound" type="cn" value="1"/>
-            <Parameter name="StartValue" type="float" value="0.99999999166115583"/>
+            <Parameter name="StartValue" type="float" value="0.85046780912437492"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6138,7 +7940,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day15x],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.1"/>
             <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[day8x],Reference=InitialValue"/>
-            <Parameter name="StartValue" type="float" value="0.90283445958020214"/>
+            <Parameter name="StartValue" type="float" value="0.85000033886840465"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6146,9 +7948,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.04"/>
+            <Parameter name="LowerBound" type="cn" value="0.02"/>
             <Parameter name="UpperBound" type="cn" value="1"/>
-            <Parameter name="StartValue" type="float" value="0.96854071199834302"/>
+            <Parameter name="StartValue" type="float" value="0.68774488210644447"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6156,19 +7958,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[mu],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.06"/>
+            <Parameter name="LowerBound" type="cn" value="0.02"/>
             <Parameter name="UpperBound" type="cn" value="2"/>
-            <Parameter name="StartValue" type="float" value="0.11649529783987486"/>
-            <ParameterGroup name="Affected Experiments">
-            </ParameterGroup>
-            <ParameterGroup name="Affected Cross Validation Experiments">
-            </ParameterGroup>
-          </ParameterGroup>
-          <ParameterGroup name="FitItem">
-            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[sigma],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="0.03"/>
-            <Parameter name="UpperBound" type="cn" value="0.5"/>
-            <Parameter name="StartValue" type="float" value="0.17601018132125773"/>
+            <Parameter name="StartValue" type="float" value="0.084658600471347892"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6178,7 +7970,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="0.001"/>
             <Parameter name="UpperBound" type="cn" value="0.114942528735632"/>
-            <Parameter name="StartValue" type="float" value="0.045926245704284246"/>
+            <Parameter name="StartValue" type="float" value="0.046895735664313841"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="UpperBound" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[theta],Reference=InitialValue"/>
+            <Parameter name="StartValue" type="float" value="0.0073443242009009948"/>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_stage4],Reference=InitialValue"/>
+            <Parameter name="LowerBound" type="cn" value="0.1"/>
+            <Parameter name="UpperBound" type="cn" value="0.3"/>
+            <Parameter name="StartValue" type="float" value="0.29999999999999999"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -6188,7 +8000,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <ParameterGroup name="OptimizationConstraintList">
           <ParameterGroup name="FitItem">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0],Reference=InitialValue"/>
-            <Parameter name="LowerBound" type="cn" value="3.5"/>
+            <Parameter name="LowerBound" type="cn" value="2.5"/>
             <Parameter name="UpperBound" type="cn" value="4.5"/>
             <Parameter name="StartValue" type="float" value="3.3213046550000001"/>
             <ParameterGroup name="Affected Experiments">
@@ -6202,17 +8014,17 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
           <ParameterGroup name="Experiment">
-            <Parameter name="Key" type="key" value="Experiment_2"/>
+            <Parameter name="Key" type="key" value="Experiment_1"/>
             <Parameter name="File Name" type="file" value="CT-COVID19.tsv"/>
             <Parameter name="First Row" type="unsignedInteger" value="1"/>
-            <Parameter name="Last Row" type="unsignedInteger" value="74"/>
+            <Parameter name="Last Row" type="unsignedInteger" value="102"/>
             <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
             <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
             <Parameter name="Separator" type="string" value="&#x09;"/>
             <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
             <Parameter name="Data is Row Oriented" type="bool" value="1"/>
             <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
-            <Parameter name="Number of Columns" type="unsignedInteger" value="8"/>
+            <Parameter name="Number of Columns" type="unsignedInteger" value="13"/>
             <ParameterGroup name="Object Map">
               <ParameterGroup name="0">
                 <Parameter name="Role" type="unsignedInteger" value="3"/>
@@ -6241,6 +8053,21 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <ParameterGroup name="7">
                 <Parameter name="Role" type="unsignedInteger" value="0"/>
               </ParameterGroup>
+              <ParameterGroup name="8">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="9">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="10">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="11">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
+              <ParameterGroup name="12">
+                <Parameter name="Role" type="unsignedInteger" value="0"/>
+              </ParameterGroup>
             </ParameterGroup>
           </ParameterGroup>
         </ParameterGroup>
@@ -6249,20 +8076,18 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
         </ParameterGroup>
       </Problem>
-      <Method name="Particle Swarm" type="ParticleSwarm">
+      <Method name="Levenberg - Marquardt" type="LevenbergMarquardt">
         <Parameter name="Log Verbosity" type="unsignedInteger" value="0"/>
-        <Parameter name="Iteration Limit" type="unsignedInteger" value="250000"/>
-        <Parameter name="Swarm Size" type="unsignedInteger" value="50"/>
-        <Parameter name="Std. Deviation" type="unsignedFloat" value="9.9999999999999995e-07"/>
-        <Parameter name="Random Number Generator" type="unsignedInteger" value="1"/>
-        <Parameter name="Seed" type="unsignedInteger" value="0"/>
-        <Parameter name="Stop after # Stalled Iterations" type="unsignedInteger" value="0"/>
+        <Parameter name="Iteration Limit" type="unsignedInteger" value="20000000"/>
+        <Parameter name="Tolerance" type="float" value="1.0000000000000001e-09"/>
+        <Parameter name="Modulation" type="float" value="9.9999999999999995e-07"/>
+        <Parameter name="Stop after # stalled iterations" type="unsignedInteger" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_22" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_17" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_21" name="Metabolic Control Analysis" type="metabolicControlAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_11" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_15"/>
+        <Parameter name="Steady-State" type="key" value="Task_29"/>
       </Problem>
       <Method name="MCA Method (Reder)" type="MCAMethod(Reder)">
         <Parameter name="Modulation Factor" type="unsignedFloat" value="1.0000000000000001e-09"/>
@@ -6270,8 +8095,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Use Smallbone" type="bool" value="1"/>
       </Method>
     </Task>
-    <Task key="Task_21" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
-      <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_22" name="Lyapunov Exponents" type="lyapunovExponents" scheduled="false" updateModel="false">
+      <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="ExponentNumber" type="unsignedInteger" value="3"/>
         <Parameter name="DivergenceRequested" type="bool" value="1"/>
@@ -6285,8 +8110,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Steps" type="unsignedInteger" value="10000"/>
       </Method>
     </Task>
-    <Task key="Task_20" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
-      <Report reference="Report_15" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_23" name="Time Scale Separation Analysis" type="timeScaleSeparationAnalysis" scheduled="false" updateModel="false">
+      <Report reference="Report_13" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
         <Parameter name="StepSize" type="float" value="0.01"/>
@@ -6298,7 +8123,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Deuflhard Tolerance" type="unsignedFloat" value="0.0001"/>
       </Method>
     </Task>
-    <Task key="Task_19" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
+    <Task key="Task_24" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
       <Report reference="Report_14" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="SubtaskType" type="unsignedInteger" value="2"/>
@@ -6322,14 +8147,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Delta minimum" type="unsignedFloat" value="9.9999999999999998e-13"/>
       </Method>
     </Task>
-    <Task key="Task_18" name="Moieties" type="moieties" scheduled="false" updateModel="false">
-      <Report reference="Report_13" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_25" name="Moieties" type="moieties" scheduled="false" updateModel="false">
+      <Report reference="Report_15" target="" append="1" confirmOverwrite="1"/>
       <Problem>
       </Problem>
       <Method name="Householder Reduction" type="Householder">
       </Method>
     </Task>
-    <Task key="Task_17" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
+    <Task key="Task_26" name="Cross Section" type="crosssection" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -6365,15 +8190,15 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Parameter name="Max Internal Step Size" type="unsignedFloat" value="0"/>
       </Method>
     </Task>
-    <Task key="Task_16" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
-      <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
+    <Task key="Task_27" name="Linear Noise Approximation" type="linearNoiseApproximation" scheduled="false" updateModel="false">
+      <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Steady-State" type="key" value="Task_15"/>
+        <Parameter name="Steady-State" type="key" value="Task_29"/>
       </Problem>
       <Method name="Linear Noise Approximation" type="LinearNoiseApproximation">
       </Method>
     </Task>
-    <Task key="Task_28" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
+    <Task key="Task_15" name="Time-Course Sensitivities" type="timeSensitivities" scheduled="false" updateModel="false">
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
@@ -6400,7 +8225,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </Task>
   </ListOfTasks>
   <ListOfReports>
-    <Report key="Report_21" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
+    <Report key="Report_29" name="Steady-State" taskType="steadyState" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6408,7 +8233,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Steady-State]"/>
       </Footer>
     </Report>
-    <Report key="Report_20" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
+    <Report key="Report_28" name="Elementary Flux Modes" taskType="fluxMode" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6416,7 +8241,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Elementary Flux Modes],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_19" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
+    <Report key="Report_27" name="Optimization" taskType="optimization" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6440,7 +8265,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Optimization],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_18" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
+    <Report key="Report_26" name="Parameter Estimation" taskType="parameterFitting" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6464,7 +8289,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Parameter Estimation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_17" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_11" name="Metabolic Control Analysis" taskType="metabolicControlAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6476,7 +8301,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Metabolic Control Analysis],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_16" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
+    <Report key="Report_12" name="Lyapunov Exponents" taskType="lyapunovExponents" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6488,7 +8313,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Lyapunov Exponents],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_15" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
+    <Report key="Report_13" name="Time Scale Separation Analysis" taskType="timeScaleSeparationAnalysis" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6512,7 +8337,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Sensitivities],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_13" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
+    <Report key="Report_15" name="Moieties" taskType="moieties" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6524,7 +8349,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Moieties],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_12" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
+    <Report key="Report_16" name="Linear Noise Approximation" taskType="linearNoiseApproximation" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6536,7 +8361,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_11" name="summary PE" taskType="scan" separator="&#x09;" precision="6">
+    <Report key="Report_17" name="summary PE" taskType="scan" separator="&#x09;" precision="6">
       <Comment>
       </Comment>
       <Table printTitle="1">
@@ -6546,7 +8371,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[R0],Reference=Value"/>
       </Table>
     </Report>
-    <Report key="Report_26" name="Time-Course" taskType="timeCourse" separator="&#x09;" precision="6">
+    <Report key="Report_18" name="Time-Course" taskType="timeCourse" separator="&#x09;" precision="6">
       <Comment>
         Automatically generated report.
       </Comment>
@@ -6557,7 +8382,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Time-Course],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_27" name="TC-summary" taskType="timeCourse" separator="&#x09;" precision="10">
+    <Report key="Report_19" name="TC-summary" taskType="timeCourse" separator="&#x09;" precision="10">
       <Comment>
       </Comment>
       <Header>
@@ -6839,7 +8664,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Compartments[compartment],Vector=Metabolites[T],Reference=Concentration"/>
       </Footer>
     </Report>
-    <Report key="Report_28" name="TC variables, fluxes, global quantities" taskType="timeCourse" separator="&#x09;" precision="6">
+    <Report key="Report_20" name="TC variables, fluxes, global quantities" taskType="timeCourse" separator="&#x09;" precision="6">
       <Comment>
       </Comment>
       <Table printTitle="1">
@@ -6922,7 +8747,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value"/>
       </Table>
     </Report>
-    <Report key="Report_29" name="TC-summary2" taskType="timeCourse" separator="&#x09;" precision="10">
+    <Report key="Report_21" name="TC-summary2" taskType="timeCourse" separator="&#x09;" precision="10">
       <Comment>
       </Comment>
       <Header>
@@ -7019,6 +8844,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value,Property=DisplayName"/>
         <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=Value,Property=DisplayName"/>
+        <Object cn="Separator=&#x09;"/>
+        <Object cn="String=f_epsilon"/>
         <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=Value,Property=DisplayName"/>
         <Object cn="Separator=&#x09;"/>
@@ -7136,6 +8963,8 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[zeta],Reference=Value"/>
         <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[tau],Reference=Value"/>
+        <Object cn="Separator=&#x09;"/>
+        <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[f_epsilon],Reference=Value"/>
         <Object cn="Separator=&#x09;"/>
         <Object cn="CN=Root,Model=SIDARTHE Connecticut Model 7,Vector=Values[alpha_pop],Reference=Value"/>
         <Object cn="Separator=&#x09;"/>
@@ -7904,60 +9733,60 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <GUI>
   </GUI>
   <SBMLReference file="SIDARTHE.xml">
-    <SBMLMap SBMLid="A" COPASIkey="Metabolite_11"/>
-    <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_93"/>
-    <SBMLMap SBMLid="D" COPASIkey="Metabolite_10"/>
-    <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_82"/>
-    <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_86"/>
-    <SBMLMap SBMLid="E" COPASIkey="Metabolite_14"/>
-    <SBMLMap SBMLid="H" COPASIkey="Metabolite_15"/>
-    <SBMLMap SBMLid="I" COPASIkey="Metabolite_8"/>
-    <SBMLMap SBMLid="IDART" COPASIkey="ModelValue_84"/>
-    <SBMLMap SBMLid="IDARTHE" COPASIkey="ModelValue_83"/>
-    <SBMLMap SBMLid="Perceived_CFR" COPASIkey="ModelValue_92"/>
-    <SBMLMap SBMLid="R" COPASIkey="Metabolite_12"/>
+    <SBMLMap SBMLid="A" COPASIkey="Metabolite_12"/>
+    <SBMLMap SBMLid="CFR" COPASIkey="ModelValue_95"/>
+    <SBMLMap SBMLid="D" COPASIkey="Metabolite_13"/>
+    <SBMLMap SBMLid="DRT" COPASIkey="ModelValue_106"/>
+    <SBMLMap SBMLid="Diagn_cumul_infected" COPASIkey="ModelValue_102"/>
+    <SBMLMap SBMLid="E" COPASIkey="Metabolite_9"/>
+    <SBMLMap SBMLid="H" COPASIkey="Metabolite_8"/>
+    <SBMLMap SBMLid="I" COPASIkey="Metabolite_15"/>
+    <SBMLMap SBMLid="IDART" COPASIkey="ModelValue_104"/>
+    <SBMLMap SBMLid="IDARTHE" COPASIkey="ModelValue_105"/>
+    <SBMLMap SBMLid="Perceived_CFR" COPASIkey="ModelValue_96"/>
+    <SBMLMap SBMLid="R" COPASIkey="Metabolite_11"/>
     <SBMLMap SBMLid="R0" COPASIkey="ModelValue_94"/>
-    <SBMLMap SBMLid="Recovered" COPASIkey="ModelValue_85"/>
-    <SBMLMap SBMLid="S" COPASIkey="Metabolite_9"/>
-    <SBMLMap SBMLid="T" COPASIkey="Metabolite_13"/>
-    <SBMLMap SBMLid="alpha" COPASIkey="ModelValue_66"/>
-    <SBMLMap SBMLid="beta" COPASIkey="ModelValue_67"/>
+    <SBMLMap SBMLid="Recovered" COPASIkey="ModelValue_103"/>
+    <SBMLMap SBMLid="S" COPASIkey="Metabolite_14"/>
+    <SBMLMap SBMLid="T" COPASIkey="Metabolite_10"/>
+    <SBMLMap SBMLid="alpha" COPASIkey="ModelValue_122"/>
+    <SBMLMap SBMLid="beta" COPASIkey="ModelValue_121"/>
     <SBMLMap SBMLid="compartment" COPASIkey="Compartment_1"/>
-    <SBMLMap SBMLid="contagion_A" COPASIkey="Reaction_18"/>
-    <SBMLMap SBMLid="contagion_D" COPASIkey="Reaction_17"/>
-    <SBMLMap SBMLid="contagion_I" COPASIkey="Reaction_16"/>
-    <SBMLMap SBMLid="contagion_R" COPASIkey="Reaction_19"/>
-    <SBMLMap SBMLid="critical_A" COPASIkey="Reaction_24"/>
-    <SBMLMap SBMLid="critical_R" COPASIkey="Reaction_25"/>
-    <SBMLMap SBMLid="death" COPASIkey="Reaction_26"/>
-    <SBMLMap SBMLid="delta" COPASIkey="ModelValue_69"/>
-    <SBMLMap SBMLid="diagnosis_A" COPASIkey="Reaction_23"/>
-    <SBMLMap SBMLid="diagnosis_I" COPASIkey="Reaction_20"/>
-    <SBMLMap SBMLid="epsilon" COPASIkey="ModelValue_70"/>
-    <SBMLMap SBMLid="eta" COPASIkey="ModelValue_72"/>
-    <SBMLMap SBMLid="gamma" COPASIkey="ModelValue_68"/>
-    <SBMLMap SBMLid="healing_A" COPASIkey="Reaction_29"/>
-    <SBMLMap SBMLid="healing_D" COPASIkey="Reaction_28"/>
-    <SBMLMap SBMLid="healing_I" COPASIkey="Reaction_27"/>
-    <SBMLMap SBMLid="healing_R" COPASIkey="Reaction_30"/>
-    <SBMLMap SBMLid="healing_T" COPASIkey="Reaction_31"/>
-    <SBMLMap SBMLid="kappa" COPASIkey="ModelValue_74"/>
-    <SBMLMap SBMLid="lambda" COPASIkey="ModelValue_75"/>
-    <SBMLMap SBMLid="mu" COPASIkey="ModelValue_76"/>
-    <SBMLMap SBMLid="nu" COPASIkey="ModelValue_77"/>
-    <SBMLMap SBMLid="r1" COPASIkey="ModelValue_87"/>
-    <SBMLMap SBMLid="r2" COPASIkey="ModelValue_88"/>
-    <SBMLMap SBMLid="r3" COPASIkey="ModelValue_89"/>
-    <SBMLMap SBMLid="r4" COPASIkey="ModelValue_90"/>
-    <SBMLMap SBMLid="r5" COPASIkey="ModelValue_91"/>
-    <SBMLMap SBMLid="rho" COPASIkey="ModelValue_79"/>
-    <SBMLMap SBMLid="sigma" COPASIkey="ModelValue_80"/>
-    <SBMLMap SBMLid="symptoms_D" COPASIkey="Reaction_22"/>
-    <SBMLMap SBMLid="symptoms_I" COPASIkey="Reaction_21"/>
-    <SBMLMap SBMLid="tau" COPASIkey="ModelValue_81"/>
-    <SBMLMap SBMLid="theta" COPASIkey="ModelValue_73"/>
-    <SBMLMap SBMLid="xi" COPASIkey="ModelValue_78"/>
-    <SBMLMap SBMLid="zeta" COPASIkey="ModelValue_71"/>
+    <SBMLMap SBMLid="contagion_A" COPASIkey="Reaction_29"/>
+    <SBMLMap SBMLid="contagion_D" COPASIkey="Reaction_30"/>
+    <SBMLMap SBMLid="contagion_I" COPASIkey="Reaction_31"/>
+    <SBMLMap SBMLid="contagion_R" COPASIkey="Reaction_28"/>
+    <SBMLMap SBMLid="critical_A" COPASIkey="Reaction_23"/>
+    <SBMLMap SBMLid="critical_R" COPASIkey="Reaction_22"/>
+    <SBMLMap SBMLid="death" COPASIkey="Reaction_21"/>
+    <SBMLMap SBMLid="delta" COPASIkey="ModelValue_119"/>
+    <SBMLMap SBMLid="diagnosis_A" COPASIkey="Reaction_24"/>
+    <SBMLMap SBMLid="diagnosis_I" COPASIkey="Reaction_27"/>
+    <SBMLMap SBMLid="epsilon" COPASIkey="ModelValue_118"/>
+    <SBMLMap SBMLid="eta" COPASIkey="ModelValue_116"/>
+    <SBMLMap SBMLid="gamma" COPASIkey="ModelValue_120"/>
+    <SBMLMap SBMLid="healing_A" COPASIkey="Reaction_18"/>
+    <SBMLMap SBMLid="healing_D" COPASIkey="Reaction_19"/>
+    <SBMLMap SBMLid="healing_I" COPASIkey="Reaction_20"/>
+    <SBMLMap SBMLid="healing_R" COPASIkey="Reaction_17"/>
+    <SBMLMap SBMLid="healing_T" COPASIkey="Reaction_16"/>
+    <SBMLMap SBMLid="kappa" COPASIkey="ModelValue_114"/>
+    <SBMLMap SBMLid="lambda" COPASIkey="ModelValue_113"/>
+    <SBMLMap SBMLid="mu" COPASIkey="ModelValue_112"/>
+    <SBMLMap SBMLid="nu" COPASIkey="ModelValue_111"/>
+    <SBMLMap SBMLid="r1" COPASIkey="ModelValue_101"/>
+    <SBMLMap SBMLid="r2" COPASIkey="ModelValue_100"/>
+    <SBMLMap SBMLid="r3" COPASIkey="ModelValue_99"/>
+    <SBMLMap SBMLid="r4" COPASIkey="ModelValue_98"/>
+    <SBMLMap SBMLid="r5" COPASIkey="ModelValue_97"/>
+    <SBMLMap SBMLid="rho" COPASIkey="ModelValue_109"/>
+    <SBMLMap SBMLid="sigma" COPASIkey="ModelValue_108"/>
+    <SBMLMap SBMLid="symptoms_D" COPASIkey="Reaction_25"/>
+    <SBMLMap SBMLid="symptoms_I" COPASIkey="Reaction_26"/>
+    <SBMLMap SBMLid="tau" COPASIkey="ModelValue_107"/>
+    <SBMLMap SBMLid="theta" COPASIkey="ModelValue_115"/>
+    <SBMLMap SBMLid="xi" COPASIkey="ModelValue_110"/>
+    <SBMLMap SBMLid="zeta" COPASIkey="ModelValue_117"/>
   </SBMLReference>
   <ListOfUnitDefinitions>
     <UnitDefinition key="Unit_5" name="second" symbol="s">
@@ -7968,7 +9797,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-05-19T15:00:05Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-06-11T20:12:18Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -7986,7 +9815,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_14">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-05-19T15:00:05Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-06-11T20:12:18Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -8004,7 +9833,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-05-19T15:00:05Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-06-11T20:12:18Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -8022,7 +9851,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_68">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-05-19T15:00:05Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-06-11T20:12:18Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
